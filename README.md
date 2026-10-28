@@ -14,21 +14,7 @@ or paid AI calls.**
 
 The demo follows two workflows, connected by a vector index:
 
-```mermaid
-flowchart LR
-    subgraph prepare["Prepare the documents"]
-        PDF["PDF"] --> Extract["Extract content"]
-        Extract --> Chunk["Chunk"]
-        Chunk --> Embed["Embed passages"]
-        Embed --> Index[("Vector index")]
-    end
-    subgraph answer["Answer a question"]
-        Question["Question"] --> Query["Embed question"]
-        Query --> Retrieve["Retrieve passages"]
-        Retrieve --> Chat["Answer + sources"]
-    end
-    Index --> Retrieve
-```
+![One app, two workflows: prepare files through extraction, chunking and embeddings into an evidence index; embed a question, retrieve from that same index, and supply the evidence to chat for an answer with source records.](assets/narrative/two-workflows.png)
 
 Documents are prepared before questions arrive; the app doesn't extract the
 PDF again for every question. The walkthrough compares a PDF with embedded

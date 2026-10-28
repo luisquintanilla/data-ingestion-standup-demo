@@ -82,6 +82,6 @@
     <text x="70" y="700" font-size="22" fill="#334155">The app supplies candidate evidence to chat and exposes the retrieved records for inspection.</text>
     <line x1="70" y1="745" x2="1370" y2="745" stroke="#cbd5e1" stroke-width="2"/>
     <text x="70" y="783" font-size="19" fill="#526075">Architecture illustration, not a successful-run recording. Extraction capability and remote calls depend on the selected provider.</text>
-    <text x="70" y="815" font-size="19" fill="#526075">The current prototype's live embedding, learned retrieval and chat path remain unverified.</text>
+    <text x="70" y="815" font-size="19" fill="#526075">See recorded results for the verified native/CU runs and the limits of their source evidence.</text>
   </g>
 </svg>
