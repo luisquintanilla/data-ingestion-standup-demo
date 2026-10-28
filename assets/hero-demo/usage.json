@@ -1,0 +1,58 @@
+{
+  "receipt": "corrected-template-hero-recording-usage-v1",
+  "captureDateUtc": "2026-10-28",
+  "provenance": {
+    "snapshot": "S0 unofficial prototype",
+    "pinnedLocalPackageVersion": "10.8.0-standup.s0.0ff84e7.1",
+    "captureUi": "Restored Chat template with local canonical suggestion and actual record-derived source cards; excerpts were present at capture",
+    "index": "Existing CU-prepared 166-record index reused, no analysis or rebuild",
+    "readerUsedToPrepareIndex": "Azure Content Understanding prebuilt-layout",
+    "embeddingModel": "text-embedding-3-small",
+    "dimensions": 1536,
+    "chatModel": "gpt-4.1-mini",
+    "retrieval": "Actual query embedding and VectorData/SQLiteVec retrieval, no replay or substituted answer"
+  },
+  "recordingRequests": {
+    "questionEmbedding": 1,
+    "chat": 1,
+    "contentUnderstandingAnalyses": 0,
+    "indexRebuilds": 0,
+    "fundedRetries": 0
+  },
+  "sdkReportedUsage": {
+    "questionEmbedding": {
+      "inputTokens": 26,
+      "totalTokens": 26
+    },
+    "chat": {
+      "inputTokens": 1313,
+      "outputTokens": 31,
+      "totalTokens": 1344,
+      "cachedInputTokens": 0,
+      "reasoningTokens": 0
+    }
+  },
+  "retainedBudgetAccounting": {
+    "recordingDelta": {
+      "conservativeEmbeddingInputReservation": 101,
+      "chatRequests": 1,
+      "contentUnderstandingAnalyses": 0
+    },
+    "cumulative": {
+      "conservativeEmbeddingInputReservations": 76076,
+      "chatRequests": 4,
+      "contentUnderstandingAnalyses": 3
+    },
+    "qualification": "UTF-8 upper-bound reservations differ from actual SDK token usage; prior failure reservations remain retained, not refunded or reset."
+  },
+  "sourceEvidence": {
+    "parentReportedActualAnswerContained": "35,511",
+    "parentReportedActualRetrievedCitationOpenedRealPdf": true,
+    "citationSource": "public digital fact sheet",
+    "citationPage": 2,
+    "parentReportedRealViewerScrolledToTable2AndKnownValue": true,
+    "qualification": "Retrieved context mixed prose and table content. This does not prove table-grid understanding, VLM use or automatic correctness."
+  },
+  "mediaBoundary": "Separate fresh interaction from historical recordings. Parent reports no offline PDF cutaway; shortened waits and any later label-only source-card cleanup must be disclosed. Final edited clip was not inspected by this receipt writer; no latency claim.",
+  "phase": "halted; no further live work authorized"
+}

@@ -895,10 +895,23 @@ actual browser screenshot are retained.
 **Retrieved: scanned page 1, digital page 1, scanned page 2, digital page 2.**
 The page-2 records also contain the actual table row.
 
+<p><a href="assets/hero-demo/watch.html" target="_blank" rel="noopener">Watch the real app / 14.5-second recording</a></p>
+
 <p class="source">evidence\public\cu-hero-answer.json and .png / same question, separate ready index</p>
 
 Note:
-This is the second and final authorized chat request, not another native run.
+This quote is the second and final chat request of the original rehearsal,
+not another native run. The video link opens a separate fresh authorized
+capture: one query embedding and one chat request against the same ready CU
+index, with no extraction or index rebuild. It plays without the hero server.
+The fresh capture uses the restored template's suggested question. The actual
+returned digital page-2 citation was clicked and its viewer scrolled to Table 2;
+the closing shot is that running-app viewer, not an offline cutaway.
+Waiting cuts and the cropped answer shot are disclosed. Source-card excerpts
+were removed after capture; the video does not re-render later UI or saved answers.
+The clip is not a real-time latency benchmark. Its transcript and usage are
+in assets/hero-demo/recording.json and usage.json, separate from the original
+rehearsal's receipts and counters on the following slide.
 Both PDFs were already analyzed and indexed; the hero did not rebuild or
 reanalyze them. Page1 prose also supports the value, so do not equate the
 correct number with proof of table-grid understanding. Actual digital and

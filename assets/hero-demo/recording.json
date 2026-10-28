@@ -1,0 +1,54 @@
+{
+  "title": "Ask, answer, inspect the source",
+  "recordedDateUtc": "2026-10-28",
+  "video": {
+    "file": "hero-demo.mp4",
+    "sha256": "9c78981497cbdcda04c41cba4a3027c936696a56837bffe59d371b0cc94ede2e",
+    "durationSeconds": 14.5,
+    "width": 1600,
+    "height": 900,
+    "codec": "H.264",
+    "frames": 435,
+    "audio": false
+  },
+  "transcript": {
+    "question": "According to Table 2, what is the mean gas resource for the Ural Foredeep Continuous Gas AU, in BCFG?",
+    "actualAssistantAnswer": "According to Table 2, the mean gas resource for the Ural Foredeep Continuous Gas AU is 35,511 billion cubic feet (BCFG)."
+  },
+  "timeline": [
+    { "startSeconds": 0, "endSeconds": 3, "content": "The restored template's local suggested question is clicked once in the actual app." },
+    { "startSeconds": 3, "endSeconds": 7, "content": "The fresh, actual assistant response from the existing CU index." },
+    { "startSeconds": 7, "endSeconds": 14.5, "content": "The actual PDF viewer opened by clicking the returned digital.pdf page-2 citation and physically scrolled to Table 2. An editorial box highlights the Ural Foredeep row's Gas (BCFG) Mean cell, 35,511." }
+  ],
+  "editing": {
+    "loadingPausesShortened": true,
+    "latencyBenchmark": false,
+    "actualAppRegionsCroppedAndEnlarged": true,
+    "originalTemplateUiRestored": true,
+    "continuousInteraction": false,
+    "rehearsalControlsExcluded": true,
+    "answerRegionCroppedAndEnlarged": true,
+    "sourceCardExcerptPixelsExcluded": true,
+    "setupAndResourceDerivedIndexIdentifierExcluded": true,
+    "answerTextSubstituted": false,
+    "offlineSourceCutaway": false,
+    "sourceTransition": "The edit cuts from the actual answer to the actual viewer opened by its returned page-2 source link. The intervening source-card click and scroll are retained in the original footage, not recreated.",
+    "postCaptureDisplayCleanup": "Source-card excerpts contained raw table markup during capture and were subsequently removed from the app. The answer shot is cropped above those excerpts; the closing shot is the actual citation-opened PDF. No later UI state or saved answer was rendered into the video.",
+    "newModelRequestsForEditing": 0
+  },
+  "source": {
+    "url": "https://pubs.usgs.gov/fs/2018/3050/fs20183050.pdf",
+    "sha256": "8b9c6f80f2c957ec8ae8d7074e70fe40e9c682fc0d9a9bc70571a2e5b16f7306",
+    "actualClickedCitation": { "document": "digital.pdf", "page": 2 },
+    "closingRecord": { "document": "digital.pdf", "page": 2 },
+    "actualRetrievedRecords": [
+      { "document": "scanned.pdf", "page": 1 },
+      { "document": "digital.pdf", "page": 1 },
+      { "document": "scanned.pdf", "page": 2 },
+      { "document": "digital.pdf", "page": 2 }
+    ],
+    "qualification": "The correct value is present in Table 2 and page-1 prose, and the model received both. Table extraction and retrieval worked, but this was not a table-only reasoning test. Neither the number nor the model's Table 2 wording proves table-grid reasoning or automatic correctness. No VLM was used."
+  },
+  "usageReceipt": "usage.json",
+  "reproduction": "The live interaction required separately authorized resources and an existing real index. Playing this recording requires neither Azure credentials nor the hero app."
+}

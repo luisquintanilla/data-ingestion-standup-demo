@@ -33,6 +33,20 @@ enough and where an OCR-capable provider makes a difference.
 > source is included so you can build the demo locally.
 > See [prototype status and provenance](vendor/NOTICE.md).
 
+## Watch the app
+
+[![The real hero app answering the question with 35,511 BCFG. Watch or download the 14.5-second MP4.](assets/hero-demo/hero-demo-poster.png)](assets/hero-demo/hero-demo.mp4)
+
+**[Watch or download the 14.5-second recording](assets/hero-demo/hero-demo.mp4).**
+It shows the template's suggested question, the actual answer, and Table 2
+in the PDF viewer opened from the returned source citation.
+Loading pauses are shortened. The model also received page-1 prose,
+so this is not a table-only reasoning test. No app setup or Azure account
+is needed to play it. See [the transcript and provenance](assets/hero-demo/recording.json).
+
+The CU answer slide also links to a standalone player in the local preview,
+so you can present the recording without running the hero app.
+
 ## Get started
 
 ### Open a preconfigured Codespace
