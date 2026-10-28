@@ -4,6 +4,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <RestorePackagesPath>$(MSBuildThisFileDirectory).build/packages</RestorePackagesPath>
+    <NuGetLockFilePath>$(MSBuildThisFileDirectory).build/locks/$(MSBuildProjectName).packages.lock.json</NuGetLockFilePath>
+    <RestoreLockedMode>true</RestoreLockedMode>
     <NoWarn>$(NoWarn);EXTEXP0019;MEAI001;MEAI002;MEAI003;MEDE0001</NoWarn>
   </PropertyGroup>
 </Project>

@@ -1,11 +1,61 @@
 # Run the Standup demo
 
-This is a Windows/PowerShell-first, unofficial API-review prototype, not a
+This is a PowerShell 7-based, unofficial API-review prototype, not a
 shipping API announcement. Source, fixtures and local build inputs are pinned;
 no sibling checkout, private feed or published prototype package is needed.
 Preparation restores public dependencies; it makes no Azure model/CU requests.
 
-## Prepare the frozen dependencies
+## Codespaces / Linux quick start
+
+The standard `.devcontainer` uses Ubuntu 24.04 with .NET SDK **10.0.403**,
+Node **24.22.1**, PowerShell 7, Git and curl. Its post-create command runs the
+same shared bootstrap used locally:
+
+```text
+pwsh -NoLogo -NoProfile -File scripts/bootstrap.ps1
+```
+
+It prepares the eight frozen libraries, builds the direct web app and three
+file apps, runs local contracts, restores Reveal from its lock and builds the
+deck. It starts **no server**, asks for no Azure credentials, and performs no
+live indexing/chat/CU. The optional Aspire apphost is not needed for this path.
+Initial setup needs internet access to public images/packages and can take
+several minutes. Creating/running a Codespace uses the visitor's GitHub
+allowance/billing; repository setup does not create one automatically.
+
+After setup, from the repository root in a Bash terminal:
+
+```bash
+unset STANDUP_LIVE STANDUP_BUDGET_PATH
+export STANDUP_PROVIDER=pdfpig
+dotnet run --file samples/01-extract.cs --no-build -- digital
+dotnet run --file samples/01-extract.cs --no-build -- scanned
+dotnet run --file samples/02-ingest.cs --no-build -- digital
+dotnet run --file samples/02-ingest.cs --no-build -- scanned
+PORT=8187 node serve.mjs
+```
+
+Use the **Ports** tab to open 8187. In another terminal, with the same offline
+environment:
+
+```bash
+dotnet run --project hero/hero.Web/hero.Web.csproj --no-build --no-launch-profile --urls http://127.0.0.1:5187
+```
+
+Open port 5187 for the native/offline web view. The two configured forwarded
+ports use Codespaces' **private-by-default** visibility; do not make them public.
+No token needs printing/copying. The servers bind to loopback and are started
+only by your explicit command. Stop only your own server when finished.
+
+The shared bootstrap/native path was exercised on local Ubuntu 24.04 x64 with
+the exact SDK/Node versions. This is **not** a claim of a completed hosted
+Codespaces lifecycle: Docker Desktop's engine was unavailable in the preparation
+environment, and no paid Codespace was created. A first actual container build,
+post-create lifecycle and private forwarded browser/Blazor check remain remote
+validation steps. See [agent guidance](docs/AI-AGENTS.md) for optional tools;
+none are installed automatically.
+
+## Manual Windows preparation
 
 Use .NET SDK **10.0.403** and Node.js (recorded version **24.22.1**).
 From the repository root:
@@ -37,9 +87,28 @@ Extraction baseline. The original final `.1` package/consumption receipts
 are under `evidence\public`; a fresh local preparation writes its own ignored
 logs/receipt under `evidence`, without changing those historical recordings.
 
+The same preparation script works under PowerShell 7 on Windows and Linux.
+It normalizes frozen Windows manifest paths only for filesystem access; it does
+not rewrite the archive or source bytes. Upstream code-style enforcement is
+disabled **only while packing frozen libraries**, because their retained CRLF
+bytes otherwise trigger host-specific IDE0055 formatting errors on Linux.
+Compilation and other analyzers remain enabled.
+
+Fresh local nupkgs do not necessarily have the original Windows recording's
+content hashes. Preparation derives nine ignored `.build/locks` files from the
+committed lock templates, replacing **only the eight exact S0 content hashes**
+with the freshly packed hashes. All versions, public package hashes and other
+dependency entries remain locked. Tracked templates and vendor receipts are not
+modified; no broad `--force-evaluate` dependency refresh is used. NuGet uses
+`.build/packages`; preparation invalidates only these eight rebuilt version
+directories there, never a shared global package cache. Stop your own .NET
+builds/apps before re-preparing.
+
 ## Three standalone files
 
-Native extraction and deterministic chunking run without Azure credentials:
+Native extraction and deterministic chunking run without Azure credentials.
+The manual PowerShell snippets below use Windows paths; Linux/Codespaces
+commands use `/` as in the quick start above.
 
 ```powershell
 $env:STANDUP_PROVIDER = 'pdfpig'
@@ -125,6 +194,10 @@ dotnet run --project hero\hero.AppHost\hero.AppHost.csproj
 
 Apphost compilation was verified; Aspire/dashboard startup was not part of the
 recorded direct-web browser check. No Docker/vector service is required.
+The retained optional apphost lock template includes the Windows dashboard
+package. Linux Codespaces bootstrap intentionally builds `hero.Web` directly,
+not the optional apphost/solution. Linux Aspire dashboard startup/its
+platform-specific lock is not part of the supported offline quick-start path.
 
 ## Live configuration is deliberately not armed
 

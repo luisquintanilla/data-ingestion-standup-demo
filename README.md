@@ -35,7 +35,36 @@ enough and where an OCR-capable provider makes a difference.
 
 ## Get started
 
-The sample instructions are **Windows/PowerShell-first**. You'll need:
+### Open a preconfigured Codespace
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/luisquintanilla/data-ingestion-standup-demo)
+
+The dev container includes the pinned .NET SDK, Node.js and PowerShell.
+Initial setup builds the prototype libraries, samples, web app and slides,
+and runs offline checks. It needs public package downloads, but **no Azure
+credentials or model calls**. It does not start servers automatically.
+
+After setup finishes, try the native samples and start the slides:
+
+```bash
+unset STANDUP_LIVE STANDUP_BUDGET_PATH
+export STANDUP_PROVIDER=pdfpig
+dotnet run --file samples/01-extract.cs --no-build -- digital
+dotnet run --file samples/02-ingest.cs --no-build -- digital
+PORT=8187 node serve.mjs
+```
+
+Open port **8187** from the **Ports** tab. For the native web app on port
+**5187**, see the [Codespaces quick start](RUNBOOK.md#codespaces--linux-quick-start).
+Keep forwarded ports private. Creating and running a Codespace uses your
+GitHub allowance or billing.
+
+The shared bootstrap has been exercised on Linux and Windows; the first
+hosted Codespaces build and forwarded-browser lifecycle are **not yet verified**.
+
+### Run locally
+
+The commands below use **PowerShell 7**. You'll need:
 
 - **.NET SDK 10.0.403** for the C# samples and web app.
 - **Node.js** for the slides only; tested with **24.22.1**.
@@ -111,6 +140,7 @@ before running sample 03 or building an index in the web app.
 | [hero](hero) | The composed Chat-template app and Aspire apphost. |
 | [slides.md](slides.md) | The editable presentation and speaker notes. |
 | [RUNBOOK.md](RUNBOOK.md) | Full setup, commands, configuration, troubleshooting, and demo details. |
+| [AI agent guidance](docs/AI-AGENTS.md) | Repository instructions, an offline verification skill, and optional upstream tooling. |
 | [Recorded results](evidence/public/README.md) | Actual native/CU outputs, screenshots, and their limitations. |
 
 The recorded live run completed extraction, embeddings, retrieval, and chat

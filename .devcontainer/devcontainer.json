@@ -1,0 +1,40 @@
+{
+  "name": "Standup demo - offline first",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "containerEnv": {
+    "STANDUP_PROVIDER": "pdfpig",
+    "STANDUP_LIVE": "0",
+    "DOTNET_CLI_TELEMETRY_OPTOUT": "1",
+    "POWERSHELL_TELEMETRY_OPTOUT": "1",
+    "DOTNET_GENERATE_ASPNET_CERTIFICATE": "false"
+  },
+  "remoteEnv": {
+    "STANDUP_BUDGET_PATH": null
+  },
+  "postCreateCommand": ["pwsh", "-NoLogo", "-NoProfile", "-File", "scripts/bootstrap.ps1"],
+  "waitFor": "postCreateCommand",
+  "forwardPorts": [8187, 5187],
+  "portsAttributes": {
+    "8187": {
+      "label": "Standup slides",
+      "onAutoForward": "notify",
+      "protocol": "http"
+    },
+    "5187": {
+      "label": "Standup native web demo",
+      "onAutoForward": "notify",
+      "protocol": "http"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-dotnettools.csharp"]
+    },
+    "codespaces": {
+      "openFiles": ["RUNBOOK.md"]
+    }
+  }
+}
