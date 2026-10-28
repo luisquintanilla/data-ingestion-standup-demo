@@ -1,10 +1,11 @@
 @inject IJSRuntime JS
+@using Standup
 
 <div class="message-list-container">
     <chat-messages class="page-width message-list" in-progress="@(InProgressMessage is not null)">
         @foreach (var message in Messages)
         {
-            <ChatMessageItem @key="@message" Message="@message" />
+            <ChatMessageItem @key="@message" Message="@message" Sources="@SourcesByMessage?.GetValueOrDefault(message)" />
         }
 
         @if (InProgressMessage is not null)
@@ -25,6 +26,9 @@
 
     [Parameter]
     public ChatMessage? InProgressMessage { get; set; }
+
+    [Parameter]
+    public IReadOnlyDictionary<ChatMessage, IReadOnlyList<IndexedEvidence>>? SourcesByMessage { get; set; }
 
     [Parameter]
     public RenderFragment? NoMessagesContent { get; set; }

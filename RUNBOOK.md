@@ -173,8 +173,12 @@ Keep the native/offline environment above, then:
 dotnet run --project hero\hero.Web\hero.Web.csproj --no-build --no-launch-profile --urls http://127.0.0.1:5187
 ```
 
-Open `http://127.0.0.1:5187`. Native inspection needs no model calls. The page
-does not ingest on startup or silently rebuild an index when asked a question.
+Open `http://127.0.0.1:5187`. The conversation uses the retained Chat-template
+layout and suggested-question button, not an ingestion/admin console.
+For offline inspection use samples 01/02 or the native-only
+`GET /demo/native-evidence` endpoint. Index preparation stays in sample 03
+under its separate live authorization; there are no Inspect/Build controls
+in the conversation. The page does not ingest on startup or silently rebuild an index when asked a question.
 Building a learned index and answering require separate explicit live
 authorization/configuration. A clone has no ready index.
 
@@ -183,8 +187,21 @@ no hidden native fallback; opening a CU page does not analyze a document.
 Indexes are provider/configuration/fixture/policy-specific, with actual
 1536-dimensional embeddings and record-derived citations. Chat searches only
 the ready current index and sends one guarded request without tool turns or
-automatic suggestions. Sensitive AI telemetry is absent; general telemetry is
+model-generated follow-up requests. The initial USGS suggestion is local text.
+Each assistant message displays trusted document/page source cards from its own
+actual retrieved records, not model-generated citation tags or page numbers.
+Conversation source cards omit raw chunk excerpts and markup.
+Failures are logged server-side; the conversation displays a failure message,
+not private runtime/index diagnostics.
+Sensitive AI telemetry is absent; general telemetry is
 opt-in and disabled by default.
+
+The UI structure and suggestion-button styling come from
+[`iocrclient-demo` at `fd4bf7e`](https://github.com/luisquintanilla/iocrclient-demo/tree/fd4bf7edfd5f3330dbb0ba73938ada20e282e111/hero/hero.Web/Components/Pages/Chat).
+This is a bounded restoration, not a byte-for-byte template reset: the original
+model-generated follow-ups, streaming/tool-driven ingestion and parsed model
+citation tags are deliberately not restored. The guarded one-request pipeline,
+record-derived citations and explicit operational setup remain unchanged.
 
 The preserved Aspire apphost can be built with the solution and started with:
 
