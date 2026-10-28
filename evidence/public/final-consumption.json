@@ -1,0 +1,87 @@
+{
+  "feedAndConsumedCacheMatch": true,
+  "finalPackages": [
+    {
+      "baselineRepository": "https://github.com/dotnet/extensions",
+      "baselineCommit": "9112251596986014c3a4baccddf099bd43eb918b",
+      "version": "10.8.0-standup.s0.0ff84e7.1",
+      "sha256": "44647b598e676b6ffae86db4c55ffa540c90c48303800ac19fdf43e5b3c68df6",
+      "id": "Microsoft.Extensions.AI",
+      "repositoryMetadataMeaning": "Extraction baseline only; full composite identity is in vendor receipts",
+      "nugetSha512": "12Qga/UTg13529goiweZn4fliWuMXQVPYBtI2nyqzWN38GNBc9FDM0DwwBSMVEhGXkg3qkyZPlVy1dI72KfhDA=="
+    },
+    {
+      "baselineRepository": "https://github.com/dotnet/extensions",
+      "baselineCommit": "9112251596986014c3a4baccddf099bd43eb918b",
+      "version": "10.8.0-standup.s0.0ff84e7.1",
+      "sha256": "bc9d1078d70b10fde838051b1bbf510b66621f7f6c9b529a35bed295f71b37a2",
+      "id": "Microsoft.Extensions.AI.Abstractions",
+      "repositoryMetadataMeaning": "Extraction baseline only; full composite identity is in vendor receipts",
+      "nugetSha512": "wPjd2U28Hb8yH2yUd12AcI434YKweol+TG1MSbMZ7qF1RlqVxGDuSirJC6w9c/R5EseQfTYoSo7K7EDeCrT5Cw=="
+    },
+    {
+      "baselineRepository": "https://github.com/dotnet/extensions",
+      "baselineCommit": "9112251596986014c3a4baccddf099bd43eb918b",
+      "version": "10.8.0-standup.s0.0ff84e7.1",
+      "sha256": "898929aeb41dbd8001526776998b2e7c4780ab93166339e2543cd0b1abf9b84e",
+      "id": "Microsoft.Extensions.AI.OpenAI",
+      "repositoryMetadataMeaning": "Extraction baseline only; full composite identity is in vendor receipts",
+      "nugetSha512": "30umwk9GBzfLorp7EQZlk1dDooVKC55Hj2b7lFFQa7lQvLTh00+oEH3AHD86iL+2LMfO0AwKNdUxUcb1kXS8rg=="
+    },
+    {
+      "baselineRepository": "https://github.com/dotnet/extensions",
+      "baselineCommit": "9112251596986014c3a4baccddf099bd43eb918b",
+      "version": "10.8.0-standup.s0.0ff84e7.1",
+      "sha256": "a5bd413a0d97845377a0eb303d324f50b9efefcbea95f2dfcca2f0512defaaa5",
+      "id": "Microsoft.Extensions.DataIngestion",
+      "repositoryMetadataMeaning": "Extraction baseline only; full composite identity is in vendor receipts",
+      "nugetSha512": "C5mh4RHO5MXLoJ6LDuIBg8bPDTjxoEzOX8Z2IbmyToSF6e5TDjE923Yf+cP5qBXioQ27KVeOWylvxt2S5VoWzw=="
+    },
+    {
+      "baselineRepository": "https://github.com/dotnet/extensions",
+      "baselineCommit": "9112251596986014c3a4baccddf099bd43eb918b",
+      "version": "10.8.0-standup.s0.0ff84e7.1",
+      "sha256": "5d234aa08749634893dfd477f0b9a20011d01bff580ff96aaf1f7df298d3a549",
+      "id": "Microsoft.Extensions.DataIngestion.Abstractions",
+      "repositoryMetadataMeaning": "Extraction baseline only; full composite identity is in vendor receipts",
+      "nugetSha512": "eJfr0PQ78IMOhiYA6MVxDws/0KEGrYgMgM8S6huiDKUUVtsELpBPzVEVcszGVKEXRq0n0mEF95Rv6j1DqfD9PA=="
+    },
+    {
+      "baselineRepository": "https://github.com/dotnet/extensions",
+      "baselineCommit": "9112251596986014c3a4baccddf099bd43eb918b",
+      "version": "10.8.0-standup.s0.0ff84e7.1",
+      "sha256": "764f7f94d22f17da316d139a2ffb8a04aee4e1de58ef2293351b8c6c91abbf42",
+      "id": "Microsoft.Extensions.DocumentExtraction",
+      "repositoryMetadataMeaning": "Extraction baseline only; full composite identity is in vendor receipts",
+      "nugetSha512": "dbxMa52/UCntaA7OUfgOSWQ6j+9mNRlWB6ZRMTpxUxfYcZTDt2HzA14jvcQjzHIzd5xLkc0BkJHhDzmVbWBbKw=="
+    },
+    {
+      "baselineRepository": "https://github.com/dotnet/extensions",
+      "baselineCommit": "9112251596986014c3a4baccddf099bd43eb918b",
+      "version": "10.8.0-standup.s0.0ff84e7.1",
+      "sha256": "364ef438d2d48feb7ba15b80eadeee5f2b6ecd3bd218b3510c77fbf636ef561c",
+      "id": "Microsoft.Extensions.DocumentExtraction.Abstractions",
+      "repositoryMetadataMeaning": "Extraction baseline only; full composite identity is in vendor receipts",
+      "nugetSha512": "nIEZn9b0kaMUJ3tHwuMaaOK1VYDtagFIGfk4LNa/UZu3ZlOmAQBEITOZfroWAha6lNccqgQ0NMy95KRghziq0g=="
+    },
+    {
+      "baselineRepository": "https://github.com/dotnet/extensions",
+      "baselineCommit": "9112251596986014c3a4baccddf099bd43eb918b",
+      "version": "10.8.0-standup.s0.0ff84e7.1",
+      "sha256": "af254949db2e8eaf27f594d47bb450741896d7cf5c5d97dd9a14f836b2099763",
+      "id": "Microsoft.Extensions.Documents.Abstractions",
+      "repositoryMetadataMeaning": "Extraction baseline only; full composite identity is in vendor receipts",
+      "nugetSha512": "9lw6raf07e1nsueplFTAQso1vhS8nJ78WJ9s+Eannf10mvYCthDehKELn3GeiowAl7bBxQHYZApJ33xEdK5rdA=="
+    }
+  ],
+  "overlayFileCount": 26,
+  "exportFileCount": 920,
+  "originalManifestSha256": "cb1a996c71b5e7d9162c04cefd12cf65207e5d777fec3539a2818d4007fc3f92",
+  "provenanceReceiptSha256": "c3eeef119513b69ad90eb8aeccf829734d50f77db1319b4c7b77c1ee110d4bd6",
+  "snapshot": "Composite S0",
+  "allEightConsumedBy": "src\\Standup.Core\\obj\\project.assets.json",
+  "recordedAtUtc": "2026-10-28T14:06:57.5650102Z",
+  "sourceArchiveSha256": "2c72cc9c206c5cfbda6e91f23bf15386d2d0e6212be9d42569a202560a45d90c",
+  "exportReceiptSha256": "33727db839f7ad164df2573ea39ad37c6bf8dbc9678411159dc4b0c9091b9a0d",
+  "exportComparedWithOriginalManifest": true
+}

@@ -1,0 +1,27 @@
+{
+  "selection": "Vendor invoice validation workflow",
+  "selectedOn": "2026-10-28",
+  "image": "invoice-validation-workflow.png",
+  "editableSource": "invoice-validation-workflow.svg",
+  "imageSha256": "1ba8e19012fc09c82f9ee7fd898682146a7e2a7c5cc58615325f9efb5279f3d4",
+  "editableSourceSha256": "832a289eebc0aeb131c1487171bd0f3719c8dbf7a582c12e5226e0cbb9a774ad",
+  "kind": "Clearly attributed, simplified redraw grounded in a published Microsoft Learn workflow; not the original Microsoft diagram",
+  "question": "If an invoice fails validation, is a pending invoice still created in Dynamics 365? What happens instead?",
+  "expectedAnswer": "No. The error is logged, the finance team is notified, and the email is moved to the failed folder. An incomplete invoice is not created in Dynamics 365.",
+  "expectedPath": [
+    "Does validation pass?",
+    "No",
+    "Log the error and notify the finance team",
+    "Move email to the failed folder; do not create an incomplete invoice in Dynamics 365"
+  ],
+  "primarySource": "https://learn.microsoft.com/power-platform/architecture/reference-architectures/vendor-invoice-integration",
+  "sourceSection": "Workflow, especially Data validation, Dynamics 365 integration, Error handling and Success notification",
+  "attribution": "Adapted from Microsoft Learn, Automate vendor invoice processing with Power Automate and AI Builder, MicrosoftDocs/power-platform, CC BY 4.0. No Microsoft endorsement implied.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseSource": "https://github.com/MicrosoftDocs/power-platform/blob/main/LICENSE",
+  "changes": "Replaced the original integration architecture drawing with a simple decision-flow illustration. Focused on validation outcomes. Omitted other failure paths and infrastructure details. No organization-specific validation policy or threshold is invented.",
+  "demoRelationship": "Supplementary visual example. The USGS table question and original two PDF fixtures remain unchanged.",
+  "inputIsolation": "For a future visual-provider proof, supply the PNG only. Keep this expected-answer record and the source article out of extraction/retrieval inputs. Do not copy the expected answer into image metadata or a caption used as evidence.",
+  "verificationStatus": "Source-grounded expected answer and locally rendered visual; no VLM or live extraction result has been obtained.",
+  "scope": "Selecting this visual does not add a provider, authorize extra live calls, or change existing cumulative budgets."
+}

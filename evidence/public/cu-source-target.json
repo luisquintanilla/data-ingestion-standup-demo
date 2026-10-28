@@ -1,0 +1,15 @@
+{
+  "scope": "Actual scanned page-2 citation from the live CU ready-index answer",
+  "target": "/lib/pdf_viewer/viewer.html?file=/Data/scanned.pdf#page=2",
+  "hash": "#page=2",
+  "pages": 2,
+  "scrollTop": 409.20001220703125,
+  "maximumScroll": 409,
+  "page2Top": 230.40000915527344,
+  "page2Bottom": 876.0000457763672,
+  "containerHeight": 876,
+  "page2FullyVisible": true,
+  "scrollClampedAtDocumentEnd": true,
+  "page2TextLayerCharacters": 0,
+  "interpretation": "Actual scanned page 2 is physically visible, including the table and known number in its image; zero native text-layer characters are expected. Source-image viewing is not an extra model call or a VLM proof."
+}

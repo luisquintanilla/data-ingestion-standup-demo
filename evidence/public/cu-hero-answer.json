@@ -1,0 +1,18 @@
+{
+  "snapshot": "S0 final .1; actual bounded live browser answer",
+  "provider": "cu",
+  "currentIndex": "standup_cu_0d8b1177988c",
+  "indexRebuiltByHero": false,
+  "question": "According to Table 2, what is the mean gas resource for the Ural Foredeep Continuous Gas AU, in BCFG?",
+  "actualAnswer": "According to Table 2, the mean gas resource for the Ural Foredeep Continuous Gas Assessment Unit (AU) is 35,511 billion cubic feet (BCFG).",
+  "actualBrowserStatus": "One real retrieval-grounded answer. Sources below are generated from retrieved records, not model-supplied page numbers.",
+  "retrievedSourceLinksInOrder": [
+    {"document":"scanned.pdf","page":1,"element":"element-11","target":"/lib/pdf_viewer/viewer.html?file=/Data/scanned.pdf#page=1"},
+    {"document":"digital.pdf","page":1,"element":"element-11","target":"/lib/pdf_viewer/viewer.html?file=/Data/digital.pdf#page=1"},
+    {"document":"scanned.pdf","page":2,"element":"element-48","target":"/lib/pdf_viewer/viewer.html?file=/Data/scanned.pdf#page=2"},
+    {"document":"digital.pdf","page":2,"element":"element-48","target":"/lib/pdf_viewer/viewer.html?file=/Data/digital.pdf#page=2"}
+  ],
+  "staticFixtureLinksAreNotRetrievalEvidence": true,
+  "interpretation": "The top two retrieved records are page-1 prose with the numerical answer, one OCR-scanned and one digital. The value alone and the model's 'According to Table 2' wording do not prove table-grid understanding.",
+  "automaticRetriesOrToolTurns": 0
+}

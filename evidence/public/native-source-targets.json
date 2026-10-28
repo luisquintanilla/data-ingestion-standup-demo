@@ -1,0 +1,24 @@
+{
+  "scope": "Actual final .1 live hero retrieved citation targets; local browser checks, no additional model calls",
+  "page1": {
+    "hash": "#page=1",
+    "pages": 2,
+    "scrollTop": 1.2000000476837158,
+    "page1Top": -0.20000000298023224,
+    "knownNumberRendered": true
+  },
+  "page2": {
+    "hash": "#page=2",
+    "pages": 2,
+    "scrollTop": 409.20001220703125,
+    "maximumScroll": 409,
+    "containerHeight": 876,
+    "page2Top": 230.40000915527344,
+    "page2Bottom": 876.0000457763672,
+    "page2FullyVisible": true,
+    "scrollClampedAtDocumentEnd": true,
+    "knownNumberOnPage2": true
+  },
+  "caveat": "The last page is shorter than this narrow canvas viewport, so document-end clamping prevents top alignment. Page 2 is physically fully visible, not merely asserted from a URL hash. This differs from the older .0 top-zero geometry and is not relabeled as that check.",
+  "initialDiagnosticLimitation": "An initial wait referenced the standard PDFViewerApplication global, which this reused minimal viewer does not expose, and timed out. Direct rendered page/container measurements then established the actual targets without repeating a service request."
+}

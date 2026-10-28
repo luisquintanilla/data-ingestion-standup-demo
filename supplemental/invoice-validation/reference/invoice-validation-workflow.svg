@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000" font-family="Arial, sans-serif" fill="#172033" role="img" aria-labelledby="title description">
+  <title id="title">Vendor invoice validation workflow</title>
+  <desc id="description">An adapted diagram of the validation branch in Microsoft's published vendor invoice workflow. Follow arrows and their Yes or No labels.</desc>
+  <rect width="1440" height="1000" fill="#ffffff"/>
+  <text x="60" y="65" font-size="36" font-weight="bold">Vendor invoice validation</text>
+  <text x="60" y="103" font-size="21" fill="#475569">Follow the validation decision to see what happens next.</text>
+
+  <rect x="510" y="145" width="420" height="70" rx="12" fill="#f1f5f9" stroke="#334155" stroke-width="2.5"/>
+  <text x="720" y="189" font-size="25" font-weight="bold" text-anchor="middle">Receive invoice by email</text>
+  <path d="M 720 215 L 720 250" fill="none" stroke="#334155" stroke-width="3"/>
+  <path d="M 714 240 L 720 250 L 726 240 Z" fill="#334155"/>
+
+  <rect x="510" y="250" width="420" height="80" rx="12" fill="#f1f5f9" stroke="#334155" stroke-width="2.5"/>
+  <text x="720" y="283" font-size="25" font-weight="bold" text-anchor="middle">Extract invoice data</text>
+  <text x="720" y="312" font-size="21" text-anchor="middle">Check the required validation rules</text>
+  <path d="M 720 330 L 720 365" fill="none" stroke="#334155" stroke-width="3"/>
+  <path d="M 714 355 L 720 365 L 726 355 Z" fill="#334155"/>
+
+  <path d="M 720 365 L 905 445 L 720 525 L 535 445 Z" fill="#fff8e7" stroke="#334155" stroke-width="2.5"/>
+  <text x="720" y="439" font-size="25" font-weight="bold" text-anchor="middle">Does validation</text>
+  <text x="720" y="469" font-size="25" font-weight="bold" text-anchor="middle">pass?</text>
+
+  <path d="M 535 445 L 350 445 L 350 585" fill="none" stroke="#334155" stroke-width="3"/>
+  <path d="M 344 575 L 350 585 L 356 575 Z" fill="#334155"/>
+  <rect x="322" y="475" width="56" height="32" fill="#ffffff"/>
+  <text x="350" y="498" font-size="23" font-weight="bold" text-anchor="middle">Yes</text>
+  <path d="M 905 445 L 1090 445 L 1090 585" fill="none" stroke="#334155" stroke-width="3"/>
+  <path d="M 1084 575 L 1090 585 L 1096 575 Z" fill="#334155"/>
+  <rect x="1065" y="475" width="50" height="32" fill="#ffffff"/>
+  <text x="1090" y="498" font-size="23" font-weight="bold" text-anchor="middle">No</text>
+
+  <rect x="90" y="585" width="520" height="95" rx="12" fill="#f1f5f9" stroke="#334155" stroke-width="2.5"/>
+  <text x="350" y="624" font-size="25" font-weight="bold" text-anchor="middle">Create a pending vendor invoice</text>
+  <text x="350" y="655" font-size="21" text-anchor="middle">in Dynamics 365 Finance</text>
+  <path d="M 350 680 L 350 730" fill="none" stroke="#334155" stroke-width="3"/>
+  <path d="M 344 720 L 350 730 L 356 720 Z" fill="#334155"/>
+  <rect x="90" y="730" width="520" height="110" rx="12" fill="#f1f5f9" stroke="#334155" stroke-width="2.5"/>
+  <text x="350" y="769" font-size="25" font-weight="bold" text-anchor="middle">On successful creation</text>
+  <text x="350" y="801" font-size="21" text-anchor="middle">Notify in Teams, update tracking,</text>
+  <text x="350" y="827" font-size="21" text-anchor="middle">and archive the email</text>
+
+  <rect x="830" y="585" width="520" height="95" rx="12" fill="#f1f5f9" stroke="#334155" stroke-width="2.5"/>
+  <text x="1090" y="624" font-size="25" font-weight="bold" text-anchor="middle">Log the error</text>
+  <text x="1090" y="655" font-size="21" text-anchor="middle">and notify the finance team</text>
+  <path d="M 1090 680 L 1090 730" fill="none" stroke="#334155" stroke-width="3"/>
+  <path d="M 1084 720 L 1090 730 L 1096 720 Z" fill="#334155"/>
+  <rect x="830" y="730" width="520" height="110" rx="12" fill="#f1f5f9" stroke="#334155" stroke-width="2.5"/>
+  <text x="1090" y="771" font-size="25" font-weight="bold" text-anchor="middle">Move email to the failed folder</text>
+  <text x="1090" y="805" font-size="21" text-anchor="middle">Do not create an incomplete invoice</text>
+  <text x="1090" y="831" font-size="21" text-anchor="middle">in Dynamics 365</text>
+
+  <line x1="60" y1="888" x2="1380" y2="888" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="60" y="918" font-size="17" fill="#475569">Simplified redraw of the validation branch, not the original Microsoft diagram. Other failure paths are omitted.</text>
+  <text x="60" y="944" font-size="17" fill="#475569">Adapted from Microsoft Learn: Automate vendor invoice processing with Power Automate and AI Builder.</text>
+  <text x="60" y="970" font-size="17" fill="#475569">Source: MicrosoftDocs/power-platform. CC BY 4.0. No Microsoft endorsement implied.</text>
+</svg>

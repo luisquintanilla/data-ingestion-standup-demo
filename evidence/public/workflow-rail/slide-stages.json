@@ -1,0 +1,329 @@
+[
+  {
+    "slide": 1,
+    "workflow": "overview",
+    "stages": [],
+    "context": "The evidence-checking problem"
+  },
+  {
+    "slide": 2,
+    "workflow": "overview",
+    "stages": [],
+    "context": "Two workflows, not extraction per question"
+  },
+  {
+    "slide": 3,
+    "workflow": "overview",
+    "stages": [],
+    "context": "How the .NET responsibilities compose"
+  },
+  {
+    "slide": 4,
+    "workflow": "overview",
+    "stages": [],
+    "context": "Prepare and answer meet at the same index"
+  },
+  {
+    "slide": 5,
+    "workflow": "prepare",
+    "stages": [
+      "extract"
+    ],
+    "context": "Native / demo-local PdfPig adapter"
+  },
+  {
+    "slide": 6,
+    "workflow": "prepare",
+    "stages": [
+      "extract"
+    ],
+    "context": "Native / digital fixture"
+  },
+  {
+    "slide": 7,
+    "workflow": "prepare",
+    "stages": [
+      "extract"
+    ],
+    "context": "Inside the native adapter / page provenance"
+  },
+  {
+    "slide": 8,
+    "workflow": "prepare",
+    "stages": [
+      "extract"
+    ],
+    "context": "Inside the native adapter / local content and source"
+  },
+  {
+    "slide": 9,
+    "workflow": "prepare",
+    "stages": [
+      "extract"
+    ],
+    "context": "Native / recorded digital extraction"
+  },
+  {
+    "slide": 10,
+    "workflow": "prepare",
+    "stages": [
+      "extract"
+    ],
+    "context": "Native / scanned comparison / not OCR"
+  },
+  {
+    "slide": 11,
+    "workflow": "prepare",
+    "stages": [
+      "extract"
+    ],
+    "context": "CU / same preparation pipeline, different reader"
+  },
+  {
+    "slide": 12,
+    "workflow": "prepare",
+    "stages": [
+      "extract"
+    ],
+    "context": "CU / recorded OCR-capable extraction, same pipeline"
+  },
+  {
+    "slide": 13,
+    "workflow": "prepare",
+    "stages": [
+      "chunk"
+    ],
+    "context": "Shared Documents-to-MEDI projection / native walkthrough"
+  },
+  {
+    "slide": 14,
+    "workflow": "prepare",
+    "stages": [
+      "chunk"
+    ],
+    "context": "Shared source-association bridge / native walkthrough"
+  },
+  {
+    "slide": 15,
+    "workflow": "prepare",
+    "stages": [
+      "chunk"
+    ],
+    "context": "Local tokenizer / 384 tokens with 48 overlap"
+  },
+  {
+    "slide": 16,
+    "workflow": "prepare",
+    "stages": [
+      "chunk"
+    ],
+    "context": "Native walkthrough / sources stay attached"
+  },
+  {
+    "slide": 17,
+    "workflow": "prepare",
+    "stages": [
+      "chunk"
+    ],
+    "context": "Native / recorded chunk content and source"
+  },
+  {
+    "slide": 18,
+    "workflow": "prepare",
+    "stages": [
+      "chunk"
+    ],
+    "context": "Native / digital versus scanned, identical policy"
+  },
+  {
+    "slide": 19,
+    "workflow": "prepare",
+    "stages": [
+      "index"
+    ],
+    "context": "Source-linked record / shared schema"
+  },
+  {
+    "slide": 20,
+    "workflow": "shared",
+    "stages": [
+      "embed-documents",
+      "embed-question",
+      "answer"
+    ],
+    "context": "SDK setup reused by both workflows"
+  },
+  {
+    "slide": 21,
+    "workflow": "shared",
+    "stages": [
+      "embed-documents",
+      "embed-question"
+    ],
+    "context": "Guarded embedding client / documents and questions"
+  },
+  {
+    "slide": 22,
+    "workflow": "shared",
+    "stages": [
+      "embed-documents",
+      "embed-question",
+      "answer"
+    ],
+    "context": "All model requests remain guarded"
+  },
+  {
+    "slide": 23,
+    "workflow": "prepare",
+    "stages": [
+      "embed-documents"
+    ],
+    "context": "Native / historical failed attempt, not the later result"
+  },
+  {
+    "slide": 24,
+    "workflow": "prepare",
+    "stages": [
+      "embed-documents"
+    ],
+    "context": "Native / actual learned document vector, final .1"
+  },
+  {
+    "slide": 25,
+    "workflow": "prepare",
+    "stages": [
+      "index"
+    ],
+    "context": "Shared record schema / content, vector and provenance"
+  },
+  {
+    "slide": 26,
+    "workflow": "prepare",
+    "stages": [
+      "index"
+    ],
+    "context": "Shared 1536-dimensional vector schema"
+  },
+  {
+    "slide": 27,
+    "workflow": "prepare",
+    "stages": [
+      "index"
+    ],
+    "context": "Explicit SQLite collection / provider-specific index"
+  },
+  {
+    "slide": 28,
+    "workflow": "prepare",
+    "stages": [
+      "embed-documents"
+    ],
+    "context": "Document embeddings / not question-time embeddings"
+  },
+  {
+    "slide": 29,
+    "workflow": "prepare",
+    "stages": [
+      "index"
+    ],
+    "context": "Write prepared records / shared workflow boundary"
+  },
+  {
+    "slide": 30,
+    "workflow": "answer",
+    "stages": [
+      "embed-question",
+      "retrieve"
+    ],
+    "context": "Question vector / search the existing prepared index"
+  },
+  {
+    "slide": 31,
+    "workflow": "answer",
+    "stages": [
+      "retrieve"
+    ],
+    "context": "Native versus CU / actual returned records"
+  },
+  {
+    "slide": 32,
+    "workflow": "answer",
+    "stages": [
+      "answer"
+    ],
+    "context": "Guarded chat client / shared native and CU composition"
+  },
+  {
+    "slide": 33,
+    "workflow": "answer",
+    "stages": [
+      "retrieve",
+      "answer"
+    ],
+    "context": "App composition / reuse prepared provider-specific index"
+  },
+  {
+    "slide": 34,
+    "workflow": "answer",
+    "stages": [
+      "answer"
+    ],
+    "context": "Retrieved passages in / actual source records out"
+  },
+  {
+    "slide": 35,
+    "workflow": "answer",
+    "stages": [
+      "answer"
+    ],
+    "context": "Native index / actual recorded hero response"
+  },
+  {
+    "slide": 36,
+    "workflow": "answer",
+    "stages": [
+      "answer"
+    ],
+    "context": "CU index / same answer workflow, different prepared evidence"
+  },
+  {
+    "slide": 37,
+    "workflow": "overview",
+    "stages": [],
+    "context": "Recorded usage / native and CU workflows"
+  },
+  {
+    "slide": 38,
+    "workflow": "answer",
+    "stages": [
+      "inspect"
+    ],
+    "context": "Application evidence check / not automatic correctness"
+  },
+  {
+    "slide": 39,
+    "workflow": "answer",
+    "stages": [
+      "inspect"
+    ],
+    "context": "Actual source / page-1 prose also supports the answer"
+  },
+  {
+    "slide": 40,
+    "workflow": "overview",
+    "stages": [],
+    "context": "Composition recap / both workflows through the same index"
+  },
+  {
+    "slide": 41,
+    "workflow": "overview",
+    "stages": [],
+    "context": "Optional visual question / not VLM-verified"
+  },
+  {
+    "slide": 42,
+    "workflow": "overview",
+    "stages": [],
+    "context": "Optional visual source / adapted example, not a model result"
+  }
+]

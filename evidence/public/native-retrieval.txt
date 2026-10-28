@@ -1,0 +1,89 @@
+digital: 12 actual chunks
+scanned: 0 actual chunks
+Actual chunk embedding usage: {"InputTokenCount":4119,"OutputTokenCount":null,"TotalTokenCount":4119,"CachedInputTokenCount":null,"ReasoningTokenCount":null,"inputAudioTokenCount":null,"inputTextTokenCount":null,"outputAudioTokenCount":null,"outputTextTokenCount":null,"AdditionalCounts":null}
+Actual learned vector[0]: dimensions=1536; first8=[-0.03765869,0.024429321,0.037353516,0.061035156,-0.019195557,-0.025390625,-0.0019350052,0.027694702]
+Actual query embedding usage: {"InputTokenCount":26,"OutputTokenCount":null,"TotalTokenCount":26,"CachedInputTokenCount":null,"ReasoningTokenCount":null,"inputAudioTokenCount":null,"inputTextTokenCount":null,"outputAudioTokenCount":null,"outputTextTokenCount":null,"AdditionalCounts":null}
+S0 | provider=pdfpig | current index=standup_pdfpig_809c51a942a8 | dimensions=1536
+According to Table 2, what is the mean gas resource for the Ural Foredeep Continuous Gas AU, in BCFG?
+score=0.29430830478668213; source=/Data/digital.pdf#page=1; element=element-0
+ shale oil, associated gas, and
+2006). The progressive closure of the Uralian Ocean in the Late Permian
+continuous gas resources in four assessment units (table 2) in the Timan-
+to Early Jurassic led to the formation of the Ural fold and thrust belt and
+Pechora Basin Province of Russia. For undiscovered, technically recover-
+a west-facing foredeep along the fold belt. As much as 8 kilometers of
+able continuous resources, the mean totals are 1,425 million barrels of shale
+sediment in the foredeep resulted in the thermal maturation of petroleum
+oil (MMBO), or 1.4 billion barrels of oil, with an F95–F5 fractile range
+source rocks into the gas-generation window and into the oil-maturation
+from 330 to 3,099 MMBO; 45,721 billion cubic feet, or 46 trillion cubic
+window west of the foredeep. Compressional deformation in the Creta-
+feet of gas (BCFG), with an F95–F5 fractile range from 8,679 to 98,647
+ceous effectively ended the maturation process and resulted in erosion
+BCFG; and 737 million barrels of natural gas liquids (MMBNGL) with an
+of as much as 800 meters. Mild compression in the Oligocene was
+F95–F5 fractile range from 115 to 1,708 MMBNGL. Of the mean total of
+likely related to the far-field effect of the India-Eurasia plate collision.
+45,721 BCFG, about 78 percent, or 35,511 BCFG, is estimated to be in the
+Uncertainty in this assessment relates to the retention of oil or gas in the
+Ural Foredeep Continuous Gas AU.
+reservoirs following compress
+score=0.32078656554222107; source=/Data/digital.pdf#page=1; element=element-0
+ 78 percent, or 35,511 BCFG, is estimated to be in the
+Uncertainty in this assessment relates to the retention of oil or gas in the
+Ural Foredeep Continuous Gas AU.
+reservoirs following compressive deformation and migration.
+40° E 45° E 50° E 55° E 60° E 65° E 70° E
+Total Petroleum Systems and Assessment Units
+For potential continuous oil and gas resources, the USGS defined
+BARENTS SEA
+KARA SEA
+a Domanik Total Petroleum System (TPS) and a Denisov-Khoreyver
+Domanik Shale Oil Assessment Unit (AU) and an Izhma-Pechora
+Domanik Shale Oil AU within this TPS, an Ordovician–Lower Devonian
+Composite TPS with a Denisov-Khoreyver Shale Gas AU, and a Paleo-
+zoic Composite TPS with the Ural Foredeep Continuous Gas AU. Where
+65° N
+thermally immature, shales of the Domanik TPS contain Type II kerogen,
+have total organic carbon (TOC) content of as much as 20 weight per-
+cent, have hydrogen index (HI) values of as much as 700 milligrams of
+hydrocarbon per gram (mg HC/g) of organic carbon, and are as much as
+60 meters thick (Pairazian, 1993; Banks and others, 1997; Martirosyan
+and others, 1998; Abrams and others, 1999; Tuttle and others, 1999;
+Fossum and others, 2001; He and others, 2012). The geologic model for
+the Domanik TPS is for oil generated from Domanik shales to have been
+RUSS
+score=0.32929837703704834; source=/Data/digital.pdf#page=2; element=element-1
+
+Continuous AUs Minimum Mode Maximum Calculated mean Minimum Mode Maximum Calculated mean
+Potential production area of AU (acres) 800 4,500,000 9,000,000 4,500,267 800 11,734,000 23,468,000 11,734,267
+Average drainage area of wells (acres) 80 120 160 120 60 80 120 86.7
+Success ratio (%) 10 50 90 50 10 50 90 50
+Average EUR (BCFG) 0.2 0.5 1.0 0.522 0.2 0.5 1.0 0.522
+AU probability 0.9 1.0
+Table 2. Results for four continuous assessment units (AUs) in the Timan-Pechora Basin Province of Russia.
+[MMBO, million barrels of oil; BCFG, billion cubic feet of gas; NGL, natural gas liquids; MMBNGL, million barrels of natural gas liquids. Results shown are fully
+risked estimates. F95 represents a 95-percent chance of at least the amount tabulated; other fractiles are defined similarly. Fractiles are additive under the assumption of
+perfect positive correlation. Shading indicates not applicable]
+AU Accu- Total undiscovered resources
+Total petroleum systems and
+prob- mulation Oil (MMBO) Gas (BCFG) NGL (MMBNGL)
+assessment units (AUs)
+ability type F95 F50 F5 Mean F95 F50 F5 Mean F95 F50 F5 Mean
+Domanik Total Petroleum System
+Denisov-Khoreyver Domanik Shale Oil AU 1.0 Oil 180 683 1,695 777 170
+score=0.36055657267570496; source=/Data/digital.pdf#page=2; element=element-1
+Table 1. Key input data for four continuous assessment units (AUs) in the Timan-Pechora Basin Province of Russia.
+[AU, assessment unit; %, percent; EUR, estimated ultimate recovery per well; MMBO, million barrels of oil; BCFG, billion cubic feet of gas. Well drainage area, success
+ratio, and EUR are defined partly using U.S. shale-oil and shale-gas analogs. The average EUR input is the minimum, median, maximum, and calculated mean. Shading
+indicates not applicable]
+Assessment input data— Denisov-Khoreyver Domanik Shale Oil AU Izhma-Pechora Domanik Shale Oil AU
+Continuous AUs Minimum Mode Maximum Calculated mean Minimum Mode Maximum Calculated mean
+Potential production area of AU (acres) 1,200 4,310,000 8,620,000 4,310,400 1,200 3,614,500 7,229,000 3,614,900
+Average drainage area of wells (acres) 120 180 240 180 120 180 240 180
+Success ratio (%) 10 50 90 50 10 50 90 50
+Average EUR (MMBO) 0.03 0.06 0.15 0.065 0.03 0.06 0.15 0.065
+AU probability 1.0 1.0
+Assessment input data— Denisov-Khoreyver Shale Gas AU Ural Foredeep Continuous Gas AU
+Continuous AUs Minimum Mode Maximum Calculated mean Minimum Mode Maximum Calculated mean
+Potential production area of AU (acres) 800 4,500,000 9,000,000 4,500,267 800

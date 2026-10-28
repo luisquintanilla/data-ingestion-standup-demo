@@ -1,0 +1,141 @@
+{
+  "extractionBaselineCommit": "9112251596986014c3a4baccddf099bd43eb918b",
+  "documentsWorkingTreeOverlay": [
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\DocumentMarkdownFormatter.cs",
+      "bytes": 10336,
+      "sha256": "7b74efe7eef0843c593f28a5e3d12bdde624c13b16fb0d64493d259daddab9fb"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentTests.StandardContent.cs",
+      "bytes": 22849,
+      "sha256": "d8dd5d34cdf06739735652bf4992ccad68c972952705a9fd8e46459333076473"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\Document.cs",
+      "bytes": 15436,
+      "sha256": "6bd7846da9a910357d1a97ed1d212b294f85141db6c0cd90181424f1a21588f4"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\DocumentArtifact.cs",
+      "bytes": 2371,
+      "sha256": "b05d6ad59bc1f058dfa4260b612765b615935f34fe013abdd194a2f89e2edb2f"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\DocumentElement.cs",
+      "bytes": 13878,
+      "sha256": "85fab9906d6667b88534757a59a5e95f3be932d14256a75a8709ab31fc03b1ed"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\DocumentSources.cs",
+      "bytes": 12043,
+      "sha256": "49e91cccbbecc28bfa41323a43426dc5a8264fed3b20f0eabe3cb4a7c0225fe6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\DocumentTable.cs",
+      "bytes": 11970,
+      "sha256": "5faf2f13b98ad96150581cafe5c375dfe3650b85fa04e88c7ac7fd6d524c80dc"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\Microsoft.Extensions.Documents.Abstractions.csproj",
+      "bytes": 1518,
+      "sha256": "9a4bee1c95626df43680e7aaaed54455fcb5953d6fa5914dc5b78943a46ac070"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\Microsoft.Extensions.Documents.Abstractions.json",
+      "bytes": 22937,
+      "sha256": "97e235cd5cedf9d4e5143a3d3f5b743f9a2b6165208fbe9e6146acae865c6892"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\README.md",
+      "bytes": 11063,
+      "sha256": "b53b2bb44a5fbc9e7124b3b3a702d01feeedeb504e694b90ec73b57c505ff137"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentAnnotationRegistrationTests.cs",
+      "bytes": 26684,
+      "sha256": "65d473847e9e849c29eae8268a295bc7c9d3d84c1c0038d1cf87399ace9e12a9"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentAnnotationTestData.cs",
+      "bytes": 1488,
+      "sha256": "de3ee4353b9d8ee1aeaed0d0c198357d0daf32429713651dee38167358b7523c"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentElementTests.cs",
+      "bytes": 21865,
+      "sha256": "05c911d7266206a74c4f88f7d744fb3fa0114361f6ab7faf76925368323fefcc"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentExtensionElementTests.cs",
+      "bytes": 5663,
+      "sha256": "d26088b8aed8b3c36d0f4231b3376225c6f6173e3dc002df8b30c1256ff143ee"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentImageElementTests.cs",
+      "bytes": 5802,
+      "sha256": "a862abb03b46d3d4d7a0563c90e8748903c605a7388b701e85938b37b062b14e"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentOwnershipTests.cs",
+      "bytes": 3704,
+      "sha256": "9db60f584acfafd2e852a9aa3dc065580719467fa4110b2a03c5c0d5802839d6"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentReferencesTests.cs",
+      "bytes": 21161,
+      "sha256": "c5c83d8fe356d9e1caf54468f0510ea1512da7d71302872119119502945c5052"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentRegistrationScalingTests.cs",
+      "bytes": 3206,
+      "sha256": "0dce599f870e3601707eca7deddc8e788093e2c6d128a194eafaf973c7af4049"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentSectionTests.cs",
+      "bytes": 3668,
+      "sha256": "a266f60e968c8947092d84fcb16f9e41b2175c6739ca416f02e19a63f2349ccd"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentTableCellCollectionTests.cs",
+      "bytes": 25141,
+      "sha256": "d921e461bb3beb6e43b71aa625f1f65400ebdda8ee63907d9a61b5b35eaf2d25"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentTableCellTests.cs",
+      "bytes": 11972,
+      "sha256": "2957fa51f87b4c635dfa4ee609692512c3139ab706fa994d76683452c429b1ed"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentTableElementTests.cs",
+      "bytes": 22962,
+      "sha256": "db2d9168b818fc22298dcdada04bbc3d2fb05a3b73c68a5e8ae4e2b45e405f05"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentTests.Composition.cs",
+      "bytes": 12060,
+      "sha256": "bba1ae1ddaccac06b948e77767760e232d37a175986c62218144d9a2ea56a031"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentTests.cs",
+      "bytes": 51762,
+      "sha256": "98f1b58fd3741dc643b0900feafd18713184a99c6c408b9c59b520c655314dec"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\DocumentTextElementTests.cs",
+      "bytes": 5051,
+      "sha256": "ba5254c2d9fb2e835122ff6122bc6961670b2249925c6da66bfbd211c4fd9e66"
+    },
+    {
+      "path": "test\\Libraries\\Microsoft.Extensions.Documents.Abstractions.Tests\\Microsoft.Extensions.Documents.Abstractions.Tests.csproj",
+      "bytes": 369,
+      "sha256": "f377cf4f1f646ae5fcd6500133b8b60136d1ea5f879e4b7d4f3eadd69ba94a30"
+    }
+  ],
+  "exportReceipt": "source-manifest.json",
+  "snapshot": "S0 composite, not a single Git commit",
+  "exportedFileCount": 920,
+  "originalManifestSha256": "cb1a996c71b5e7d9162c04cefd12cf65207e5d777fec3539a2818d4007fc3f92",
+  "documentsBaselineCommit": "0aec91c3d355a522bb713e9ec4a4f96fcdb09849",
+  "notice": "Original manifest and all overlay hashes define composite S0. Nuspec repository metadata identifies only the Extraction baseline."
+}

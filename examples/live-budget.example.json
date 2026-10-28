@@ -1,0 +1,30 @@
+{
+  "authorized": false,
+  "halted": true,
+  "haltReason": "Example only. This file does not authorize requests or replace an existing cumulative ledger.",
+  "maximums": {
+    "contentUnderstandingAnalyses": 3,
+    "chatModelRequestsIncludingToolTurns": 2,
+    "embeddingInputTokens": 100000
+  },
+  "used": {
+    "contentUnderstandingAnalyses": 0,
+    "chatModelRequestsIncludingToolTurns": 0,
+    "embeddingInputTokens": 0
+  },
+  "attempts": [],
+  "resources": {
+    "contentUnderstanding": {
+      "endpoint": "https://example.invalid/",
+      "analyzer": "prebuilt-layout"
+    },
+    "models": {
+      "endpoint": "https://example.invalid/",
+      "chatDeployment": "your-chat-deployment",
+      "chatModel": "gpt-4.1-mini",
+      "embeddingDeployment": "your-embedding-deployment",
+      "embeddingModel": "text-embedding-3-small",
+      "embeddingDimensions": 1536
+    }
+  }
+}

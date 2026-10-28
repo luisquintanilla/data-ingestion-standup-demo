@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="850" viewBox="0 0 1440 850">
+  <rect width="1440" height="850" fill="#f8fafc"/>
+  <g font-family="Helvetica">
+    <text x="70" y="65" font-size="36" font-weight="700" fill="#172033">The .NET pieces, by responsibility</text>
+    <text x="70" y="103" font-size="22" fill="#526075">A map of the app, not a mandatory dependency chain</text>
+    <rect x="70" y="140" width="1300" height="130" rx="16" fill="#512bd4"/>
+    <text x="100" y="180" font-size="21" font-weight="700" fill="#ddd6fe">APPLICATION</text>
+    <text x="100" y="221" font-size="31" font-weight="700" fill="#ffffff">Ask a question. Read the answer. Inspect the sources.</text>
+    <text x="100" y="251" font-size="20" fill="#ede9fe">The existing .NET chat-template app composes the services.</text>
+    <text x="70" y="313" font-size="21" font-weight="700" fill="#526075">DATA RESPONSIBILITIES</text>
+    <rect x="70" y="335" width="400" height="150" rx="14" fill="#ffffff" stroke="#bac5d4" stroke-width="2"/>
+    <text x="95" y="372" font-size="29" font-weight="700" fill="#172033">Read</text>
+    <text x="95" y="407" font-size="21" fill="#512bd4">IDocumentExtractionClient</text>
+    <text x="95" y="437" font-size="18" fill="#526075">Microsoft.Extensions.Documents</text>
+    <text x="95" y="465" font-size="17" fill="#744600">Prototype contracts: content + sources</text>
+    <rect x="520" y="335" width="400" height="150" rx="14" fill="#ffffff" stroke="#bac5d4" stroke-width="2"/>
+    <text x="545" y="372" font-size="29" font-weight="700" fill="#172033">Prepare</text>
+    <text x="545" y="407" font-size="18" fill="#512bd4">Microsoft.Extensions.DataIngestion</text>
+    <text x="545" y="439" font-size="20" fill="#526075">Processing and chunking</text>
+    <rect x="970" y="335" width="400" height="150" rx="14" fill="#ffffff" stroke="#bac5d4" stroke-width="2"/>
+    <text x="995" y="372" font-size="29" font-weight="700" fill="#172033">Store and find</text>
+    <text x="995" y="407" font-size="20" fill="#512bd4">Microsoft.Extensions.VectorData</text>
+    <text x="995" y="439" font-size="20" fill="#526075">Vectors with text and source records</text>
+    <text x="70" y="533" font-size="21" font-weight="700" fill="#526075">MODEL INTERFACES / MICROSOFT.EXTENSIONS.AI</text>
+    <rect x="70" y="555" width="625" height="125" rx="14" fill="#ede9fe" stroke="#c4b5fd" stroke-width="2"/>
+    <text x="95" y="600" font-size="28" font-weight="700" fill="#42209e">IEmbeddingGenerator</text>
+    <text x="95" y="639" font-size="22" fill="#42335e">Represent passages and questions for retrieval</text>
+    <rect x="745" y="555" width="625" height="125" rx="14" fill="#ede9fe" stroke="#c4b5fd" stroke-width="2"/>
+    <text x="770" y="600" font-size="28" font-weight="700" fill="#42209e">IChatClient</text>
+    <text x="770" y="639" font-size="22" fill="#42335e">Generate an answer from supplied evidence</text>
+    <rect x="70" y="720" width="1300" height="65" rx="12" fill="#e2e8f0"/>
+    <text x="95" y="761" font-size="23" font-weight="700" fill="#334155">Familiar .NET foundations: DI | configuration | logging | observability</text>
+    <text x="70" y="824" font-size="20" fill="#526075">Native extraction and deterministic chunking do not require a chat model.</text>
+  </g>
+</svg>

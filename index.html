@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>TODO Talk Title</title>
+
+    <link rel="stylesheet" href="reveal/dist/reveal.css" />
+    <link rel="stylesheet" href="reveal/plugin/highlight/monokai.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/workflow.css" />
+    <!-- Theme = one swappable line. Point this at any file in themes/. -->
+    <link rel="stylesheet" href="themes/default.css" />
+  </head>
+  <body>
+    <aside class="workflow-rail" aria-label="Workflow orientation">
+      <div class="workflow-rail-inner">
+        <p class="workflow-current" aria-live="polite">Loading workflow orientation</p>
+        <div class="workflow-row" data-workflow-row="prepare">
+          <strong>Prepare</strong>
+          <ol aria-label="Prepare documents once">
+            <li data-stage="extract">Read/<wbr>extract</li>
+            <li data-stage="chunk">Chunk</li>
+            <li data-stage="embed-documents">Embed documents</li>
+            <li data-stage="index" class="workflow-index">Write index</li>
+          </ol>
+        </div>
+        <div class="workflow-row" data-workflow-row="answer">
+          <strong>Answer</strong>
+          <ol aria-label="Answer each question">
+            <li data-stage="question">Question</li>
+            <li data-stage="embed-question">Embed question</li>
+            <li data-stage="retrieve" class="workflow-index">Retrieve index</li>
+            <li data-stage="answer">Answer</li>
+            <li data-stage="inspect">Inspect source</li>
+          </ol>
+        </div>
+        <p class="workflow-connection">Per-provider index links both workflows; native/CU are readers. Source checks are not guarantees.</p>
+      </div>
+    </aside>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          data-markdown="slides.md"
+          data-separator="^\r?\n---\r?\n$"
+          data-separator-vertical="^\r?\n--\r?\n$"
+          data-separator-notes="^Note:"
+          data-charset="utf-8"
+        ></section>
+      </div>
+    </div>
+
+    <script src="reveal/dist/reveal.js"></script>
+    <script src="reveal/plugin/markdown/markdown.js"></script>
+    <script src="reveal/plugin/highlight/highlight.js"></script>
+    <script src="reveal/plugin/notes/notes.js"></script>
+    <script>
+      const stageLabels = Object.fromEntries(
+        [...document.querySelectorAll(".workflow-rail [data-stage]")]
+          .map(node => [node.dataset.stage, node.textContent])
+      );
+      const workflowLabels = {
+        overview: "Overview / multiple stages",
+        prepare: "Prepare",
+        answer: "Answer",
+        shared: "Shared setup / multiple stages"
+      };
+
+      function orientation(slide) {
+        const { workflow, stages, context } = slide.dataset;
+        const active = stages === "none" ? [] : (stages || "").split(" ");
+        if (!(workflow in workflowLabels) || stages === undefined || !context ||
+            active.some(stage => !(stage in stageLabels))) {
+          throw new Error("Slide is missing valid explicit workflow metadata.");
+        }
+        return {
+          active,
+          label: [workflowLabels[workflow], context].join(" | "),
+          printLabel: [workflowLabels[workflow], ...active.map(stage => stageLabels[stage]), context].join(" | ")
+        };
+      }
+
+      function updateOrientation() {
+        const current = orientation(Reveal.getCurrentSlide());
+        document.querySelector(".workflow-current").textContent = current.label;
+        document.querySelectorAll(".workflow-rail [data-stage]").forEach(node => {
+          const active = current.active.includes(node.dataset.stage);
+          node.classList.toggle("is-current", active);
+          if (active) node.setAttribute("aria-current", "step");
+          else node.removeAttribute("aria-current");
+        });
+      }
+
+      Reveal.initialize({
+        hash: true,
+        slideNumber: "c/t",
+        transition: "fade",
+        backgroundTransition: "fade",
+        width: 1280,
+        height: 720,
+        margin: 0.06,
+        scrollActivationWidth: null,
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+      }).then(() => {
+        Reveal.getSlides().forEach(slide => {
+          const label = document.createElement("p");
+          label.className = "print-orientation";
+          label.textContent = orientation(slide).printLabel;
+          slide.prepend(label);
+        });
+        updateOrientation();
+        Reveal.on("slidechanged", updateOrientation);
+        new ResizeObserver(() => Reveal.layout())
+          .observe(document.querySelector(".workflow-rail"));
+      }).catch(error => {
+        document.querySelector(".workflow-current").textContent = "Workflow orientation error: " + error.message;
+        console.error(error);
+      });
+    </script>
+  </body>
+</html>

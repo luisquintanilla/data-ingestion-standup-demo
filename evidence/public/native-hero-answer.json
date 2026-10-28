@@ -1,0 +1,18 @@
+{
+  "snapshot": "S0 final .1; actual bounded live browser answer",
+  "provider": "pdfpig",
+  "currentIndex": "standup_pdfpig_809c51a942a8",
+  "indexRebuiltByHero": false,
+  "question": "According to Table 2, what is the mean gas resource for the Ural Foredeep Continuous Gas AU, in BCFG?",
+  "actualAnswer": "According to Table 2, the mean gas resource for the Ural Foredeep Continuous Gas AU is 35,511 billion cubic feet of gas (BCFG).",
+  "actualBrowserStatus": "One real retrieval-grounded answer. Sources below are generated from retrieved records, not model-supplied page numbers.",
+  "retrievedSourceLinksInOrder": [
+    {"document":"digital.pdf","page":1,"element":"element-0","target":"/lib/pdf_viewer/viewer.html?file=/Data/digital.pdf#page=1"},
+    {"document":"digital.pdf","page":1,"element":"element-0","target":"/lib/pdf_viewer/viewer.html?file=/Data/digital.pdf#page=1"},
+    {"document":"digital.pdf","page":2,"element":"element-1","target":"/lib/pdf_viewer/viewer.html?file=/Data/digital.pdf#page=2"},
+    {"document":"digital.pdf","page":2,"element":"element-1","target":"/lib/pdf_viewer/viewer.html?file=/Data/digital.pdf#page=2"}
+  ],
+  "staticFixtureLinksAreNotRetrievalEvidence": true,
+  "interpretation": "The number is explicitly present in the two retrieved page-1 prose excerpts. Retrieved page-2 text includes Table 2 header/context, but the returned excerpts do not establish the target row/grid. The answer's wording 'According to Table 2' is recorded model output, not proof it read the table grid.",
+  "automaticRetriesOrToolTurns": 0
+}

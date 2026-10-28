@@ -1,0 +1,26 @@
+{
+  "scope": "Final rebuilt deck with actual completed live results; offline rendered checks only",
+  "url": "http://127.0.0.1:8187/?revision=live-results",
+  "slides": 42,
+  "notes": 42,
+  "codeFonts": ["25px"],
+  "logicalFrameHeight": 720,
+  "issues": [],
+  "checks": [
+    "Visited every actual rendered slide",
+    "pre/pre-code scroll dimensions against client dimensions, 2px tolerance",
+    "h1/h2/p/pre/img/blockquote/table frame bounds excluding notes, 3px tolerance",
+    "All images complete with nonzero natural width",
+    "All slide scroll heights no greater than 720px"
+  ],
+  "slideHeights": [
+    638,368,682,682,568,612,533,565,550,514,577,488,
+    503,565,606,645,506,558,524,551,486,591,509,485,
+    576,518,551,518,541,550,577,486,553,622,472,511,
+    492,453,686,409,709,420
+  ],
+  "initialReadabilityIssueAndResolution": "A combined two-answer slide measured 746px. It was split into separate native/CU answer slides, not shrunk; final heights 472px and 511px.",
+  "modelOrProviderCallsForTheseChecks": 0,
+  "parent8187ServerRestarted": false,
+  "publicDeckRebuilt": true
+}

@@ -1,0 +1,38 @@
+{
+  "localPackages": [
+    {
+      "package": "Microsoft.Extensions.AI.10.8.0-standup.s0.0ff84e7.1.nupkg",
+      "sha256": "44647b598e676b6ffae86db4c55ffa540c90c48303800ac19fdf43e5b3c68df6"
+    },
+    {
+      "package": "Microsoft.Extensions.AI.Abstractions.10.8.0-standup.s0.0ff84e7.1.nupkg",
+      "sha256": "bc9d1078d70b10fde838051b1bbf510b66621f7f6c9b529a35bed295f71b37a2"
+    },
+    {
+      "package": "Microsoft.Extensions.AI.OpenAI.10.8.0-standup.s0.0ff84e7.1.nupkg",
+      "sha256": "898929aeb41dbd8001526776998b2e7c4780ab93166339e2543cd0b1abf9b84e"
+    },
+    {
+      "package": "Microsoft.Extensions.DataIngestion.10.8.0-standup.s0.0ff84e7.1.nupkg",
+      "sha256": "a5bd413a0d97845377a0eb303d324f50b9efefcbea95f2dfcca2f0512defaaa5"
+    },
+    {
+      "package": "Microsoft.Extensions.DataIngestion.Abstractions.10.8.0-standup.s0.0ff84e7.1.nupkg",
+      "sha256": "5d234aa08749634893dfd477f0b9a20011d01bff580ff96aaf1f7df298d3a549"
+    },
+    {
+      "package": "Microsoft.Extensions.DocumentExtraction.10.8.0-standup.s0.0ff84e7.1.nupkg",
+      "sha256": "764f7f94d22f17da316d139a2ffb8a04aee4e1de58ef2293351b8c6c91abbf42"
+    },
+    {
+      "package": "Microsoft.Extensions.DocumentExtraction.Abstractions.10.8.0-standup.s0.0ff84e7.1.nupkg",
+      "sha256": "364ef438d2d48feb7ba15b80eadeee5f2b6ecd3bd218b3510c77fbf636ef561c"
+    },
+    {
+      "package": "Microsoft.Extensions.Documents.Abstractions.10.8.0-standup.s0.0ff84e7.1.nupkg",
+      "sha256": "af254949db2e8eaf27f594d47bb450741896d7cf5c5d97dd9a14f836b2099763"
+    }
+  ],
+  "snapshot": "S0 composite; see vendor/source-manifest.json and vendor/s0-provenance.json",
+  "sdk": "10.0.403"
+}

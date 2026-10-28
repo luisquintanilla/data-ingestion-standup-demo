@@ -1,0 +1,239 @@
+S0 | provider=pdfpig | fixture=digital.pdf
+MEDI token policy=384/48; no embedding/chat calls
+chunk=1; element=element-0; pages=[1]; tokens=384
+National and Global Petroleum Assessment
+Assessment of Continuous Oil and Gas Resources of the Timan-Pechora
+Basin Province, Russia, 2018
+Using a geology-based assessment methodology, the U.S. Geological Survey estimated undiscovered, technically recoverable mean resources
+of 1.4 billion barrels of oil and 46 trillion cubic feet of gas in the Timan-Pechora Basin Province of Russia.
+percent, have HI values of as much as 580 mg HC/g of organic carbon,
+Introduction
+and are as much as 800 meters thick. Source rocks in this TPS possibly
+The U.S. Geological Survey (USGS) quantitatively assessed the
+include coal beds (Ulmishek, 1982; Abrams and others, 1999).
+potential for undiscovered, technically recoverable continuous (uncon-
+Assessment input data are summarized in table 1. Input data for
+ventional) oil and gas resources in the Timan-Pechora Basin Province
+drainage areas, success ratios, and estimated ultimate recoveries are
+of Russia (fig. 1). The development of three petroleum systems in the
+taken from geologic analogs in the United States.
+province is related to the tectonic history (Otto and Bailey, 1995; Ismail-
+Zadeh and others, 1997; Martirosyan and others, 1998; Lindquist, 1999;
+Undiscovered Resources Summary
+Fossum and others, 2001; O’Leary and others, 2004; Sliaupa and others,
+The USGS quantitatively assessed shale oil, associated gas, and
+2006). The progressive closure of the Uralian Ocean in the Late Permian
+continuous gas resources in four assessment units (table 2) in the Timan-
+to Early Jurassic led to
+chunk=2; element=element-0; pages=[1]; tokens=384
+ shale oil, associated gas, and
+2006). The progressive closure of the Uralian Ocean in the Late Permian
+continuous gas resources in four assessment units (table 2) in the Timan-
+to Early Jurassic led to the formation of the Ural fold and thrust belt and
+Pechora Basin Province of Russia. For undiscovered, technically recover-
+a west-facing foredeep along the fold belt. As much as 8 kilometers of
+able continuous resources, the mean totals are 1,425 million barrels of shale
+sediment in the foredeep resulted in the thermal maturation of petroleum
+oil (MMBO), or 1.4 billion barrels of oil, with an F95–F5 fractile range
+source rocks into the gas-generation window and into the oil-maturation
+from 330 to 3,099 MMBO; 45,721 billion cubic feet, or 46 trillion cubic
+window west of the foredeep. Compressional deformation in the Creta-
+feet of gas (BCFG), with an F95–F5 fractile range from 8,679 to 98,647
+ceous effectively ended the maturation process and resulted in erosion
+BCFG; and 737 million barrels of natural gas liquids (MMBNGL) with an
+of as much as 800 meters. Mild compression in the Oligocene was
+F95–F5 fractile range from 115 to 1,708 MMBNGL. Of the mean total of
+likely related to the far-field effect of the India-Eurasia plate collision.
+45,721 BCFG, about 78 percent, or 35,511 BCFG, is estimated to be in the
+Uncertainty in this assessment relates to the retention of oil or gas in the
+Ural Foredeep Continuous Gas AU.
+reservoirs following compress
+chunk=3; element=element-0; pages=[1]; tokens=384
+ 78 percent, or 35,511 BCFG, is estimated to be in the
+Uncertainty in this assessment relates to the retention of oil or gas in the
+Ural Foredeep Continuous Gas AU.
+reservoirs following compressive deformation and migration.
+40° E 45° E 50° E 55° E 60° E 65° E 70° E
+Total Petroleum Systems and Assessment Units
+For potential continuous oil and gas resources, the USGS defined
+BARENTS SEA
+KARA SEA
+a Domanik Total Petroleum System (TPS) and a Denisov-Khoreyver
+Domanik Shale Oil Assessment Unit (AU) and an Izhma-Pechora
+Domanik Shale Oil AU within this TPS, an Ordovician–Lower Devonian
+Composite TPS with a Denisov-Khoreyver Shale Gas AU, and a Paleo-
+zoic Composite TPS with the Ural Foredeep Continuous Gas AU. Where
+65° N
+thermally immature, shales of the Domanik TPS contain Type II kerogen,
+have total organic carbon (TOC) content of as much as 20 weight per-
+cent, have hydrogen index (HI) values of as much as 700 milligrams of
+hydrocarbon per gram (mg HC/g) of organic carbon, and are as much as
+60 meters thick (Pairazian, 1993; Banks and others, 1997; Martirosyan
+and others, 1998; Abrams and others, 1999; Tuttle and others, 1999;
+Fossum and others, 2001; He and others, 2012). The geologic model for
+the Domanik TPS is for oil generated from Domanik shales to have been
+RUSS
+chunk=4; element=element-0; pages=[1]; tokens=384
+99;
+Fossum and others, 2001; He and others, 2012). The geologic model for
+the Domanik TPS is for oil generated from Domanik shales to have been
+RUSSIA
+partially retained within the shales following migration. Ordovician–
+Lower Devonian Composite TPS shales contain Type II kerogen, have
+60° N
+0 300 MILES
+100 200
+TOC contents of as much as 5 weight percent, have HI values of as much
+as 660 mg HC/g of organic carbon, and are as much as 800 meters thick
+0 100 200 300 KILOMETERS
+(Pairazian, 1993; Abrams and others, 1999; Fossum and others, 2001).
+Base map from U.S. Department of the Interior National Park Service
+The geologic model for the Ordovician–Lower Devonian Composite TPS
+NOR
+FIN
+EXPLANATION
+is for gas, generated from cracked oil within Ordovician, Silurian, and
+Denisov-Khoreyver Domanik Shale Oil AU
+Lower Devonian source rocks, to have been partially retained within the
+Izhma-Pechora Domanik Shale Oil AU
+source rocks following migration. The Paleozoic Composite TPS was
+Map
+Denisov-Khoreyver Shale Gas AU
+defined to include all petroleum generated from any of several source
+area
+Ural Foredeep Continuous Gas AU
+rocks, including Ordovician, Silurian, Devonian, Carboniferous, and
+RUS
+Timan-Pechora Basin Province boundary
+Permian shales. The geologic model is for oil to have cracked to gas
+upon burial in the fore
+chunk=5; element=element-0; pages=[1]; tokens=174
+ Silurian, Devonian, Carboniferous, and
+RUS
+Timan-Pechora Basin Province boundary
+Permian shales. The geologic model is for oil to have cracked to gas
+upon burial in the foredeep, and gas from these source rocks migrated
+Figure 1. Map showing the four continuous assessment units
+locally into low-permeability sandstones, forming a regional, continuous
+(AUs) in the Timan-Pechora Basin Province of Russia. Province
+gas accumulation. Source rocks within this TPS are variable and contain
+Type II and Type III kerogen, have TOC contents of as much as 6 weight
+boundary is from Klett and others, 1997.
+U.S. Department of the Interior Fact Sheet 2018–3050
+U.S. Geological Survey September 2018
+chunk=6; element=element-1; pages=[2]; tokens=384
+Table 1. Key input data for four continuous assessment units (AUs) in the Timan-Pechora Basin Province of Russia.
+[AU, assessment unit; %, percent; EUR, estimated ultimate recovery per well; MMBO, million barrels of oil; BCFG, billion cubic feet of gas. Well drainage area, success
+ratio, and EUR are defined partly using U.S. shale-oil and shale-gas analogs. The average EUR input is the minimum, median, maximum, and calculated mean. Shading
+indicates not applicable]
+Assessment input data— Denisov-Khoreyver Domanik Shale Oil AU Izhma-Pechora Domanik Shale Oil AU
+Continuous AUs Minimum Mode Maximum Calculated mean Minimum Mode Maximum Calculated mean
+Potential production area of AU (acres) 1,200 4,310,000 8,620,000 4,310,400 1,200 3,614,500 7,229,000 3,614,900
+Average drainage area of wells (acres) 120 180 240 180 120 180 240 180
+Success ratio (%) 10 50 90 50 10 50 90 50
+Average EUR (MMBO) 0.03 0.06 0.15 0.065 0.03 0.06 0.15 0.065
+AU probability 1.0 1.0
+Assessment input data— Denisov-Khoreyver Shale Gas AU Ural Foredeep Continuous Gas AU
+Continuous AUs Minimum Mode Maximum Calculated mean Minimum Mode Maximum Calculated mean
+Potential production area of AU (acres) 800 4,500,000 9,000,000 4,500,267 800
+chunk=7; element=element-1; pages=[2]; tokens=384
+
+Continuous AUs Minimum Mode Maximum Calculated mean Minimum Mode Maximum Calculated mean
+Potential production area of AU (acres) 800 4,500,000 9,000,000 4,500,267 800 11,734,000 23,468,000 11,734,267
+Average drainage area of wells (acres) 80 120 160 120 60 80 120 86.7
+Success ratio (%) 10 50 90 50 10 50 90 50
+Average EUR (BCFG) 0.2 0.5 1.0 0.522 0.2 0.5 1.0 0.522
+AU probability 0.9 1.0
+Table 2. Results for four continuous assessment units (AUs) in the Timan-Pechora Basin Province of Russia.
+[MMBO, million barrels of oil; BCFG, billion cubic feet of gas; NGL, natural gas liquids; MMBNGL, million barrels of natural gas liquids. Results shown are fully
+risked estimates. F95 represents a 95-percent chance of at least the amount tabulated; other fractiles are defined similarly. Fractiles are additive under the assumption of
+perfect positive correlation. Shading indicates not applicable]
+AU Accu- Total undiscovered resources
+Total petroleum systems and
+prob- mulation Oil (MMBO) Gas (BCFG) NGL (MMBNGL)
+assessment units (AUs)
+ability type F95 F50 F5 Mean F95 F50 F5 Mean F95 F50 F5 Mean
+Domanik Total Petroleum System
+Denisov-Khoreyver Domanik Shale Oil AU 1.0 Oil 180 683 1,695 777 170
+chunk=8; element=element-1; pages=[2]; tokens=384
+ Mean F95 F50 F5 Mean
+Domanik Total Petroleum System
+Denisov-Khoreyver Domanik Shale Oil AU 1.0 Oil 180 683 1,695 777 170 662 1,765 777 3 13 37 16
+Izhma-Pechora Domanik Shale Oil AU 1.0 Oil 150 573 1,404 648 139 556 1,461 649 3 11 30 13
+Ordovician–Lower Devonian Composite Total Petroleum System
+Denisov-Khoreyver Shale Gas AU 0.9 Gas 0 8,003 20,180 8,784 0 155 420 175
+Paleozoic Composite Total Petroleum System
+Ural Foredeep Continuous Gas AU 1.0 Gas 8,370 31,889 75,241 35,511 109 455 1,221 533
+Total undiscovered continuous resources 330 1,256 3,099 1,425 8,679 41,110 98,647 45,721 115 634 1,708 737
+Lindquist, S.J., 1999, The Timan-Pechora Basin Province of northwest Arctic
+References Cited
+Russia—Domanik, Paleozoic Total Petroleum System: U.S. Geological
+Abrams, M.A., Apanel, A.M., Timoshenko, O.M., and Kosenkova, N.N., 1999,
+Survey Open-File Report 99–50–G, 40 p.
+Oil families and their potential sources in the northeastern Timan Pechora
+Martirosyan, V., Popova, L., and Vepreva, M.,
+chunk=9; element=element-1; pages=[2]; tokens=384
+-File Report 99–50–G, 40 p.
+Oil families and their potential sources in the northeastern Timan Pechora
+Martirosyan, V., Popova, L., and Vepreva, M., 1998, The petroleum systems of the
+Basin, Russia: American Association of Petroleum Geologists Bulletin, v. 83,
+Pechora Platform foreland, Russia: Petroleum Geoscience, v. 4, no. 4, p. 339–348.
+no. 4, p. 553–577.
+O’Leary, N., White, N., Tull, S., Bashilov, V., Kuprin, V., Natapov, L., and
+Banks, N.L., de Boer, E.T., Scott, J.M., and Sheptunov, A., 1997, The South
+MacDonald, D., 2004, Evolution of the Timan-Pechora and South Barents Sea
+Kyrtayel oilfield, Timan-Pechora basin—Geological history and preliminary
+basins: Geological Magazine, v. 141, no. 2, p. 141–160.
+development plan: Petroleum Geoscience, v. 3, no., 4, p. 371–378.
+Otto, S.C., and Bailey, R.J., 1995, Tectonic evolution of the northern Ural
+Fossum, B.J., Schmidt, W.J., Jenkins, D.A., Bogatsky, V.I., and Rappoport, B.I.,
+Orogen: London, United Kingdom, Journal of the Geological Society, v. 152,
+2001, New frontiers for hydrocarbon production in the Timan-Pechora Basin,
+no. 6, p.
+chunk=10; element=element-1; pages=[2]; tokens=384
+ B.I.,
+Orogen: London, United Kingdom, Journal of the Geological Society, v. 152,
+2001, New frontiers for hydrocarbon production in the Timan-Pechora Basin,
+no. 6, p. 903–906.
+Russia, in Downey, M.W., Threet, J.C., and Morgan, W.A., eds., Petroleum
+provinces of the twenty-first century: American Association of Petroleum
+Pairazian, V.V., 1993, Petroleum geochemistry of the Timano-Pechora basin:
+Geologists, Memoir No. 74, p. 259–279.
+First Break, v. 11, no. 7, p. 279–286.
+He, M., Moldowan, J.M., Nemchenko-Rovenskaya, A., and Peters, K.E., 2012,
+Sliaupa, S., Fokin, P., Lazauskienė, J., and Stephenson, R.A., 2006, The Vendian-
+Oil families and their inferred source rocks in the Barents Sea and northern
+Early Palaeozoic sedimentary basins of the East European Craton, in Gee,
+Timan-Pechora Basin, Russia: American Association of Petroleum Geologists
+D.G., and Stephenson, R.A., eds., European lithosphere dynamics: The
+Bulletin, v. 96, no. 6, p. 1121–1146.
+Geological Society of London, Memoirs, v. 32, p. 449–462.
+Ismail-Zadeh, A.T., Kostyuchenko, S.L., and Naimark, B.M., 1997, The Timan-
+Tuttle, M.L., Lillis, P.G., and Clayton, J.L., 199
+chunk=11; element=element-1; pages=[2]; tokens=384
+ A.T., Kostyuchenko, S.L., and Naimark, B.M., 1997, The Timan-
+Tuttle, M.L., Lillis, P.G., and Clayton, J.L., 1999, Molecular stratigraphy of
+Pechora Basin (northeastern European Russia)—Tectonic subsidence analysis and
+the Devonian Domanik Formation, Timan-Pechora Basin, Russia: U.S.
+a model of formation mechanism: Tectonophysics, v. 283, nos. 1–4, p. 205–218.
+Geological Survey Open-File Report 99–379, 87 p.
+Klett, T.R., Ahlbrandt, T.S., Schmoker, J.W., and Dolton, G.L., 1997, Rank-
+Ulmishek, G., 1982, Petroleum geology and resource assessment of the
+ing of the world’s oil and gas provinces by known petroleum volumes: U.S.
+Timan-Pechora Basin, USSR, and the adjacent Barents-northern Kara shelf:
+Geological Survey Open-File Report 97–463, 1 CD–ROM. [Also available at
+Argonne National Laboratory, Energy and Environmental Division, Report
+fr-97-463/97463.html.]
+https://pubs.usgs.gov/of/1997/o
+ANL/EES–TM–199, 197 p.
+Timan-Pechora Basin Province Assessment Team
+Christopher J. Schenk, Tracey J. Mercier, Janet K. Pitman, Phuong A. Le, Marilyn E. Tennyson, Michael E. Brownfield, Kristen R. Marra,
+Heidi M. Leathers-Miller, Ronald M. Drake II, and Timothy R. Klett
+For More Information
+chunk=12; element=element-1; pages=[2]; tokens=105
+ A. Le, Marilyn E. Tennyson, Michael E. Brownfield, Kristen R. Marra,
+Heidi M. Leathers-Miller, Ronald M. Drake II, and Timothy R. Klett
+For More Information
+Assessment results are also available at the USGS Energy Resources Program website at https://energy.usgs.gov.
+ISSN 2327-6916 (print) ISSN 2327-6932 (online) https://doi.org/10.3133/fs2013050
+actual chunks=12; source document remains alive through consumption

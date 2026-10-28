@@ -1,0 +1,5 @@
+Selected actual lines from the earlier failed final .1 attempt; exception prefix split for readability.
+digital: 12 actual chunks
+scanned: 0 actual chunks
+Azure.Identity.CredentialUnavailableException:
+DefaultAzureCredential failed to retrieve a token from the included credentials.

@@ -1,0 +1,119 @@
+@page "/"
+@using Standup
+@using hero.Web.Services.Ingestion
+@inject SemanticSearch Search
+@inject DataIngestor Ingestor
+@inject ILogger<Chat> Logger
+@implements IDisposable
+
+<PageTitle>Data ingestion Standup</PageTitle>
+<ChatHeader OnNewChat="@ResetAsync" />
+<div class="page-width" style="padding: 1rem">
+    <h1>From documents to grounded answers</h1>
+    <p><strong>S0 unofficial API prototype</strong> | Provider: <strong>@Ingestor.Provider</strong> (startup selection)</p>
+    <p>Current index: <code>@DemoConfiguration.IndexName(Ingestor.Provider)</code>. Embeddings: 1536 dimensions. Sensitive AI telemetry: off.</p>
+    <p>Native PdfPig is not OCR. The scanned twin produces no native text. Cloud calls are disabled unless the separately approved live phase is enabled.</p>
+    <ChatCitation File="digital.pdf" Page="2" Quote="Table 2: Ural Foredeep Continuous Gas AU" />
+    <ChatCitation File="scanned.pdf" Page="2" Quote="Same public fact sheet, scanned twin" />
+    <p>
+        <button class="btn-subtle" disabled="@busy" @onclick="InspectAsync">Inspect native extraction / MEDI chunks (offline)</button>
+        <button class="btn-subtle" disabled="@busy" @onclick="BuildAsync">Build selected provider index (LIVE embeddings / CU)</button>
+    </p>
+    @if (error is not null)
+    {
+        <p role="alert" style="color: #b91c1c"><strong>Operation failed:</strong> @error</p>
+    }
+    @if (status is not null) { <p role="status">@status</p> }
+    @if (chunks is not null)
+    {
+        <details open>
+            <summary>@chunks.Count actual chunks; no model calls for native inspection</summary>
+            <p>Sources are explicitly attached per extraction unit; no claim that every MEDI chunker preserves arbitrary metadata.</p>
+            @foreach (var chunk in chunks)
+            {
+                <details>
+                    <summary>@chunk.DocumentId | pages=[@string.Join(",", chunk.Pages)] | @chunk.Element</summary>
+                    <pre style="white-space: pre-wrap">@chunk.Text</pre>
+                </details>
+            }
+        </details>
+    }
+    @if (sources is not null)
+    {
+        <h2>Retrieved evidence from the current index</h2>
+        @foreach (var source in sources)
+        {
+            <ChatCitation File="@source.DocumentId" Page="@SinglePage(source.Pages)" Quote="@source.Element" />
+            <details><summary>@source.DocumentId | source pages=[@source.Pages]</summary><pre style="white-space: pre-wrap">@source.Text</pre></details>
+        }
+    }
+</div>
+<ChatMessageList Messages="@messages">
+    <NoMessagesContent>
+        <p>Known-answer question: @DemoConfiguration.Question</p>
+        <p>Local inspection works without Azure. Answering requires a real embedding index and one bounded chat request; there is no replay fallback.</p>
+    </NoMessagesContent>
+</ChatMessageList>
+<div class="chat-container">
+    <ChatInput OnSend="@AskAsync" />
+</div>
+
+@code {
+    private readonly List<ChatMessage> messages = [];
+    private readonly CancellationTokenSource cancellation = new();
+    private IReadOnlyList<EvidenceChunk>? chunks;
+    private IReadOnlyList<IndexedEvidence>? sources;
+    private string? error;
+    private string? status;
+    private bool busy;
+
+    private Task InspectAsync() => ExecuteAsync(async () =>
+    {
+        if (Ingestor.Provider != "pdfpig")
+            throw new InvalidOperationException("Offline inspection requires a restart with STANDUP_PROVIDER=pdfpig. No silent native fallback.");
+        chunks = await Ingestor.InspectAsync(cancellation.Token);
+        status = "Digital PDF inspected. Scanned twin: no native text, no chunks. No cloud requests.";
+    });
+
+    private Task BuildAsync() => ExecuteAsync(async () =>
+    {
+        await Ingestor.BuildIndexAsync(cancellation.Token);
+        status = "Current provider/configuration index built with actual embeddings.";
+    });
+
+    private Task AskAsync(ChatMessage message) => ExecuteAsync(async () =>
+    {
+        messages.Add(message);
+        var answer = await Search.AnswerAsync(message.Text ?? "", cancellation.Token);
+        messages.Add(new(ChatRole.Assistant, answer.Text));
+        sources = answer.Sources;
+        status = "One real retrieval-grounded answer. Sources below are generated from retrieved records, not model-supplied page numbers.";
+    });
+
+    private async Task ExecuteAsync(Func<Task> action)
+    {
+        if (busy) return;
+        busy = true;
+        error = null;
+        status = null;
+        try { await action(); }
+        catch (OperationCanceledException) when (cancellation.IsCancellationRequested) { }
+        catch (Exception exception)
+        {
+            Logger.LogError(exception, "Standup demo operation failed.");
+            error = exception.Message;
+        }
+        finally { busy = false; }
+    }
+
+    private Task ResetAsync()
+    {
+        messages.Clear();
+        sources = null;
+        error = null;
+        return Task.CompletedTask;
+    }
+
+    private static int? SinglePage(string pages) => int.TryParse(pages, out int page) && page > 0 ? page : null;
+    public void Dispose() { cancellation.Cancel(); cancellation.Dispose(); }
+}

@@ -1,0 +1,6 @@
+S0 | provider=pdfpig | fixture=scanned.pdf
+source pages=2; content elements=0
+source=page-1; page=1; unit=Point; origin=BottomLeft
+source=page-2; page=2; unit=Point; origin=BottomLeft
+NO USABLE TEXT. PdfPig is not OCR. There is no automatic cloud fallback.
+caller-owned input still readable=True

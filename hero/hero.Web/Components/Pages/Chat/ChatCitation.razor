@@ -1,0 +1,21 @@
+@using Standup
+<a href="@ViewerUrl" target="_blank" rel="noopener" class="citation">
+    <div class="citation-content">
+        <div class="citation-file">@File @(Page is { } page ? $"(page {page})" : "(document-level)")</div>
+        <div>@Quote</div>
+    </div>
+</a>
+@code {
+    [Parameter, EditorRequired] public string File { get; set; } = "";
+    [Parameter] public int? Page { get; set; }
+    [Parameter] public string? Quote { get; set; }
+    private string ViewerUrl
+    {
+        get
+        {
+            _ = IndexedEvidence.CitationFor(File, Page?.ToString() ?? "");
+            return $"lib/pdf_viewer/viewer.html?file=/Data/{Uri.EscapeDataString(File)}" +
+                (Page is { } page && page > 0 ? $"#page={page}" : "");
+        }
+    }
+}

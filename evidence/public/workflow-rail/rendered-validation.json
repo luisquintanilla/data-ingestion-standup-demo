@@ -1,0 +1,8077 @@
+{
+  "scope": "Offline actual served root deck and every rendered slide at four viewports; no model/provider/auth requests",
+  "slides": 42,
+  "notes": 42,
+  "measurements": [
+    {
+      "slide": 1,
+      "workflow": "overview",
+      "stages": [],
+      "context": "The evidence-checking problem",
+      "label": "Overview / multiple stages | The evidence-checking problem",
+      "railHeight": 116,
+      "slideHeight": 638,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 2,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Two workflows, not extraction per question",
+      "label": "Overview / multiple stages | Two workflows, not extraction per question",
+      "railHeight": 116,
+      "slideHeight": 368,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 3,
+      "workflow": "overview",
+      "stages": [],
+      "context": "How the .NET responsibilities compose",
+      "label": "Overview / multiple stages | How the .NET responsibilities compose",
+      "railHeight": 116,
+      "slideHeight": 683,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 4,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Prepare and answer meet at the same index",
+      "label": "Overview / multiple stages | Prepare and answer meet at the same index",
+      "railHeight": 116,
+      "slideHeight": 683,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 5,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / demo-local PdfPig adapter",
+      "label": "Prepare | Native / demo-local PdfPig adapter",
+      "railHeight": 116,
+      "slideHeight": 568,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 6,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / digital fixture",
+      "label": "Prepare | Native / digital fixture",
+      "railHeight": 116,
+      "slideHeight": 613,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 7,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Inside the native adapter / page provenance",
+      "label": "Prepare | Inside the native adapter / page provenance",
+      "railHeight": 116,
+      "slideHeight": 533,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 8,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Inside the native adapter / local content and source",
+      "label": "Prepare | Inside the native adapter / local content and source",
+      "railHeight": 116,
+      "slideHeight": 565,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 9,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / recorded digital extraction",
+      "label": "Prepare | Native / recorded digital extraction",
+      "railHeight": 116,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 10,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / scanned comparison / not OCR",
+      "label": "Prepare | Native / scanned comparison / not OCR",
+      "railHeight": 116,
+      "slideHeight": 515,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 11,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "CU / same preparation pipeline, different reader",
+      "label": "Prepare | CU / same preparation pipeline, different reader",
+      "railHeight": 116,
+      "slideHeight": 577,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 12,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "CU / recorded OCR-capable extraction, same pipeline",
+      "label": "Prepare | CU / recorded OCR-capable extraction, same pipeline",
+      "railHeight": 116,
+      "slideHeight": 488,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            134
+          ],
+          "scroll": [
+            1280,
+            134
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            134
+          ],
+          "scroll": [
+            1280,
+            134
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 13,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Shared Documents-to-MEDI projection / native walkthrough",
+      "label": "Prepare | Shared Documents-to-MEDI projection / native walkthrough",
+      "railHeight": 116,
+      "slideHeight": 503,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 14,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Shared source-association bridge / native walkthrough",
+      "label": "Prepare | Shared source-association bridge / native walkthrough",
+      "railHeight": 116,
+      "slideHeight": 565,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 15,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Local tokenizer / 384 tokens with 48 overlap",
+      "label": "Prepare | Local tokenizer / 384 tokens with 48 overlap",
+      "railHeight": 116,
+      "slideHeight": 607,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            394
+          ],
+          "scroll": [
+            1280,
+            394
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            394
+          ],
+          "scroll": [
+            1280,
+            394
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 16,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Native walkthrough / sources stay attached",
+      "label": "Prepare | Native walkthrough / sources stay attached",
+      "railHeight": 116,
+      "slideHeight": 645,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 17,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Native / recorded chunk content and source",
+      "label": "Prepare | Native / recorded chunk content and source",
+      "railHeight": 116,
+      "slideHeight": 506,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 18,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Native / digital versus scanned, identical policy",
+      "label": "Prepare | Native / digital versus scanned, identical policy",
+      "railHeight": 116,
+      "slideHeight": 559,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 19,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Source-linked record / shared schema",
+      "label": "Prepare | Source-linked record / shared schema",
+      "railHeight": 116,
+      "slideHeight": 524,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 20,
+      "workflow": "shared",
+      "stages": [
+        "embed-documents",
+        "embed-question",
+        "answer"
+      ],
+      "context": "SDK setup reused by both workflows",
+      "label": "Shared setup / multiple stages | SDK setup reused by both workflows",
+      "railHeight": 116,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 21,
+      "workflow": "shared",
+      "stages": [
+        "embed-documents",
+        "embed-question"
+      ],
+      "context": "Guarded embedding client / documents and questions",
+      "label": "Shared setup / multiple stages | Guarded embedding client / documents and questions",
+      "railHeight": 116,
+      "slideHeight": 486,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 22,
+      "workflow": "shared",
+      "stages": [
+        "embed-documents",
+        "embed-question",
+        "answer"
+      ],
+      "context": "All model requests remain guarded",
+      "label": "Shared setup / multiple stages | All model requests remain guarded",
+      "railHeight": 116,
+      "slideHeight": 591,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 23,
+      "workflow": "prepare",
+      "stages": [
+        "embed-documents"
+      ],
+      "context": "Native / historical failed attempt, not the later result",
+      "label": "Prepare | Native / historical failed attempt, not the later result",
+      "railHeight": 116,
+      "slideHeight": 509,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 24,
+      "workflow": "prepare",
+      "stages": [
+        "embed-documents"
+      ],
+      "context": "Native / actual learned document vector, final .1",
+      "label": "Prepare | Native / actual learned document vector, final .1",
+      "railHeight": 116,
+      "slideHeight": 486,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 25,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Shared record schema / content, vector and provenance",
+      "label": "Prepare | Shared record schema / content, vector and provenance",
+      "railHeight": 116,
+      "slideHeight": 576,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 26,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Shared 1536-dimensional vector schema",
+      "label": "Prepare | Shared 1536-dimensional vector schema",
+      "railHeight": 116,
+      "slideHeight": 518,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 27,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Explicit SQLite collection / provider-specific index",
+      "label": "Prepare | Explicit SQLite collection / provider-specific index",
+      "railHeight": 116,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 28,
+      "workflow": "prepare",
+      "stages": [
+        "embed-documents"
+      ],
+      "context": "Document embeddings / not question-time embeddings",
+      "label": "Prepare | Document embeddings / not question-time embeddings",
+      "railHeight": 116,
+      "slideHeight": 518,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 29,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Write prepared records / shared workflow boundary",
+      "label": "Prepare | Write prepared records / shared workflow boundary",
+      "railHeight": 116,
+      "slideHeight": 542,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 30,
+      "workflow": "answer",
+      "stages": [
+        "embed-question",
+        "retrieve"
+      ],
+      "context": "Question vector / search the existing prepared index",
+      "label": "Answer | Question vector / search the existing prepared index",
+      "railHeight": 116,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 31,
+      "workflow": "answer",
+      "stages": [
+        "retrieve"
+      ],
+      "context": "Native versus CU / actual returned records",
+      "label": "Answer | Native versus CU / actual returned records",
+      "railHeight": 116,
+      "slideHeight": 577,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 32,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "Guarded chat client / shared native and CU composition",
+      "label": "Answer | Guarded chat client / shared native and CU composition",
+      "railHeight": 116,
+      "slideHeight": 486,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 33,
+      "workflow": "answer",
+      "stages": [
+        "retrieve",
+        "answer"
+      ],
+      "context": "App composition / reuse prepared provider-specific index",
+      "label": "Answer | App composition / reuse prepared provider-specific index",
+      "railHeight": 116,
+      "slideHeight": 554,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 34,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "Retrieved passages in / actual source records out",
+      "label": "Answer | Retrieved passages in / actual source records out",
+      "railHeight": 116,
+      "slideHeight": 622,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 35,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "Native index / actual recorded hero response",
+      "label": "Answer | Native index / actual recorded hero response",
+      "railHeight": 116,
+      "slideHeight": 471,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 36,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "CU index / same answer workflow, different prepared evidence",
+      "label": "Answer | CU index / same answer workflow, different prepared evidence",
+      "railHeight": 116,
+      "slideHeight": 511,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 37,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Recorded usage / native and CU workflows",
+      "label": "Overview / multiple stages | Recorded usage / native and CU workflows",
+      "railHeight": 116,
+      "slideHeight": 449,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 38,
+      "workflow": "answer",
+      "stages": [
+        "inspect"
+      ],
+      "context": "Application evidence check / not automatic correctness",
+      "label": "Answer | Application evidence check / not automatic correctness",
+      "railHeight": 116,
+      "slideHeight": 453,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 39,
+      "workflow": "answer",
+      "stages": [
+        "inspect"
+      ],
+      "context": "Actual source / page-1 prose also supports the answer",
+      "label": "Answer | Actual source / page-1 prose also supports the answer",
+      "railHeight": 116,
+      "slideHeight": 686,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 40,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Composition recap / both workflows through the same index",
+      "label": "Overview / multiple stages | Composition recap / both workflows through the same index",
+      "railHeight": 116,
+      "slideHeight": 408,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 41,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Optional visual question / not VLM-verified",
+      "label": "Overview / multiple stages | Optional visual question / not VLM-verified",
+      "railHeight": 116,
+      "slideHeight": 709,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 42,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Optional visual source / adapted example, not a model result",
+      "label": "Overview / multiple stages | Optional visual source / adapted example, not a model result",
+      "railHeight": 116,
+      "slideHeight": 420,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "slide": 1,
+      "workflow": "overview",
+      "stages": [],
+      "context": "The evidence-checking problem",
+      "label": "Overview / multiple stages | The evidence-checking problem",
+      "railHeight": 103,
+      "slideHeight": 638,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 2,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Two workflows, not extraction per question",
+      "label": "Overview / multiple stages | Two workflows, not extraction per question",
+      "railHeight": 103,
+      "slideHeight": 368,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 3,
+      "workflow": "overview",
+      "stages": [],
+      "context": "How the .NET responsibilities compose",
+      "label": "Overview / multiple stages | How the .NET responsibilities compose",
+      "railHeight": 103,
+      "slideHeight": 683,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 4,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Prepare and answer meet at the same index",
+      "label": "Overview / multiple stages | Prepare and answer meet at the same index",
+      "railHeight": 103,
+      "slideHeight": 683,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 5,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / demo-local PdfPig adapter",
+      "label": "Prepare | Native / demo-local PdfPig adapter",
+      "railHeight": 103,
+      "slideHeight": 568,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 6,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / digital fixture",
+      "label": "Prepare | Native / digital fixture",
+      "railHeight": 103,
+      "slideHeight": 613,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 7,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Inside the native adapter / page provenance",
+      "label": "Prepare | Inside the native adapter / page provenance",
+      "railHeight": 103,
+      "slideHeight": 533,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 8,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Inside the native adapter / local content and source",
+      "label": "Prepare | Inside the native adapter / local content and source",
+      "railHeight": 103,
+      "slideHeight": 565,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 9,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / recorded digital extraction",
+      "label": "Prepare | Native / recorded digital extraction",
+      "railHeight": 103,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 10,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / scanned comparison / not OCR",
+      "label": "Prepare | Native / scanned comparison / not OCR",
+      "railHeight": 103,
+      "slideHeight": 515,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 11,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "CU / same preparation pipeline, different reader",
+      "label": "Prepare | CU / same preparation pipeline, different reader",
+      "railHeight": 103,
+      "slideHeight": 577,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 12,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "CU / recorded OCR-capable extraction, same pipeline",
+      "label": "Prepare | CU / recorded OCR-capable extraction, same pipeline",
+      "railHeight": 103,
+      "slideHeight": 488,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            134
+          ],
+          "scroll": [
+            1280,
+            134
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            134
+          ],
+          "scroll": [
+            1280,
+            134
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 13,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Shared Documents-to-MEDI projection / native walkthrough",
+      "label": "Prepare | Shared Documents-to-MEDI projection / native walkthrough",
+      "railHeight": 103,
+      "slideHeight": 503,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 14,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Shared source-association bridge / native walkthrough",
+      "label": "Prepare | Shared source-association bridge / native walkthrough",
+      "railHeight": 103,
+      "slideHeight": 565,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 15,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Local tokenizer / 384 tokens with 48 overlap",
+      "label": "Prepare | Local tokenizer / 384 tokens with 48 overlap",
+      "railHeight": 103,
+      "slideHeight": 607,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            394
+          ],
+          "scroll": [
+            1280,
+            394
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            394
+          ],
+          "scroll": [
+            1280,
+            394
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 16,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Native walkthrough / sources stay attached",
+      "label": "Prepare | Native walkthrough / sources stay attached",
+      "railHeight": 103,
+      "slideHeight": 645,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 17,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Native / recorded chunk content and source",
+      "label": "Prepare | Native / recorded chunk content and source",
+      "railHeight": 103,
+      "slideHeight": 506,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 18,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Native / digital versus scanned, identical policy",
+      "label": "Prepare | Native / digital versus scanned, identical policy",
+      "railHeight": 103,
+      "slideHeight": 559,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 19,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Source-linked record / shared schema",
+      "label": "Prepare | Source-linked record / shared schema",
+      "railHeight": 103,
+      "slideHeight": 524,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 20,
+      "workflow": "shared",
+      "stages": [
+        "embed-documents",
+        "embed-question",
+        "answer"
+      ],
+      "context": "SDK setup reused by both workflows",
+      "label": "Shared setup / multiple stages | SDK setup reused by both workflows",
+      "railHeight": 103,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 21,
+      "workflow": "shared",
+      "stages": [
+        "embed-documents",
+        "embed-question"
+      ],
+      "context": "Guarded embedding client / documents and questions",
+      "label": "Shared setup / multiple stages | Guarded embedding client / documents and questions",
+      "railHeight": 103,
+      "slideHeight": 486,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 22,
+      "workflow": "shared",
+      "stages": [
+        "embed-documents",
+        "embed-question",
+        "answer"
+      ],
+      "context": "All model requests remain guarded",
+      "label": "Shared setup / multiple stages | All model requests remain guarded",
+      "railHeight": 103,
+      "slideHeight": 591,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 23,
+      "workflow": "prepare",
+      "stages": [
+        "embed-documents"
+      ],
+      "context": "Native / historical failed attempt, not the later result",
+      "label": "Prepare | Native / historical failed attempt, not the later result",
+      "railHeight": 103,
+      "slideHeight": 509,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 24,
+      "workflow": "prepare",
+      "stages": [
+        "embed-documents"
+      ],
+      "context": "Native / actual learned document vector, final .1",
+      "label": "Prepare | Native / actual learned document vector, final .1",
+      "railHeight": 103,
+      "slideHeight": 486,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 25,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Shared record schema / content, vector and provenance",
+      "label": "Prepare | Shared record schema / content, vector and provenance",
+      "railHeight": 103,
+      "slideHeight": 576,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 26,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Shared 1536-dimensional vector schema",
+      "label": "Prepare | Shared 1536-dimensional vector schema",
+      "railHeight": 103,
+      "slideHeight": 518,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 27,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Explicit SQLite collection / provider-specific index",
+      "label": "Prepare | Explicit SQLite collection / provider-specific index",
+      "railHeight": 103,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 28,
+      "workflow": "prepare",
+      "stages": [
+        "embed-documents"
+      ],
+      "context": "Document embeddings / not question-time embeddings",
+      "label": "Prepare | Document embeddings / not question-time embeddings",
+      "railHeight": 103,
+      "slideHeight": 518,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 29,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Write prepared records / shared workflow boundary",
+      "label": "Prepare | Write prepared records / shared workflow boundary",
+      "railHeight": 103,
+      "slideHeight": 542,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 30,
+      "workflow": "answer",
+      "stages": [
+        "embed-question",
+        "retrieve"
+      ],
+      "context": "Question vector / search the existing prepared index",
+      "label": "Answer | Question vector / search the existing prepared index",
+      "railHeight": 103,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 31,
+      "workflow": "answer",
+      "stages": [
+        "retrieve"
+      ],
+      "context": "Native versus CU / actual returned records",
+      "label": "Answer | Native versus CU / actual returned records",
+      "railHeight": 103,
+      "slideHeight": 577,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 32,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "Guarded chat client / shared native and CU composition",
+      "label": "Answer | Guarded chat client / shared native and CU composition",
+      "railHeight": 103,
+      "slideHeight": 486,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 33,
+      "workflow": "answer",
+      "stages": [
+        "retrieve",
+        "answer"
+      ],
+      "context": "App composition / reuse prepared provider-specific index",
+      "label": "Answer | App composition / reuse prepared provider-specific index",
+      "railHeight": 103,
+      "slideHeight": 554,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 34,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "Retrieved passages in / actual source records out",
+      "label": "Answer | Retrieved passages in / actual source records out",
+      "railHeight": 103,
+      "slideHeight": 622,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 35,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "Native index / actual recorded hero response",
+      "label": "Answer | Native index / actual recorded hero response",
+      "railHeight": 103,
+      "slideHeight": 471,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 36,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "CU index / same answer workflow, different prepared evidence",
+      "label": "Answer | CU index / same answer workflow, different prepared evidence",
+      "railHeight": 103,
+      "slideHeight": 511,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 37,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Recorded usage / native and CU workflows",
+      "label": "Overview / multiple stages | Recorded usage / native and CU workflows",
+      "railHeight": 103,
+      "slideHeight": 449,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 38,
+      "workflow": "answer",
+      "stages": [
+        "inspect"
+      ],
+      "context": "Application evidence check / not automatic correctness",
+      "label": "Answer | Application evidence check / not automatic correctness",
+      "railHeight": 103,
+      "slideHeight": 453,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        }
+      ],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 39,
+      "workflow": "answer",
+      "stages": [
+        "inspect"
+      ],
+      "context": "Actual source / page-1 prose also supports the answer",
+      "label": "Answer | Actual source / page-1 prose also supports the answer",
+      "railHeight": 103,
+      "slideHeight": 686,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 40,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Composition recap / both workflows through the same index",
+      "label": "Overview / multiple stages | Composition recap / both workflows through the same index",
+      "railHeight": 103,
+      "slideHeight": 408,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 41,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Optional visual question / not VLM-verified",
+      "label": "Overview / multiple stages | Optional visual question / not VLM-verified",
+      "railHeight": 103,
+      "slideHeight": 709,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 42,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Optional visual source / adapted example, not a model result",
+      "label": "Overview / multiple stages | Optional visual source / adapted example, not a model result",
+      "railHeight": 103,
+      "slideHeight": 420,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        754,
+        876
+      ]
+    },
+    {
+      "slide": 1,
+      "workflow": "overview",
+      "stages": [],
+      "context": "The evidence-checking problem",
+      "label": "Overview / multiple stages | The evidence-checking problem",
+      "railHeight": 113,
+      "slideHeight": 638,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 2,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Two workflows, not extraction per question",
+      "label": "Overview / multiple stages | Two workflows, not extraction per question",
+      "railHeight": 113,
+      "slideHeight": 368,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 3,
+      "workflow": "overview",
+      "stages": [],
+      "context": "How the .NET responsibilities compose",
+      "label": "Overview / multiple stages | How the .NET responsibilities compose",
+      "railHeight": 113,
+      "slideHeight": 683,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 4,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Prepare and answer meet at the same index",
+      "label": "Overview / multiple stages | Prepare and answer meet at the same index",
+      "railHeight": 113,
+      "slideHeight": 683,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 5,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / demo-local PdfPig adapter",
+      "label": "Prepare | Native / demo-local PdfPig adapter",
+      "railHeight": 113,
+      "slideHeight": 568,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 6,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / digital fixture",
+      "label": "Prepare | Native / digital fixture",
+      "railHeight": 113,
+      "slideHeight": 613,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 7,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Inside the native adapter / page provenance",
+      "label": "Prepare | Inside the native adapter / page provenance",
+      "railHeight": 113,
+      "slideHeight": 533,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 8,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Inside the native adapter / local content and source",
+      "label": "Prepare | Inside the native adapter / local content and source",
+      "railHeight": 113,
+      "slideHeight": 565,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 9,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / recorded digital extraction",
+      "label": "Prepare | Native / recorded digital extraction",
+      "railHeight": 113,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 10,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / scanned comparison / not OCR",
+      "label": "Prepare | Native / scanned comparison / not OCR",
+      "railHeight": 113,
+      "slideHeight": 515,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 11,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "CU / same preparation pipeline, different reader",
+      "label": "Prepare | CU / same preparation pipeline, different reader",
+      "railHeight": 113,
+      "slideHeight": 577,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 12,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "CU / recorded OCR-capable extraction, same pipeline",
+      "label": "Prepare | CU / recorded OCR-capable extraction, same pipeline",
+      "railHeight": 113,
+      "slideHeight": 488,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            134
+          ],
+          "scroll": [
+            1280,
+            134
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            134
+          ],
+          "scroll": [
+            1280,
+            134
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 13,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Shared Documents-to-MEDI projection / native walkthrough",
+      "label": "Prepare | Shared Documents-to-MEDI projection / native walkthrough",
+      "railHeight": 113,
+      "slideHeight": 503,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 14,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Shared source-association bridge / native walkthrough",
+      "label": "Prepare | Shared source-association bridge / native walkthrough",
+      "railHeight": 113,
+      "slideHeight": 565,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 15,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Local tokenizer / 384 tokens with 48 overlap",
+      "label": "Prepare | Local tokenizer / 384 tokens with 48 overlap",
+      "railHeight": 113,
+      "slideHeight": 607,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            394
+          ],
+          "scroll": [
+            1280,
+            394
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            394
+          ],
+          "scroll": [
+            1280,
+            394
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 16,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Native walkthrough / sources stay attached",
+      "label": "Prepare | Native walkthrough / sources stay attached",
+      "railHeight": 113,
+      "slideHeight": 645,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 17,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Native / recorded chunk content and source",
+      "label": "Prepare | Native / recorded chunk content and source",
+      "railHeight": 113,
+      "slideHeight": 506,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 18,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Native / digital versus scanned, identical policy",
+      "label": "Prepare | Native / digital versus scanned, identical policy",
+      "railHeight": 113,
+      "slideHeight": 559,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 19,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Source-linked record / shared schema",
+      "label": "Prepare | Source-linked record / shared schema",
+      "railHeight": 113,
+      "slideHeight": 524,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 20,
+      "workflow": "shared",
+      "stages": [
+        "embed-documents",
+        "embed-question",
+        "answer"
+      ],
+      "context": "SDK setup reused by both workflows",
+      "label": "Shared setup / multiple stages | SDK setup reused by both workflows",
+      "railHeight": 113,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 21,
+      "workflow": "shared",
+      "stages": [
+        "embed-documents",
+        "embed-question"
+      ],
+      "context": "Guarded embedding client / documents and questions",
+      "label": "Shared setup / multiple stages | Guarded embedding client / documents and questions",
+      "railHeight": 113,
+      "slideHeight": 486,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 22,
+      "workflow": "shared",
+      "stages": [
+        "embed-documents",
+        "embed-question",
+        "answer"
+      ],
+      "context": "All model requests remain guarded",
+      "label": "Shared setup / multiple stages | All model requests remain guarded",
+      "railHeight": 113,
+      "slideHeight": 591,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 23,
+      "workflow": "prepare",
+      "stages": [
+        "embed-documents"
+      ],
+      "context": "Native / historical failed attempt, not the later result",
+      "label": "Prepare | Native / historical failed attempt, not the later result",
+      "railHeight": 113,
+      "slideHeight": 509,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 24,
+      "workflow": "prepare",
+      "stages": [
+        "embed-documents"
+      ],
+      "context": "Native / actual learned document vector, final .1",
+      "label": "Prepare | Native / actual learned document vector, final .1",
+      "railHeight": 113,
+      "slideHeight": 486,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 25,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Shared record schema / content, vector and provenance",
+      "label": "Prepare | Shared record schema / content, vector and provenance",
+      "railHeight": 113,
+      "slideHeight": 576,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 26,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Shared 1536-dimensional vector schema",
+      "label": "Prepare | Shared 1536-dimensional vector schema",
+      "railHeight": 113,
+      "slideHeight": 518,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 27,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Explicit SQLite collection / provider-specific index",
+      "label": "Prepare | Explicit SQLite collection / provider-specific index",
+      "railHeight": 113,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 28,
+      "workflow": "prepare",
+      "stages": [
+        "embed-documents"
+      ],
+      "context": "Document embeddings / not question-time embeddings",
+      "label": "Prepare | Document embeddings / not question-time embeddings",
+      "railHeight": 113,
+      "slideHeight": 518,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 29,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Write prepared records / shared workflow boundary",
+      "label": "Prepare | Write prepared records / shared workflow boundary",
+      "railHeight": 113,
+      "slideHeight": 542,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 30,
+      "workflow": "answer",
+      "stages": [
+        "embed-question",
+        "retrieve"
+      ],
+      "context": "Question vector / search the existing prepared index",
+      "label": "Answer | Question vector / search the existing prepared index",
+      "railHeight": 113,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 31,
+      "workflow": "answer",
+      "stages": [
+        "retrieve"
+      ],
+      "context": "Native versus CU / actual returned records",
+      "label": "Answer | Native versus CU / actual returned records",
+      "railHeight": 113,
+      "slideHeight": 577,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 32,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "Guarded chat client / shared native and CU composition",
+      "label": "Answer | Guarded chat client / shared native and CU composition",
+      "railHeight": 113,
+      "slideHeight": 486,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 33,
+      "workflow": "answer",
+      "stages": [
+        "retrieve",
+        "answer"
+      ],
+      "context": "App composition / reuse prepared provider-specific index",
+      "label": "Answer | App composition / reuse prepared provider-specific index",
+      "railHeight": 113,
+      "slideHeight": 554,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 34,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "Retrieved passages in / actual source records out",
+      "label": "Answer | Retrieved passages in / actual source records out",
+      "railHeight": 113,
+      "slideHeight": 622,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 35,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "Native index / actual recorded hero response",
+      "label": "Answer | Native index / actual recorded hero response",
+      "railHeight": 113,
+      "slideHeight": 471,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 36,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "CU index / same answer workflow, different prepared evidence",
+      "label": "Answer | CU index / same answer workflow, different prepared evidence",
+      "railHeight": 113,
+      "slideHeight": 511,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 37,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Recorded usage / native and CU workflows",
+      "label": "Overview / multiple stages | Recorded usage / native and CU workflows",
+      "railHeight": 113,
+      "slideHeight": 449,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 38,
+      "workflow": "answer",
+      "stages": [
+        "inspect"
+      ],
+      "context": "Application evidence check / not automatic correctness",
+      "label": "Answer | Application evidence check / not automatic correctness",
+      "railHeight": 113,
+      "slideHeight": 453,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        }
+      ],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 39,
+      "workflow": "answer",
+      "stages": [
+        "inspect"
+      ],
+      "context": "Actual source / page-1 prose also supports the answer",
+      "label": "Answer | Actual source / page-1 prose also supports the answer",
+      "railHeight": 113,
+      "slideHeight": 686,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 40,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Composition recap / both workflows through the same index",
+      "label": "Overview / multiple stages | Composition recap / both workflows through the same index",
+      "railHeight": 113,
+      "slideHeight": 408,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 41,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Optional visual question / not VLM-verified",
+      "label": "Overview / multiple stages | Optional visual question / not VLM-verified",
+      "railHeight": 113,
+      "slideHeight": 709,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 42,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Optional visual source / adapted example, not a model result",
+      "label": "Overview / multiple stages | Optional visual source / adapted example, not a model result",
+      "railHeight": 113,
+      "slideHeight": 420,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        541,
+        876
+      ]
+    },
+    {
+      "slide": 1,
+      "workflow": "overview",
+      "stages": [],
+      "context": "The evidence-checking problem",
+      "label": "Overview / multiple stages | The evidence-checking problem",
+      "railHeight": 139,
+      "slideHeight": 638,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 2,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Two workflows, not extraction per question",
+      "label": "Overview / multiple stages | Two workflows, not extraction per question",
+      "railHeight": 154,
+      "slideHeight": 368,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 3,
+      "workflow": "overview",
+      "stages": [],
+      "context": "How the .NET responsibilities compose",
+      "label": "Overview / multiple stages | How the .NET responsibilities compose",
+      "railHeight": 154,
+      "slideHeight": 683,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 4,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Prepare and answer meet at the same index",
+      "label": "Overview / multiple stages | Prepare and answer meet at the same index",
+      "railHeight": 154,
+      "slideHeight": 683,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 5,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / demo-local PdfPig adapter",
+      "label": "Prepare | Native / demo-local PdfPig adapter",
+      "railHeight": 139,
+      "slideHeight": 568,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 6,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / digital fixture",
+      "label": "Prepare | Native / digital fixture",
+      "railHeight": 139,
+      "slideHeight": 613,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 7,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Inside the native adapter / page provenance",
+      "label": "Prepare | Inside the native adapter / page provenance",
+      "railHeight": 139,
+      "slideHeight": 533,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 8,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Inside the native adapter / local content and source",
+      "label": "Prepare | Inside the native adapter / local content and source",
+      "railHeight": 139,
+      "slideHeight": 565,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 9,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / recorded digital extraction",
+      "label": "Prepare | Native / recorded digital extraction",
+      "railHeight": 139,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 10,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "Native / scanned comparison / not OCR",
+      "label": "Prepare | Native / scanned comparison / not OCR",
+      "railHeight": 139,
+      "slideHeight": 515,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 11,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "CU / same preparation pipeline, different reader",
+      "label": "Prepare | CU / same preparation pipeline, different reader",
+      "railHeight": 139,
+      "slideHeight": 577,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 12,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "CU / recorded OCR-capable extraction, same pipeline",
+      "label": "Prepare | CU / recorded OCR-capable extraction, same pipeline",
+      "railHeight": 139,
+      "slideHeight": 488,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            134
+          ],
+          "scroll": [
+            1280,
+            134
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            134
+          ],
+          "scroll": [
+            1280,
+            134
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 13,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Shared Documents-to-MEDI projection / native walkthrough",
+      "label": "Prepare | Shared Documents-to-MEDI projection / native walkthrough",
+      "railHeight": 154,
+      "slideHeight": 503,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 14,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Shared source-association bridge / native walkthrough",
+      "label": "Prepare | Shared source-association bridge / native walkthrough",
+      "railHeight": 139,
+      "slideHeight": 565,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 15,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Local tokenizer / 384 tokens with 48 overlap",
+      "label": "Prepare | Local tokenizer / 384 tokens with 48 overlap",
+      "railHeight": 139,
+      "slideHeight": 607,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            394
+          ],
+          "scroll": [
+            1280,
+            394
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            394
+          ],
+          "scroll": [
+            1280,
+            394
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 16,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Native walkthrough / sources stay attached",
+      "label": "Prepare | Native walkthrough / sources stay attached",
+      "railHeight": 139,
+      "slideHeight": 645,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 17,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Native / recorded chunk content and source",
+      "label": "Prepare | Native / recorded chunk content and source",
+      "railHeight": 139,
+      "slideHeight": 506,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 18,
+      "workflow": "prepare",
+      "stages": [
+        "chunk"
+      ],
+      "context": "Native / digital versus scanned, identical policy",
+      "label": "Prepare | Native / digital versus scanned, identical policy",
+      "railHeight": 139,
+      "slideHeight": 559,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 19,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Source-linked record / shared schema",
+      "label": "Prepare | Source-linked record / shared schema",
+      "railHeight": 139,
+      "slideHeight": 524,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 20,
+      "workflow": "shared",
+      "stages": [
+        "embed-documents",
+        "embed-question",
+        "answer"
+      ],
+      "context": "SDK setup reused by both workflows",
+      "label": "Shared setup / multiple stages | SDK setup reused by both workflows",
+      "railHeight": 154,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 21,
+      "workflow": "shared",
+      "stages": [
+        "embed-documents",
+        "embed-question"
+      ],
+      "context": "Guarded embedding client / documents and questions",
+      "label": "Shared setup / multiple stages | Guarded embedding client / documents and questions",
+      "railHeight": 154,
+      "slideHeight": 486,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 22,
+      "workflow": "shared",
+      "stages": [
+        "embed-documents",
+        "embed-question",
+        "answer"
+      ],
+      "context": "All model requests remain guarded",
+      "label": "Shared setup / multiple stages | All model requests remain guarded",
+      "railHeight": 154,
+      "slideHeight": 591,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 23,
+      "workflow": "prepare",
+      "stages": [
+        "embed-documents"
+      ],
+      "context": "Native / historical failed attempt, not the later result",
+      "label": "Prepare | Native / historical failed attempt, not the later result",
+      "railHeight": 139,
+      "slideHeight": 509,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 24,
+      "workflow": "prepare",
+      "stages": [
+        "embed-documents"
+      ],
+      "context": "Native / actual learned document vector, final .1",
+      "label": "Prepare | Native / actual learned document vector, final .1",
+      "railHeight": 139,
+      "slideHeight": 486,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 25,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Shared record schema / content, vector and provenance",
+      "label": "Prepare | Shared record schema / content, vector and provenance",
+      "railHeight": 139,
+      "slideHeight": 576,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 26,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Shared 1536-dimensional vector schema",
+      "label": "Prepare | Shared 1536-dimensional vector schema",
+      "railHeight": 139,
+      "slideHeight": 518,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 27,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Explicit SQLite collection / provider-specific index",
+      "label": "Prepare | Explicit SQLite collection / provider-specific index",
+      "railHeight": 139,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 28,
+      "workflow": "prepare",
+      "stages": [
+        "embed-documents"
+      ],
+      "context": "Document embeddings / not question-time embeddings",
+      "label": "Prepare | Document embeddings / not question-time embeddings",
+      "railHeight": 139,
+      "slideHeight": 518,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            231
+          ],
+          "scroll": [
+            1280,
+            231
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 29,
+      "workflow": "prepare",
+      "stages": [
+        "index"
+      ],
+      "context": "Write prepared records / shared workflow boundary",
+      "label": "Prepare | Write prepared records / shared workflow boundary",
+      "railHeight": 139,
+      "slideHeight": 542,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            329
+          ],
+          "scroll": [
+            1280,
+            329
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 30,
+      "workflow": "answer",
+      "stages": [
+        "embed-question",
+        "retrieve"
+      ],
+      "context": "Question vector / search the existing prepared index",
+      "label": "Answer | Question vector / search the existing prepared index",
+      "railHeight": 139,
+      "slideHeight": 551,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            264
+          ],
+          "scroll": [
+            1280,
+            264
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 31,
+      "workflow": "answer",
+      "stages": [
+        "retrieve"
+      ],
+      "context": "Native versus CU / actual returned records",
+      "label": "Answer | Native versus CU / actual returned records",
+      "railHeight": 139,
+      "slideHeight": 577,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 32,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "Guarded chat client / shared native and CU composition",
+      "label": "Answer | Guarded chat client / shared native and CU composition",
+      "railHeight": 139,
+      "slideHeight": 486,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            199
+          ],
+          "scroll": [
+            1280,
+            199
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 33,
+      "workflow": "answer",
+      "stages": [
+        "retrieve",
+        "answer"
+      ],
+      "context": "App composition / reuse prepared provider-specific index",
+      "label": "Answer | App composition / reuse prepared provider-specific index",
+      "railHeight": 139,
+      "slideHeight": 554,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            69
+          ],
+          "scroll": [
+            1280,
+            69
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 34,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "Retrieved passages in / actual source records out",
+      "label": "Answer | Retrieved passages in / actual source records out",
+      "railHeight": 139,
+      "slideHeight": 622,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            296
+          ],
+          "scroll": [
+            1280,
+            296
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 35,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "Native index / actual recorded hero response",
+      "label": "Answer | Native index / actual recorded hero response",
+      "railHeight": 139,
+      "slideHeight": 471,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 36,
+      "workflow": "answer",
+      "stages": [
+        "answer"
+      ],
+      "context": "CU index / same answer workflow, different prepared evidence",
+      "label": "Answer | CU index / same answer workflow, different prepared evidence",
+      "railHeight": 154,
+      "slideHeight": 511,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 37,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Recorded usage / native and CU workflows",
+      "label": "Overview / multiple stages | Recorded usage / native and CU workflows",
+      "railHeight": 154,
+      "slideHeight": 449,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 38,
+      "workflow": "answer",
+      "stages": [
+        "inspect"
+      ],
+      "context": "Application evidence check / not automatic correctness",
+      "label": "Answer | Application evidence check / not automatic correctness",
+      "railHeight": 139,
+      "slideHeight": 453,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 39,
+      "workflow": "answer",
+      "stages": [
+        "inspect"
+      ],
+      "context": "Actual source / page-1 prose also supports the answer",
+      "label": "Answer | Actual source / page-1 prose also supports the answer",
+      "railHeight": 139,
+      "slideHeight": 686,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 40,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Composition recap / both workflows through the same index",
+      "label": "Overview / multiple stages | Composition recap / both workflows through the same index",
+      "railHeight": 154,
+      "slideHeight": 408,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 41,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Optional visual question / not VLM-verified",
+      "label": "Overview / multiple stages | Optional visual question / not VLM-verified",
+      "railHeight": 154,
+      "slideHeight": 709,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "slide": 42,
+      "workflow": "overview",
+      "stages": [],
+      "context": "Optional visual source / adapted example, not a model result",
+      "label": "Overview / multiple stages | Optional visual source / adapted example, not a model result",
+      "railHeight": 154,
+      "slideHeight": 420,
+      "fonts": [],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [],
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "navigation": {
+    "direct": {
+      "slide": 11,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "CU / same preparation pipeline, different reader",
+      "label": "Prepare | CU / same preparation pipeline, different reader",
+      "railHeight": 103,
+      "slideHeight": 577,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ]
+    },
+    "next": {
+      "slide": 12,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "CU / recorded OCR-capable extraction, same pipeline",
+      "label": "Prepare | CU / recorded OCR-capable extraction, same pipeline",
+      "railHeight": 103,
+      "slideHeight": 488,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            134
+          ],
+          "scroll": [
+            1280,
+            134
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            134
+          ],
+          "scroll": [
+            1280,
+            134
+          ]
+        }
+      ]
+    },
+    "previous": {
+      "slide": 11,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "CU / same preparation pipeline, different reader",
+      "label": "Prepare | CU / same preparation pipeline, different reader",
+      "railHeight": 103,
+      "slideHeight": 577,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ]
+    },
+    "reload": {
+      "slide": 11,
+      "workflow": "prepare",
+      "stages": [
+        "extract"
+      ],
+      "context": "CU / same preparation pipeline, different reader",
+      "label": "Prepare | CU / same preparation pipeline, different reader",
+      "railHeight": 103,
+      "slideHeight": 577,
+      "fonts": [
+        "25px"
+      ],
+      "problems": [],
+      "frameLogical": [
+        1280,
+        720
+      ],
+      "slideLogicalWidth": 1280,
+      "mode": "slides",
+      "preBoxes": [
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            166
+          ],
+          "scroll": [
+            1280,
+            166
+          ]
+        },
+        {
+          "tag": "PRE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        },
+        {
+          "tag": "CODE",
+          "client": [
+            1280,
+            101
+          ],
+          "scroll": [
+            1280,
+            101
+          ]
+        }
+      ]
+    }
+  },
+  "codeFont": "25px logical",
+  "parent8187Restarted": false,
+  "contrast": [
+    {
+      "foreground": "#ffffff",
+      "background": "#15151a",
+      "ratio": 18.19649664107484
+    },
+    {
+      "foreground": "#ededf2",
+      "background": "#15151a",
+      "ratio": 15.594172908634285
+    },
+    {
+      "foreground": "#b4b4be",
+      "background": "#15151a",
+      "ratio": 8.849306430094957
+    }
+  ],
+  "printCheck": "Existing Reveal print mode captured privately; see print-verification.json for PDF inspection"
+}

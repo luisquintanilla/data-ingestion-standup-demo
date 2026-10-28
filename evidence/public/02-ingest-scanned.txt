@@ -1,0 +1,4 @@
+S0 | provider=pdfpig | fixture=scanned.pdf
+MEDI token policy=384/48; no embedding/chat calls
+actual chunks=0; source document remains alive through consumption
+NO CHUNKS. This is a visible extraction limitation, not fallback success.

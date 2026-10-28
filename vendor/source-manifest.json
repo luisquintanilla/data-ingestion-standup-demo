@@ -1,0 +1,3688 @@
+{
+  "files": [
+    {
+      "path": ".editorconfig",
+      "sha256": "e8fe8b14b2e666c1a11c979866c33110398bfe4248cb7c98ab4d5de1bea78022"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "a05d74bede0297c42c07e027f814cb979e7728d0cb6253b8af2b4b8413876ee2"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "f0e43fe56173f7bdfc273907e19f095c2659fac0f23dc5b65052801127d3f822"
+    },
+    {
+      "path": ".npmrc",
+      "sha256": "33eab88bef38c1fbbfea6393adf6c79c311e29aa918035c2d0e7347010eb5507"
+    },
+    {
+      "path": ".spelling",
+      "sha256": "b2413d9ad18a270466f1eb31e84bc763ded85f8b513db34e9076d2c834743d1f"
+    },
+    {
+      "path": "azure-pipelines-public.yml",
+      "sha256": "7a355d301b87e84bf5533a285b68d3b1a0fad15f28c5c341e72573d4c82566a5"
+    },
+    {
+      "path": "azure-pipelines-unofficial.yml",
+      "sha256": "6c35840bc07502e60b41349cb700dae95dad163b2137538322d6204d771f1bdc"
+    },
+    {
+      "path": "azure-pipelines.yml",
+      "sha256": "78509c45274d33c356e076abb3c2fc7559a6a46666da42df43f682b79bbb5407"
+    },
+    {
+      "path": "build.cmd",
+      "sha256": "8f987a3b604a607d56ad3a0308be18e215522c85649adbcbffd082b8b8ec21b7"
+    },
+    {
+      "path": "build.sh",
+      "sha256": "4d6f202f9eb4eaebfa9dc95e56ffa4b9e7b11631c401bc88c7e45e34973763e3"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "8fe77677f1b2231b76be3de363a79a5ba1c507d0ea1f689b4e4c754eaf661065"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "7984e828b631ce89226b17ce51e6678a79a018e9980a20750bdab10cbe3ae8e0"
+    },
+    {
+      "path": "Directory.Build.props",
+      "sha256": "a528348e956d05de6472b84cad80e88e5b15f8f500e20413ae87706500c76caa"
+    },
+    {
+      "path": "Directory.Build.targets",
+      "sha256": "680fb0e27fefa9c641d8be24cb7a6c8cc4adb23976a5686bb9189a04ca6694dc"
+    },
+    {
+      "path": "Directory.Packages.props",
+      "sha256": "4af49dc5d9c32b786c86ce273e2387e19289a926c09dd523d6d8678259a7b36e"
+    },
+    {
+      "path": "es-metadata.yml",
+      "sha256": "4e56c0bc1871b7243d2cb3c01433b2d900ee4f07d00a070b89d9ec86601e6fa2"
+    },
+    {
+      "path": "global.json",
+      "sha256": "c4a87a3b9557e497695b5782ca85c944bc495342e6fe8523ab5e0b55e024ad98"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "d80e5c37ebb7015aa4d20a1c0845698a3a07931cfc397c4d012785311598b148"
+    },
+    {
+      "path": "NuGet.config",
+      "sha256": "2b7b212fc9faf60f12479eb23d8247a1f15b0e5238ab3745dfdd8397fb6df3df"
+    },
+    {
+      "path": "README.md",
+      "sha256": "5c014f41cd7826e3de14908486376f7042b8b649b584275b55934406abf6d46d"
+    },
+    {
+      "path": "restore.cmd",
+      "sha256": "35272c406d410e55a8fdbc18942714fb9d8ca3bb3b4fa13d29d5b227e2bc96f2"
+    },
+    {
+      "path": "restore.sh",
+      "sha256": "0780dcde41d60901717fec955dba2c9ce2dca089df8c21072f23856f21e6bc08"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "70718e86fe93ec007034da95fbab1b5c9a812ee8b2e2bc70f269789ade762444"
+    },
+    {
+      "path": "start-code.cmd",
+      "sha256": "6bcb48ff63927472a846304d80d67bd21ced37e8e942b8aa89cb6c7266890838"
+    },
+    {
+      "path": "start-code.sh",
+      "sha256": "80ad73e1ba17d34919eb01409401ad0a83ce054a571b209592fb3f996a6df5f2"
+    },
+    {
+      "path": "start-vs.cmd",
+      "sha256": "76e94b9140761fe718163dea09fa18c7620062af54934224986f48e5a7f0c666"
+    },
+    {
+      "path": "testEnvironments.json",
+      "sha256": "490721b04919b6189b84696fdcd38ca9ffe928a8f1a7e0b780d8a9e3520b65ca"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.TXT",
+      "sha256": "2419e0b7683bec37fa29e666148bcb7d65c677a579e576c9b73ecd8c3b72eec7"
+    },
+    {
+      "path": "eng\\_._",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "eng\\AfterSolutionBuild.targets",
+      "sha256": "91b64b883a1db4fa034a622d095c76c4dc3b269cf8b453ce81b902144e4839e9"
+    },
+    {
+      "path": "eng\\build.proj",
+      "sha256": "ef2248b3eb94c6f8b0e49b0ad4eee037d28d4f0436baff7957aabe1f81788641"
+    },
+    {
+      "path": "eng\\Build.props",
+      "sha256": "ab05ad69c8b3e7c85c5ea875f62024176bb68c3b8b7ef76bcade8f3aa42870e9"
+    },
+    {
+      "path": "eng\\build.ps1",
+      "sha256": "8baa54abb205bb61001e0d6991bfae4e6e46424148b4989602b610403d845cb0"
+    },
+    {
+      "path": "eng\\build.sh",
+      "sha256": "242a08f13bebd202b8fa25b4b897d2433d5d52e4019741ac0789b6da798417a8"
+    },
+    {
+      "path": "eng\\CodeCoverage.config",
+      "sha256": "dc4a24a636da17c24b2b7120e7b208cdf194b06631037ce1de0879f43109348d"
+    },
+    {
+      "path": "eng\\MSSharedLibSN2048.snk",
+      "sha256": "05565f4dc46d9825e42cf5762b6441c827590664f786e181a105a2f4f126a61d"
+    },
+    {
+      "path": "eng\\PSScriptAnalyzerSettings.psd1",
+      "sha256": "54e896d65ebfda6ac1beeac16d2272b10bd29979819231571fef60d6e8c9e9d9"
+    },
+    {
+      "path": "eng\\Publishing.props",
+      "sha256": "4c58c1ae7d2b8a0be8db8e03e5b60d020c03449bf2856467aade0fec6dcf2f9e"
+    },
+    {
+      "path": "eng\\sdl-tsa-vars.config",
+      "sha256": "040d436eaa2df16b1f38701d7f592d77bbd4499e453a8dabc181e3a9ec03c223"
+    },
+    {
+      "path": "eng\\Signing.props",
+      "sha256": "ae355e54f7d55a627c6f38183b5c2fcff8e2649fdff3526ba1904e6a71f92aa7"
+    },
+    {
+      "path": "eng\\spellchecking_exclusions.dic",
+      "sha256": "bf322906ccb2e77a0067278cbd5cc2ce46e8fef318560adea1e19c179a4c9fc2"
+    },
+    {
+      "path": "eng\\stryker-config.json",
+      "sha256": "03a253deee606c58ac9fb20f0eb4afa21c429782f45349b1f041f52e2091aed0"
+    },
+    {
+      "path": "eng\\Stylecop.json",
+      "sha256": "cb5598bc1dbd21ef7809e4cea12a6752489f32e5c6f66f46f4a0ceff765e3b95"
+    },
+    {
+      "path": "eng\\Version.Details.xml",
+      "sha256": "60781a7fde24c40badea7d65d057d3ebacd193854fa6acd6e2f98d6b257df82b"
+    },
+    {
+      "path": "eng\\Versions.props",
+      "sha256": "cfbbb9d1f5add108f46cde9c36bbe1b6953655e232df51e8d0e48839ddb48c71"
+    },
+    {
+      "path": "eng\\xunit.runner.json",
+      "sha256": "2c736c99f6ead3f14c8e3291f82c908364d552ee22d116dba796973ab8deb5cc"
+    },
+    {
+      "path": "eng\\common\\build.cmd",
+      "sha256": "cd775ac8098b6fd869bf9fa11d1e5062bbeb7e3b86b91691a3cca5684a244a1d"
+    },
+    {
+      "path": "eng\\common\\build.ps1",
+      "sha256": "615ba8eb7272912710c8918a9e2aeb83521c5302af28ee685788fb2e58b43f6b"
+    },
+    {
+      "path": "eng\\common\\build.sh",
+      "sha256": "48ce11379dad5d4da93dcccbb77c72221a3781d1adeecd763afd0aad54bed6c9"
+    },
+    {
+      "path": "eng\\common\\CIBuild.cmd",
+      "sha256": "e92ff35fe3411aa226c67515f35bc74a2df3214c19568620bb0b9cacc550d4aa"
+    },
+    {
+      "path": "eng\\common\\cibuild.sh",
+      "sha256": "3e15b6f7d362809aa46ba042a10e1b18ad1ba84cb026e5f057e9e04f35c964ec"
+    },
+    {
+      "path": "eng\\common\\darc-init.ps1",
+      "sha256": "39e7782f0aedb3e4e5dc012ace9f44026f2175fbad7932473b9e704584e6824c"
+    },
+    {
+      "path": "eng\\common\\darc-init.sh",
+      "sha256": "0f0f5eb8515a8ee65e5009a3ed247cbf069dfa5474fe15773499d6d6b1899291"
+    },
+    {
+      "path": "eng\\common\\dotnet-install.cmd",
+      "sha256": "c317765c10274bc2bc84dba8000d9f1b16bedaa99a65273b44a4787bc34e8ac1"
+    },
+    {
+      "path": "eng\\common\\dotnet-install.ps1",
+      "sha256": "e1901d714b550f9ad18477c97fdfff768654559964918d308f1804de8d40f259"
+    },
+    {
+      "path": "eng\\common\\dotnet-install.sh",
+      "sha256": "9088924294f00023fa94a0c866600a64a08042ccb06ce6ac90aadeba063b536e"
+    },
+    {
+      "path": "eng\\common\\dotnet.cmd",
+      "sha256": "5062ed4d44d0646a92e5c09541bb0477eb521ab0c42337f16ba4cf6087d2ebb6"
+    },
+    {
+      "path": "eng\\common\\dotnet.ps1",
+      "sha256": "78e5730fcc6910a40c731516cc2f209751e72abd36368f49e90760b673ec4e6b"
+    },
+    {
+      "path": "eng\\common\\dotnet.sh",
+      "sha256": "be50c39079bd8c8af71b1e58978b858bd8b21a1be99e4b50ce4fa6fd066bcca7"
+    },
+    {
+      "path": "eng\\common\\enable-cross-org-publishing.ps1",
+      "sha256": "538f91f40d180fc44aa5265dcfc88c86bec52b26782a2712224da22ebb5491a9"
+    },
+    {
+      "path": "eng\\common\\generate-locproject.ps1",
+      "sha256": "32f59fe46452a4f8c671bdd9becba3a904dc3ef13efabfd49ecf003165e1cc36"
+    },
+    {
+      "path": "eng\\common\\Get-GitHubAppToken.ps1",
+      "sha256": "0bd3cdf512b4992d237af6c6bdb91d51bfae24129eed6a89224fa65dc9782932"
+    },
+    {
+      "path": "eng\\common\\helixpublish.proj",
+      "sha256": "ade61d2bcd9778ef8ddc84a10914e2934eef8922d0c157c1aa8354921fc555a3"
+    },
+    {
+      "path": "eng\\common\\init-tools-native.cmd",
+      "sha256": "823a973e0ca6ca1b0f88aff97a12304958dc9539f2f83605765bcd64c6354b0a"
+    },
+    {
+      "path": "eng\\common\\init-tools-native.ps1",
+      "sha256": "10bc35a0f09893ab239fe7361d501d8dbe490bd7039abd0bde55ac094d678d13"
+    },
+    {
+      "path": "eng\\common\\init-tools-native.sh",
+      "sha256": "3de2475d7eb816faed0997cf69a7a425f1f0cb201a30e5e126091a316fab3cb4"
+    },
+    {
+      "path": "eng\\common\\internal-feed-operations.ps1",
+      "sha256": "9e2fc5715c26684d241778dd207de47da7f69dbdcce20dc9d40515b3103f8da9"
+    },
+    {
+      "path": "eng\\common\\internal-feed-operations.sh",
+      "sha256": "59e22f7fb5342db8fdc5cdf51e9b836d07a85607f28f6e9cb4bc5e326b618c77"
+    },
+    {
+      "path": "eng\\common\\msbuild.ps1",
+      "sha256": "14125fcb01d8a7dfe116711c2d41a87e8b021c758b319b33e50cfc9a5b061bbb"
+    },
+    {
+      "path": "eng\\common\\msbuild.sh",
+      "sha256": "8923bb5b3a7713ea6c7da1f9745fbe9fa192b12a323488110804e65b35421981"
+    },
+    {
+      "path": "eng\\common\\pipeline-logging-functions.ps1",
+      "sha256": "66f30330ebd4f7661acf7a7ff981cb236efb286744224426a5bbefb018513467"
+    },
+    {
+      "path": "eng\\common\\pipeline-logging-functions.sh",
+      "sha256": "cb47ccfcb09bda5d5b10fcd24cf53d5fc26b1afca7725e3e36b7bc225e641405"
+    },
+    {
+      "path": "eng\\common\\PSScriptAnalyzerSettings.psd1",
+      "sha256": "02e882017392ec8a990990e55020bcab14fd56a7a14e5fbb4c0bf2ab2bc9a8e7"
+    },
+    {
+      "path": "eng\\common\\README.md",
+      "sha256": "0a2ad0d25570a2cb066170162ec4348cf96bae6ff5d22857c1ec0da4442d4ba4"
+    },
+    {
+      "path": "eng\\common\\retain-build.ps1",
+      "sha256": "71611ad501c24bf58475d6f21655f4e1d0919a4f95874538326d269f1bc922b3"
+    },
+    {
+      "path": "eng\\common\\sdk-task.ps1",
+      "sha256": "989496f3f7ee56026c1672248a7a410cc92b9beb0ccfa63086a1d71581b36075"
+    },
+    {
+      "path": "eng\\common\\sdk-task.sh",
+      "sha256": "ceb9e54b588194fefd3366c3ccf7d286c8e31b4ca45d87b14710740a66f07acb"
+    },
+    {
+      "path": "eng\\common\\SetupNugetSources.ps1",
+      "sha256": "c20e978e17cb8ef79016fe524aee802e8e06f3d2003d4a078ac39b87840e8817"
+    },
+    {
+      "path": "eng\\common\\SetupNugetSources.sh",
+      "sha256": "571c7ac660ed73490b1279b35a5220b056b6b4af366dc8a97af0d9a97b5d5379"
+    },
+    {
+      "path": "eng\\common\\template-guidance.md",
+      "sha256": "316319c960c72f5c9b3f5e33578b191f42d6b9d76c47a341fd5d6421996a0d54"
+    },
+    {
+      "path": "eng\\common\\tools.ps1",
+      "sha256": "74f313cdcf3f737cfbe264a2e67e341195e7316eb5b1834226b922ccd4e1629f"
+    },
+    {
+      "path": "eng\\common\\tools.sh",
+      "sha256": "647191d90805c7685438adc6278c9e22c58580fac10406f676cc798331cf19a8"
+    },
+    {
+      "path": "eng\\common\\vmr-sync.ps1",
+      "sha256": "fca60699eac6d3ecd32ba7986b82e14a63adcc1c41de8c79736417c999f1fca8"
+    },
+    {
+      "path": "eng\\common\\vmr-sync.sh",
+      "sha256": "dadab3f21cacbad6841b3a2469355194e975ebd241ee7ca27153dfcb53bc84cf"
+    },
+    {
+      "path": "eng\\common\\BuildConfiguration\\build-configuration.json",
+      "sha256": "c7a69cbbbeb83139fba987b2c7eb11f9ca491267b59eafa4f540426f0b342c6d"
+    },
+    {
+      "path": "eng\\common\\core-templates\\job\\helix-job-monitor.yml",
+      "sha256": "d2b1ddd6d382f2d0082d9f39dd97d73a7ed3025a27b9f6f4cb2f91139a289ad6"
+    },
+    {
+      "path": "eng\\common\\core-templates\\job\\job.yml",
+      "sha256": "513e5b87b9d1ff26861912bb23bb885286d0600d8315bbd38752c3397141ad89"
+    },
+    {
+      "path": "eng\\common\\core-templates\\job\\onelocbuild.yml",
+      "sha256": "8df4376d799b885187f42e491020e13120a91bd680a1ae1675374f14de78af13"
+    },
+    {
+      "path": "eng\\common\\core-templates\\job\\publish-build-assets.yml",
+      "sha256": "79b2ad58a4de4981999e56243dc9c234f6bf038472eb2138c83e91d1defc4218"
+    },
+    {
+      "path": "eng\\common\\core-templates\\job\\source-build.yml",
+      "sha256": "486e5dd9919d498c07a3ef41d118f27406ba424cec2759220a5bf96a14331e22"
+    },
+    {
+      "path": "eng\\common\\core-templates\\job\\source-index-stage1.yml",
+      "sha256": "91ba9dd48fe6f19dbb7f519d56766910d13d267530f0049718ba0dc80917ae9d"
+    },
+    {
+      "path": "eng\\common\\core-templates\\jobs\\codeql-build.yml",
+      "sha256": "5741e609a99f435029617720952b3c78421aa2158ce027946051ac848ec42d91"
+    },
+    {
+      "path": "eng\\common\\core-templates\\jobs\\jobs.yml",
+      "sha256": "3384b6fea9434987a62acb43a90247ce06b06f0381f3f1eda3804067639182bb"
+    },
+    {
+      "path": "eng\\common\\core-templates\\jobs\\source-build.yml",
+      "sha256": "bec98d4ed7bb5b9c773c92a98473f1ae833aafdacc7c8f2f7538176d6f055296"
+    },
+    {
+      "path": "eng\\common\\core-templates\\post-build\\common-variables.yml",
+      "sha256": "4f9f7b7a19542733af47c033587838f4e7bfb4dc51f8c7328a3cd683a617d27b"
+    },
+    {
+      "path": "eng\\common\\core-templates\\post-build\\post-build.yml",
+      "sha256": "45aa6dde9a9f9cdacaeea2d75363a4593ffd6ee60570e6d5646f2e6b6cd7e678"
+    },
+    {
+      "path": "eng\\common\\core-templates\\post-build\\setup-maestro-vars.yml",
+      "sha256": "41eb65b9573ada9144b45bfd6a405b83b98f9070d8c2ad9dc9b5d85c12fedf7c"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\cleanup-microbuild.yml",
+      "sha256": "9afde570f817f7f395b801a70a428e4acda68f17dbffd134a47ef1d9740e1c92"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\enable-internal-runtimes.yml",
+      "sha256": "4315f3a5f35ae16de89c00d98f30a7693d21fe4a53a9e6f54bb49519230288e7"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\enable-internal-sources.yml",
+      "sha256": "bb188e1d15e9c3cabfb0b7c94510a93e78fb81b1c75ca3ba6c84993b9221be17"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\generate-sbom.yml",
+      "sha256": "f3af08e2d33c3c6f6098d6993df461adc214f690a49dfd9981ece0d7d0873a70"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\get-delegation-sas.yml",
+      "sha256": "8adad22cc5f368ea43b5eb699e838b7531f77a281fa7fc5fcb2862f11e8389ff"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\get-federated-access-token.yml",
+      "sha256": "aee09b1cca92616d40b221f482865b28d8d03e4843f64b952a48677933d26f01"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\get-github-app-token.yml",
+      "sha256": "c1f23c86a30aeda1010b599cc82efd20eb3fb8fb0d9945806736fbb473714cb6"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\install-microbuild.yml",
+      "sha256": "de284e836a739662da6b9f72b52208330b6ee0103d0f9191fa1456e41e94fee6"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\publish-build-artifacts.yml",
+      "sha256": "ae73a954163c0bc1199163a5b067564e62d909e34510995f8bb1ad269a7e6a3e"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\publish-logs.yml",
+      "sha256": "8966056692bf619057bcaddf472ff1d08b9127253a2e0700aea28d2b8149c275"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\publish-pipeline-artifacts.yml",
+      "sha256": "92d7d6d5aae6c6eab8f4a0ceabc1f3318fdb9848f12d539e7b5ab7fe46f7611e"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\retain-build.yml",
+      "sha256": "c9b57d3c60aafb7f93ca7031b521009d1fdff638f35451d42a325221b6b96db3"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\send-to-helix.yml",
+      "sha256": "63a25691dec3edbd856c6065ccd8b78c28b2f73272e96a3b4d2e9654de5f9005"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\source-build.yml",
+      "sha256": "953797b726e390589167b5720eddfbcbd2cd147c75f26ec29614d1f9ffa3f48b"
+    },
+    {
+      "path": "eng\\common\\core-templates\\steps\\source-index-stage1-publish.yml",
+      "sha256": "1987ac3f5f4e8a9d8f7bbba2e915fe47b72f59a9fd58d2ca6497f9c63243e688"
+    },
+    {
+      "path": "eng\\common\\core-templates\\variables\\pool-providers.yml",
+      "sha256": "3c04253a6183f160907ebf85f8f59181ff780b41d238a3541c6b8b373b49a596"
+    },
+    {
+      "path": "eng\\common\\cross\\build-android-rootfs.sh",
+      "sha256": "913a22f2f8d6cdea955f0c07e3e2f2a8b87ac800ba9e50b72dc23650ce162f18"
+    },
+    {
+      "path": "eng\\common\\cross\\build-rootfs.sh",
+      "sha256": "455ebb56ff24e2e63271f074b97abed7b79de8a8b09c61371538f49732e59a17"
+    },
+    {
+      "path": "eng\\common\\cross\\install-debs.py",
+      "sha256": "8e890f4cfc9d19809433126df3e9fe2f7c81b529b5a805f7601f3c92e70822f0"
+    },
+    {
+      "path": "eng\\common\\cross\\tizen-build-rootfs.sh",
+      "sha256": "8967bd295aa349775c17c393d588a25ccf545d8a40f2b293e0b83adab15a18d8"
+    },
+    {
+      "path": "eng\\common\\cross\\tizen-fetch.sh",
+      "sha256": "e62302ac5cf64fe0b3b1002bb601f9b1c684a4ab46add11ebad827ec0087e459"
+    },
+    {
+      "path": "eng\\common\\cross\\toolchain.cmake",
+      "sha256": "27a4aa51f4f3b3ae12244822ee3a615598487473337de3308e4670c0ee260efb"
+    },
+    {
+      "path": "eng\\common\\cross\\arm\\tizen\\tizen.patch",
+      "sha256": "1b146c6296506d21b5ca1a854311b90536790ce488e1b26f62faff5ee5da8389"
+    },
+    {
+      "path": "eng\\common\\cross\\arm64\\tizen\\tizen.patch",
+      "sha256": "0e7a67637ec0fd27d2114988c085aaee19450cde946676a46cfcab51cb0b2033"
+    },
+    {
+      "path": "eng\\common\\cross\\armel\\tizen\\tizen.patch",
+      "sha256": "d00f0ee6120225f0b087bb7143c3b3e0800b2d824adb8078d128916ef0157952"
+    },
+    {
+      "path": "eng\\common\\cross\\riscv64\\tizen\\tizen.patch",
+      "sha256": "58f83974e98b7e3652937ea7ebc328131f9164011693b94a4d9106cdf7d85bb1"
+    },
+    {
+      "path": "eng\\common\\cross\\x64\\tizen\\tizen.patch",
+      "sha256": "eaa9ae8d9a1e3ddf0234e0ce43e97e5717437b52482608ffe45c624328eb1cfd"
+    },
+    {
+      "path": "eng\\common\\cross\\x86\\tizen\\tizen.patch",
+      "sha256": "e9257af6b0da4923b50f72315ff8e5888cd57d78f1e77b6bee5966b2fb056c19"
+    },
+    {
+      "path": "eng\\common\\internal\\Directory.Build.props",
+      "sha256": "2c606a5252c6f73271f8896b832eb073c64d78e8777d0606cffed7e4517a990b"
+    },
+    {
+      "path": "eng\\common\\internal\\NuGet.config",
+      "sha256": "d45f69c85872011f8253cb79385011e2886d62ed0bab87f1746bcac9bb9ac5f2"
+    },
+    {
+      "path": "eng\\common\\internal\\Tools.csproj",
+      "sha256": "eae23129c9c0a315cbada821c0bef440c9c09673a3d86658243604e1fdb9e58f"
+    },
+    {
+      "path": "eng\\common\\loc\\P22DotNetHtmlLocalization.lss",
+      "sha256": "6c5244d361b148519a382d6af7df1e3ef9f4c9619f72938264f75a22aeb61b10"
+    },
+    {
+      "path": "eng\\common\\native\\common-library.sh",
+      "sha256": "78d161a763230f455c7dce36a24f044416f6b74409bee7e244407fd2b37e50ca"
+    },
+    {
+      "path": "eng\\common\\native\\CommonLibrary.psm1",
+      "sha256": "0043a0c9a17ab835205dcfa5be615a888ecdf304320ef5e27bffab0422622884"
+    },
+    {
+      "path": "eng\\common\\native\\init-compiler.sh",
+      "sha256": "e16e57b23b2ddf44d198425d08c043b020adf3e67ad6a5b9cf58c1f5efd4c952"
+    },
+    {
+      "path": "eng\\common\\native\\init-distro-rid.sh",
+      "sha256": "b4860299a52fc2ce820a87ae8da7dc32000a25e796f6055683c3f5eb46d685be"
+    },
+    {
+      "path": "eng\\common\\native\\init-os-and-arch.sh",
+      "sha256": "0523a9b94bbb486e657db4c2fdc5c5810b1ce2f7064e41354b56c0d94a48ee42"
+    },
+    {
+      "path": "eng\\common\\native\\install-cmake-test.sh",
+      "sha256": "c5447804b3220b1f7c77c399e42235ba7637910692f786564966875a8ef744f4"
+    },
+    {
+      "path": "eng\\common\\native\\install-cmake.sh",
+      "sha256": "7e4889ad690ed779ab33e92f8b8abba5c77f66ccac4efcfc8cfc54b60e1ed90e"
+    },
+    {
+      "path": "eng\\common\\native\\install-dependencies.sh",
+      "sha256": "018fa3c56f82ee26368a2996bcc1399b9e8ef0039127b0525d9b81dfa0f9d4e8"
+    },
+    {
+      "path": "eng\\common\\native\\install-tool.ps1",
+      "sha256": "f3359928f5a7542adc67762ace4544dd0d3058a3c0b868410071f7fdcbd9ab9e"
+    },
+    {
+      "path": "eng\\common\\native\\LocateNativeCompiler.targets",
+      "sha256": "a78d04e69af329b06ddb672849ba152d87241e3b0e3a40150e392f69543251b9"
+    },
+    {
+      "path": "eng\\common\\native\\NativeAotSupported.props",
+      "sha256": "e6bf4e37092e34dc6973bffaf4742dab22953e0c593b4bac7adce1a4953ecaa0"
+    },
+    {
+      "path": "eng\\common\\post-build\\check-channel-consistency.ps1",
+      "sha256": "fb3f9e5f3b202592a2cc8e84029a9e3de836c18ec7391744853236cf4309e027"
+    },
+    {
+      "path": "eng\\common\\post-build\\nuget-validation.ps1",
+      "sha256": "b7638342a56ee4816ae7d02f3dbc0d607837f95769cc6284e3e7b98302a31649"
+    },
+    {
+      "path": "eng\\common\\post-build\\nuget-verification.ps1",
+      "sha256": "c8f082e606582ce65d02414502b07a981fd44d1e891e6b6f323f637eab8c7184"
+    },
+    {
+      "path": "eng\\common\\post-build\\publish-using-darc.ps1",
+      "sha256": "86d170d4f5e097a5e38965100c27650f4cb66ce4fc3a6e650427e5c4fd8c8f45"
+    },
+    {
+      "path": "eng\\common\\post-build\\redact-logs.ps1",
+      "sha256": "86803049e32c77e9d90affc83e8901b35ca567729c257cc42782e876011590c9"
+    },
+    {
+      "path": "eng\\common\\post-build\\sourcelink-validation.ps1",
+      "sha256": "f5be34f49ced91230063a4aa4323af84473166344078bca47bc27692b878e47e"
+    },
+    {
+      "path": "eng\\common\\post-build\\symbols-validation.ps1",
+      "sha256": "f617f3f307cdcaf0030d24d2c406b1cb21c94a24aabfe9d63640129552acd6a5"
+    },
+    {
+      "path": "eng\\common\\sdl\\configure-sdl-tool.ps1",
+      "sha256": "3aba4891756fd999bf3cc91db99e46c03a1133525a5f42931569476f18034664"
+    },
+    {
+      "path": "eng\\common\\sdl\\execute-all-sdl-tools.ps1",
+      "sha256": "7616110438b5752b74ed113d56757b42926e1646eda4a0de3a3475e953b82279"
+    },
+    {
+      "path": "eng\\common\\sdl\\extract-artifact-archives.ps1",
+      "sha256": "af52311a953db2c1712134b7023277351525e90086f80ca08a84d8c6b8809324"
+    },
+    {
+      "path": "eng\\common\\sdl\\extract-artifact-packages.ps1",
+      "sha256": "9ff59c1480079be3778ddcf943aa9a92c7f4d47b273494fe9b0b3ad689e95bd2"
+    },
+    {
+      "path": "eng\\common\\sdl\\init-sdl.ps1",
+      "sha256": "817479671bb892e0dbce06d0250b27cb6f38a6342d4cdcb029c85bf53549f0d7"
+    },
+    {
+      "path": "eng\\common\\sdl\\NuGet.config",
+      "sha256": "03546cae257523c1785939982a304ff2bb1cd40e2d61402582dba00ba8ee2c01"
+    },
+    {
+      "path": "eng\\common\\sdl\\packages.config",
+      "sha256": "b2b3f151bce8d5cd006a4b3d6193da9d383e8985d1bf1a7fb06074aa41cffef4"
+    },
+    {
+      "path": "eng\\common\\sdl\\run-sdl.ps1",
+      "sha256": "1c3c4d849b4fe13616f64ac24197c5ffa796af9e1e1ce18a3684f7b98b9aec68"
+    },
+    {
+      "path": "eng\\common\\sdl\\sdl.ps1",
+      "sha256": "2e5c3fba013227aba9fc03bf2af2b4159338146bba8d31ec027f33c0807ca168"
+    },
+    {
+      "path": "eng\\common\\sdl\\trim-assets-version.ps1",
+      "sha256": "57a346b1f2e9b8caf6a401d07b6256689d69739e5d3c78e3e4f1931639547d2b"
+    },
+    {
+      "path": "eng\\common\\templates\\vmr-build-pr.yml",
+      "sha256": "76447e6d2ea600986c22b1e5c63134e7d2ab7c0d30248eaddff381747ae73cb5"
+    },
+    {
+      "path": "eng\\common\\templates\\job\\job.yml",
+      "sha256": "e8896b16d44bf51dfe9e55a14090a4185927769e0eeb7232f2bb746f6f6e2157"
+    },
+    {
+      "path": "eng\\common\\templates\\job\\onelocbuild.yml",
+      "sha256": "c714afbb9f6834d76549af64f55015230db488352ed5322b9c031da4f7947e4e"
+    },
+    {
+      "path": "eng\\common\\templates\\job\\publish-build-assets.yml",
+      "sha256": "2ea8dc144b6a3ddc3d9c2d360e7ae009edc0cffe7b36d578ce6b35951c749692"
+    },
+    {
+      "path": "eng\\common\\templates\\job\\source-build.yml",
+      "sha256": "d1aef24eb9ec7e6520a90a7261d2cbc301baab62e673e958111678c4c36378ba"
+    },
+    {
+      "path": "eng\\common\\templates\\job\\source-index-stage1.yml",
+      "sha256": "6f8f911e42dc78246e9a59f89e77424230325f2198ad84896ec7832632913667"
+    },
+    {
+      "path": "eng\\common\\templates\\jobs\\codeql-build.yml",
+      "sha256": "f024ac93eac4d37902c99a5d7d0cb203f975146002e3e09a4eeb706547e177f8"
+    },
+    {
+      "path": "eng\\common\\templates\\jobs\\jobs.yml",
+      "sha256": "675655761d3c4801a8dcf22f07fb1f6174a8ac8ceee8bd36bb2a4dc658546c81"
+    },
+    {
+      "path": "eng\\common\\templates\\jobs\\source-build.yml",
+      "sha256": "768557f8311a182c781a967359b8b5e464353681526c2cc0bee22645046191dc"
+    },
+    {
+      "path": "eng\\common\\templates\\post-build\\common-variables.yml",
+      "sha256": "2048ec535360011ca4296613ea43ecbc6c7e132d33e9389a551199a76050a510"
+    },
+    {
+      "path": "eng\\common\\templates\\post-build\\post-build.yml",
+      "sha256": "54b978a4ef640a11db902830d68eb7f30c062d5c4be6e49f2eb49b20de5bbbdf"
+    },
+    {
+      "path": "eng\\common\\templates\\post-build\\setup-maestro-vars.yml",
+      "sha256": "44e9178302c52708008e0034b169f316be38e23657cf614dc7b8cdd71dde48b7"
+    },
+    {
+      "path": "eng\\common\\templates\\steps\\enable-internal-runtimes.yml",
+      "sha256": "478abe8c9c5c2aa44c2c9191688f03aca3ca7935c5c58e745a8ed726af7413fe"
+    },
+    {
+      "path": "eng\\common\\templates\\steps\\enable-internal-sources.yml",
+      "sha256": "143205e79b1ab300708cde28620305b4dd20315bace6eda332ff120da287ec6e"
+    },
+    {
+      "path": "eng\\common\\templates\\steps\\generate-sbom.yml",
+      "sha256": "2a0242600babbb2a07501c6356347e427bf3041ddca7e9f6b52c29f96860797f"
+    },
+    {
+      "path": "eng\\common\\templates\\steps\\get-delegation-sas.yml",
+      "sha256": "b528f7d07bf1f417e66f81ad84f3645b4bf87174ae196d1bf051cf1e00db5098"
+    },
+    {
+      "path": "eng\\common\\templates\\steps\\get-federated-access-token.yml",
+      "sha256": "37993cf5c966a9d796d7f43dc283ed20cab84c14e4e97f4615bd49fef8da1e84"
+    },
+    {
+      "path": "eng\\common\\templates\\steps\\get-github-app-token.yml",
+      "sha256": "838f9770a6a89cb63a8fc2a5f5e5754f52083d6f8222ec5b4b649b54610ac549"
+    },
+    {
+      "path": "eng\\common\\templates\\steps\\publish-build-artifacts.yml",
+      "sha256": "aa84692b8f761ac230ee9f29c40e526d18c2d72e3b80ac1463ef621554f8aa71"
+    },
+    {
+      "path": "eng\\common\\templates\\steps\\publish-logs.yml",
+      "sha256": "9aa44dadfb2cea14724f077c9dc3f9192b05425728d417ccfd4f9f34514b1438"
+    },
+    {
+      "path": "eng\\common\\templates\\steps\\publish-pipeline-artifacts.yml",
+      "sha256": "187582533579341feaff811f2521937acd9fee77826cd0926e036df721686c35"
+    },
+    {
+      "path": "eng\\common\\templates\\steps\\retain-build.yml",
+      "sha256": "9bc6a9d1ff1339fb75a03f5159f7b02c9385a72af7e3555a3aee09d98344aafc"
+    },
+    {
+      "path": "eng\\common\\templates\\steps\\send-to-helix.yml",
+      "sha256": "3c1dfa231d1745e04dc5d3453e369e231173b35641a8b1bf8ae686b4c5dd05d6"
+    },
+    {
+      "path": "eng\\common\\templates\\steps\\source-build.yml",
+      "sha256": "b7ae919558600c9eed806db464ef4c6a8999d978d8cc84fcd47eea2d66223a7a"
+    },
+    {
+      "path": "eng\\common\\templates\\steps\\source-index-stage1-publish.yml",
+      "sha256": "4deda41e8a4c3682dbb34a16057d319cc3fb29dc91af64d893301b5de35b7981"
+    },
+    {
+      "path": "eng\\common\\templates\\steps\\vmr-sync.yml",
+      "sha256": "55cb27025ff7e064bc28a8e560a4414d4f2ccbc27d1e7f7a9dcc2c3ea8f59562"
+    },
+    {
+      "path": "eng\\common\\templates\\variables\\pool-providers.yml",
+      "sha256": "7c08554e69f0cdb02cd8f163df02cd603bff072799bd0c11128fdc8e2ee5dd38"
+    },
+    {
+      "path": "eng\\common\\templates-official\\job\\job.yml",
+      "sha256": "3b2c92de085a3e722671d47ac9c61cf000a9f533fad2b9f2d2d657f1095a8661"
+    },
+    {
+      "path": "eng\\common\\templates-official\\job\\onelocbuild.yml",
+      "sha256": "824e85ec1d109858df9b69cae3315fe8d75464fe9c23283be9a326f1816305e9"
+    },
+    {
+      "path": "eng\\common\\templates-official\\job\\publish-build-assets.yml",
+      "sha256": "8c17ef759261d17ff2140ea7fc96ddefe55be9b9d438cb43113231afe8cc0cad"
+    },
+    {
+      "path": "eng\\common\\templates-official\\job\\source-build.yml",
+      "sha256": "c34faee00162fd1378906966b857c76f0a4fb8e3067768412eee1c7aa73ede67"
+    },
+    {
+      "path": "eng\\common\\templates-official\\job\\source-index-stage1.yml",
+      "sha256": "f9d38d9546f33be1671e765ca50fe3db41f7be98abc310b2ee2190f58c6991db"
+    },
+    {
+      "path": "eng\\common\\templates-official\\jobs\\codeql-build.yml",
+      "sha256": "cfff3857984510509a4099d27972267244109d07bb3316a38eae0ac22ac0a502"
+    },
+    {
+      "path": "eng\\common\\templates-official\\jobs\\jobs.yml",
+      "sha256": "620f70f0e1b5f23d4de9af71ff6a492ce0a3a0b719611bc21f6d687ba78f3645"
+    },
+    {
+      "path": "eng\\common\\templates-official\\jobs\\source-build.yml",
+      "sha256": "1f3e75ce0e6763f752b5e648aad7adec38f82941f922aecb9af104f664a7fc02"
+    },
+    {
+      "path": "eng\\common\\templates-official\\post-build\\common-variables.yml",
+      "sha256": "54d6bca9fc5e4edcb4f6749f0f99c93d6fbb9faf7e0226068cdc4e56804a2993"
+    },
+    {
+      "path": "eng\\common\\templates-official\\post-build\\post-build.yml",
+      "sha256": "26d864d6e8d73dc1039ccb9daa0ff98e1a915540b09042a553b02038e7ff3f62"
+    },
+    {
+      "path": "eng\\common\\templates-official\\post-build\\setup-maestro-vars.yml",
+      "sha256": "09db163357345001beca89a2cedd777d96f85221b24f4606d67343c561fdd793"
+    },
+    {
+      "path": "eng\\common\\templates-official\\steps\\enable-internal-runtimes.yml",
+      "sha256": "1af71ac5e50caa48cbefc63fa47eceb00e39e59919df892f59a69cdb4c5ef962"
+    },
+    {
+      "path": "eng\\common\\templates-official\\steps\\enable-internal-sources.yml",
+      "sha256": "0e9f566537dd9000ef41f260a2ccdddff759d533b3e3f7f9a192bf85e1da4338"
+    },
+    {
+      "path": "eng\\common\\templates-official\\steps\\generate-sbom.yml",
+      "sha256": "94bf0bfb717fca6524e2fc0a1a278a14343813d4e84c591cd147fc4a9dca83dc"
+    },
+    {
+      "path": "eng\\common\\templates-official\\steps\\get-delegation-sas.yml",
+      "sha256": "017ed0537b91022f5eedbf981500f43fa0697934d1e52d07640da4aa9da11b59"
+    },
+    {
+      "path": "eng\\common\\templates-official\\steps\\get-federated-access-token.yml",
+      "sha256": "ed8de254de158bc07e17d50ff86aa1592ca8fa05f4984ea4bb41228e421fd7a2"
+    },
+    {
+      "path": "eng\\common\\templates-official\\steps\\get-github-app-token.yml",
+      "sha256": "5dbcc8facc8a5557ba3f3d5260ae651013b83095f5ab7168ea333f919cc2abec"
+    },
+    {
+      "path": "eng\\common\\templates-official\\steps\\publish-build-artifacts.yml",
+      "sha256": "2c8f9c98dee94ac39a6def701158a0f45948a29074c69ba1788df019cef101b6"
+    },
+    {
+      "path": "eng\\common\\templates-official\\steps\\publish-logs.yml",
+      "sha256": "b2222798538ec6c49749d76bdbd2a0cb678346d414ef5626c93526810c7404bb"
+    },
+    {
+      "path": "eng\\common\\templates-official\\steps\\publish-pipeline-artifacts.yml",
+      "sha256": "b474309943d30dc82d55eaab7ea4abb9347f34e5a6c18c67f68119af3f1e10ff"
+    },
+    {
+      "path": "eng\\common\\templates-official\\steps\\retain-build.yml",
+      "sha256": "e47dc3138bfbb39ab93d5fa2459d1f651fa90ece785a8da313222976b8904055"
+    },
+    {
+      "path": "eng\\common\\templates-official\\steps\\send-to-helix.yml",
+      "sha256": "ae5b190af6d5a1cd0f85a873553ab7e6df8319442df78fa8960f0919ccbb6497"
+    },
+    {
+      "path": "eng\\common\\templates-official\\steps\\source-build.yml",
+      "sha256": "e26cf04de3cec227c5fff0eccf6e4ec0b8f61366321f970171bc6b24f2c1a889"
+    },
+    {
+      "path": "eng\\common\\templates-official\\steps\\source-index-stage1-publish.yml",
+      "sha256": "2bbe35bc400a895be1bf9b551623a8b6a5423994fb75931c9811520fa74b4622"
+    },
+    {
+      "path": "eng\\common\\templates-official\\variables\\pool-providers.yml",
+      "sha256": "87d45388b3f9754520bd02200eaf4dc297778effca26bd01476756532d65e9e0"
+    },
+    {
+      "path": "eng\\common\\templates-official\\variables\\sdl-variables.yml",
+      "sha256": "743f0472e0bdbc720d0ea9a0e2b2d531d488df164f55515948ab75f05315b783"
+    },
+    {
+      "path": "eng\\Diags\\ILLink.RoslynAnalyzer.yml",
+      "sha256": "e60562b9c8328b37f5a41a59cee2213598681a1fdb4d5188b6f23540e960131b"
+    },
+    {
+      "path": "eng\\Diags\\Microsoft.Analyzers.Extra.yml",
+      "sha256": "49fda58b0dbcf2b1829c4aabf5a4d51dccb63ba92f99e56d6b843142ae096389"
+    },
+    {
+      "path": "eng\\Diags\\Microsoft.Analyzers.Local.yml",
+      "sha256": "393742ebdc05d0f00e43583eb4f5e6acfcb88c3cd27a98c0601a68619229f817"
+    },
+    {
+      "path": "eng\\Diags\\Microsoft.AspNetCore.App.Analyzers.yml",
+      "sha256": "bd80c1b654df59c719df9c0257a71fe13e75661c6d7df112ac9c18124514c120"
+    },
+    {
+      "path": "eng\\Diags\\Microsoft.AspNetCore.Components.Analyzers.yml",
+      "sha256": "0a92bc6d23b5a40e22a8f9d7306caff5f0fa78935c8723893b09088aaa5d2922"
+    },
+    {
+      "path": "eng\\Diags\\Microsoft.CodeAnalysis.CodeStyle.yml",
+      "sha256": "2dba3ebdac468c89fcf7b7b88ae6995923e2b3add5e6e7353b6a9be347376bdf"
+    },
+    {
+      "path": "eng\\Diags\\Microsoft.CodeAnalysis.CSharp.CodeStyle.yml",
+      "sha256": "4dce8e14aa0d67c7e61527ed70c0083a8eb91771d699ac98900852d8074bdf91"
+    },
+    {
+      "path": "eng\\Diags\\Microsoft.CodeAnalysis.CSharp.NetAnalyzers.yml",
+      "sha256": "32b8a0906bc1f78005eb51727c30eafded8a0c7aa476e0ad1b8002af9917557f"
+    },
+    {
+      "path": "eng\\Diags\\Microsoft.CodeAnalysis.NetAnalyzers.yml",
+      "sha256": "1603a21cefcf4c917e084893acb8c94b169723a6c6bc4dee1773cc34048c6432"
+    },
+    {
+      "path": "eng\\Diags\\Microsoft.VisualStudio.Threading.Analyzers.CSharp.yml",
+      "sha256": "195087a49f2a772997b368c65ee87a448d0f4920e91d1d0fa5f965fb7705ad98"
+    },
+    {
+      "path": "eng\\Diags\\Microsoft.VisualStudio.Threading.Analyzers.yml",
+      "sha256": "ff38727855702babe062d2955ae97585f25b833e9a832a3d702d2115428f0e6c"
+    },
+    {
+      "path": "eng\\Diags\\README.md",
+      "sha256": "b6254423091601cfe8bb33ffc34dea814533105986bdc70a5568247e977ffeae"
+    },
+    {
+      "path": "eng\\Diags\\SonarAnalyzer.CSharp.yml",
+      "sha256": "2576d86a9e286ead94cd677fd57d918e2e2f5babb7afd07bf5dc31eb4a3e7750"
+    },
+    {
+      "path": "eng\\Diags\\StyleCop.Analyzers.yml",
+      "sha256": "50fdf0471c954590cb7578abc56db5e0aaaa7e44307d79954a10b5b07586dbbc"
+    },
+    {
+      "path": "eng\\Diags\\xunit.analyzers.yml",
+      "sha256": "3e02da868e8828dea6edc26eeb9727d855695a2365b1a2407edd800e43e31620"
+    },
+    {
+      "path": "eng\\MSBuild\\Analyzers.props",
+      "sha256": "0f9459744b9990c06c469db91bc9d4df86b2fab6eaa65e44fea25698c1ace643"
+    },
+    {
+      "path": "eng\\MSBuild\\Analyzers.targets",
+      "sha256": "dd4a14ebfe034e9b3f36be889b120faf6ef0ecdf8782a7445fe53cc0f0a56e39"
+    },
+    {
+      "path": "eng\\MSBuild\\Generators.props",
+      "sha256": "c722490ef6a21f51ab12058dc8d74fe89623ac63f572cbbe6e612d6fd7c36888"
+    },
+    {
+      "path": "eng\\MSBuild\\Generators.targets",
+      "sha256": "c97d13d4933a634c86a455eb800d31766e1cfaaac320856a0e9cc8e33969e104"
+    },
+    {
+      "path": "eng\\MSBuild\\LegacySupport.props",
+      "sha256": "6004e23d43ffa81018cc5b6412564527868298be9bdab8a2a2851a3073389b87"
+    },
+    {
+      "path": "eng\\MSBuild\\LegacySupport.targets",
+      "sha256": "874ed36b8ec4c224a83aadc391468bc6837c049e2b0a92a66c2a64bc0aeed562"
+    },
+    {
+      "path": "eng\\MSBuild\\MultiTargetRoslynComponent.targets.template",
+      "sha256": "8e65fc7d31ea4ec47e1afeb1c4c4cade4ff822a20fb62271d48fb1029ccb8465"
+    },
+    {
+      "path": "eng\\MSBuild\\Packaging.props",
+      "sha256": "f9e1f3dd95d099a54814e4de225d1987b078f6cc35f47d229b651cc6e1d21fd6"
+    },
+    {
+      "path": "eng\\MSBuild\\Packaging.targets",
+      "sha256": "a5c20d3cbf6af9bd5a1739f92f7c1978b50dbcc07bd24b26370798bb46ac6d8f"
+    },
+    {
+      "path": "eng\\MSBuild\\ProjectStaging.props",
+      "sha256": "e437758a816a2f2bab3b1b2e74caeaf51b9d9b6fc55f6bd8d13275d3b977cc7d"
+    },
+    {
+      "path": "eng\\MSBuild\\ProjectStaging.targets",
+      "sha256": "52800def54d65931d5e179fd2684acdea32134663f2248df5ec99e98084a249c"
+    },
+    {
+      "path": "eng\\MSBuild\\Shared.props",
+      "sha256": "44afade14e8ac013d1a84ca1f75bc5a5eb2a7619190aeb42ecd62a7c7e5375ec"
+    },
+    {
+      "path": "eng\\MSBuild\\Shared.targets",
+      "sha256": "f05ab04f81d339196c36a3c8d358620afacb290a5f0620deefe20732327d499a"
+    },
+    {
+      "path": "eng\\MSBuild\\StrongName.targets",
+      "sha256": "70dcd1eb7817fc8bfc253a0336e1ee529e25dcac354d3621f4fdf600776e21e0"
+    },
+    {
+      "path": "eng\\packages\\General-LTS.props",
+      "sha256": "3231bb8421e146091802a9227be37aa8dfb93bff1a2665caf3032540d62dc6b2"
+    },
+    {
+      "path": "eng\\packages\\General-net10.props",
+      "sha256": "853fc0717d035926fd24c333de240620b4955381fb8be4600100727782af5808"
+    },
+    {
+      "path": "eng\\packages\\General-net9.props",
+      "sha256": "4f8f76f41d2cbe9fbd7225bc4a6c0d0e575550dc57f05f5dc2938cfd40ea0431"
+    },
+    {
+      "path": "eng\\packages\\General.props",
+      "sha256": "1f417354845b9556b26a28aaa6f50ec58f7ef90af612f30d5bdb7aa352022ab3"
+    },
+    {
+      "path": "eng\\packages\\ProjectTemplates.props",
+      "sha256": "a7ed2ee3d8ade6f9836dbd49e0bb215b958b866148d5995570a92152a4a05a8e"
+    },
+    {
+      "path": "eng\\packages\\Tests.props",
+      "sha256": "879f656da2101087d11447bb61c1bc8af739984e45c23192061791d680e8618a"
+    },
+    {
+      "path": "eng\\packages\\Tools.props",
+      "sha256": "8d4a06efb89a3f221315b309c45a5ed4c88a3e0f6894d152bb0fd73e061c72fa"
+    },
+    {
+      "path": "eng\\pipelines\\templates\\BuildAndTest.yml",
+      "sha256": "8731b476ebcaede6c6bfac0f1df63a5a3267ce23efde2691f78a7645d9e4bd4c"
+    },
+    {
+      "path": "eng\\pipelines\\templates\\RestoreAndBuild.yml",
+      "sha256": "aa3a0e5ea4ad1b88897e15b50985c41354c3a1e9a12328be679e936efe9c1649"
+    },
+    {
+      "path": "eng\\pipelines\\templates\\VerifyCoverageReport.yml",
+      "sha256": "f9b79278d1ce0b1548673726dd026ce952816777f489c3c35566e596579a406f"
+    },
+    {
+      "path": "eng\\scripts\\Get-RepoDigest.ps1",
+      "sha256": "186b481f849a49ed0573a4d74d1432a83b2d23c5fd47936a1e754420ae3e68a6"
+    },
+    {
+      "path": "eng\\scripts\\repo-digest-template.html",
+      "sha256": "90f8af232bd674d726bf63cf1f43c0be34e9ca8c7c271be70da8c14d4c883935"
+    },
+    {
+      "path": "eng\\scripts\\ValidateProjectCoverage.ps1",
+      "sha256": "cf1d8f961943ccbba5ea3951d7049250df857f166eef46da7c5d70026ec922cf"
+    },
+    {
+      "path": "eng\\snk\\MSSharedLibSHA2.snk",
+      "sha256": "05565f4dc46d9825e42cf5762b6441c827590664f786e181a105a2f4f126a61d"
+    },
+    {
+      "path": "eng\\Tools\\.editorconfig",
+      "sha256": "7c524b5951523d19d4087196997875afd7054983c101e13c2f8917cc856f5185"
+    },
+    {
+      "path": "eng\\Tools\\Directory.Build.props",
+      "sha256": "931550c8f0a00adc27c77ca569bef64a065a12ac99af605bcde48f281c06516d"
+    },
+    {
+      "path": "eng\\Tools\\Directory.Build.targets",
+      "sha256": "e7c32cdb672639b58f8fca9d5558300ba3b158dca4eec7820dbdb37054f763f0"
+    },
+    {
+      "path": "eng\\Tools\\Directory.Packages.props",
+      "sha256": "777ec0b63afe1bafbc2642c91c60fdcc319d64d76431b40aeaf87f2ceec96416"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\ApiChief.csproj",
+      "sha256": "4bb0f1847d7a7a46fbfdbbbb5168e9e9a3d938192c052f0a46cd08bc2e2bd760"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Program.cs",
+      "sha256": "048525f7f02f0c342ce95e389f4b0bc0d9dcefeab3eeed62c7a24c234a91c975"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\README.md",
+      "sha256": "e9d2d06684d3626e9688c1e2052f2bb1886e8e797e076135f6677d4ea682a0bf"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Commands\\CheckBreakingChanges.cs",
+      "sha256": "a467b6212342c70754c4ffc17e1b294bce44c5fcaea43c0187aec5b8f1eb49d8"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Commands\\EmitBaseline.cs",
+      "sha256": "7917b58482a088cb69bbb785a4be63c60401d1a1c72068f5aa1e0595c06061c6"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Commands\\EmitDelta.cs",
+      "sha256": "db712b8394046246eb54df78db7ec120d41150a8ea15a01607527bafdb460157"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Commands\\EmitReview.cs",
+      "sha256": "70ea9aec0ead61643c17b71066b3eefc56d6fa74c5db15f2b5b932be39055abf"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Commands\\EmitSummary.cs",
+      "sha256": "23b3384e1352c71e18941997e4572aa2bdb4d8d0b62b0791727d661187eaee43"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Format\\DecompilerFactory.cs",
+      "sha256": "2aabee79d00f0e140227eb36bf3f4fabf05345e1ec0a6a9bfdb7f355e9ac0b90"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Format\\Formatter.cs",
+      "sha256": "af288b9a935a779fb4d6bff5b8abaddcf7e25028a1f8a88a61cac18b62572a47"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Format\\FormattingExtensions.cs",
+      "sha256": "f5ebc6cf48f4aedec16a81b6bd2dde77631e790c94217ee1408753a3cf5bc615"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Format\\ParsedMember.cs",
+      "sha256": "ba862eac8e5ebb08149894e0b16eb236ceb7653826947033dca0f536318869b3"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Model\\ApiMember.cs",
+      "sha256": "83c377f309bbf5e9894de0c75579694deebadb7e1237efe90dcd6acd5aeeeb9f"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Model\\ApiModel.cs",
+      "sha256": "4fa685d2b43c68cdb8830e95cde7bcbe5eaa3658f95067140be1343637c1d928"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Model\\ApiStage.cs",
+      "sha256": "6e566bff20f9277e90635fff3a703b846568c632624dc99de4fe70e364f0924b"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Model\\ApiType.cs",
+      "sha256": "0586d40a10d6808c3484c46b7a56e995b52a2f7e907b1241d3ee3d5c1f5c47a3"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Processing\\ApiProcessor.cs",
+      "sha256": "b65df3149aa833d2cd645bb794278c19ea77f00f95675ceee3615349a7cc9e92"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Processing\\FullyQualifiedTypeNameVisitor.cs",
+      "sha256": "ec23321a96df87a1c290dab77a05cdaabec6266bf221a76d25ccd37c36951d70"
+    },
+    {
+      "path": "eng\\Tools\\ApiChief\\Processing\\PublicFilterVisitor.cs",
+      "sha256": "394d687c10a71565e3bb179f22a0a41f35df7192b44a944607ee598b7de42bad"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\DiagConfig.csproj",
+      "sha256": "55e8d8d1a97fdd6655827a96051504f176b0249e708017812e2bb14cddcca99b"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\LoadCSVCmd.cs",
+      "sha256": "fc4ff6793cb24440260edec75fe197a1bc45c030a801de53e2dcf3ce736a3b0d"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\MergeAnalyzersCmd.cs",
+      "sha256": "abe6bcdfc60e88347f57b2f328c7270a8c8c56808a763b9181ae0ee80e6fb024"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\MergeEditorConfigCmd.cs",
+      "sha256": "fffc267e5f4b2766a02d5dc56f2f52ecc2d4a62e7d5ceddd59dcd9b9b12357f9"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\Program.cs",
+      "sha256": "f3cea4bb0e613a930400f41f70a5826d0f6785dc27f853f24034fffac38a23dc"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\README.md",
+      "sha256": "02537dd643fe9df88b3801fa09d88c8586a1476f4bbeccdc81679ec4999769b2"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\SaveCSVCmd.cs",
+      "sha256": "102f7a6fa7c9377d7b71f9161365d9965eba4775ada5a194b2e3a130720df52e"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\SaveEditorConfigCmd.cs",
+      "sha256": "99a12c6f1cb14a07b38545afe5046a742845c429bd3913b509674c3112393860"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\ShowAttributesCmd.cs",
+      "sha256": "bbee4d6f40620a695af891f504f82ba735b922ce787254c31fc19ba5316681d0"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\ConfigStore\\Analyzer.cs",
+      "sha256": "063f08b1de2dc49b00a4691476796b06d39d72037687a429ebc304a4e91a0f3e"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\ConfigStore\\Diagnostic.cs",
+      "sha256": "89fb9cf1a04dc802af7b2c0c789a788171f057783d0e822c98d163075daed948"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\ConfigStore\\DiagnosticSetting.cs",
+      "sha256": "c815832711e244ebd2c98d302aeea3c71fefa319dced8bd6d0a95d4c749e2ce3"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\ConfigStore\\Metadata.cs",
+      "sha256": "55c1069f01872fa485b8ccaba181622a21b28d34afc83896561fb4995032df79"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\ConfigStore\\Origin.cs",
+      "sha256": "cae59fef41070c88018407f3f348dde774b754c9dd01ea07f166c80e018c361d"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\ConfigStore\\Severity.cs",
+      "sha256": "a9f2e722456fd49dc8475ae1a093e96e82eca0c40a9b28a57815696e191a0722"
+    },
+    {
+      "path": "eng\\Tools\\DiagConfig\\ConfigStore\\Store.cs",
+      "sha256": "27bbd94e2db90d4027b45cbd3b2578cd867a1ffb97efa8f5e8a98f0430a4f8c1"
+    },
+    {
+      "path": "eng\\Tools\\DiagPublisher\\DiagPublisher.csproj",
+      "sha256": "5479c4742d3f5a2f04abfc7a10371bcc9ba714f896842427000a63d904200ff0"
+    },
+    {
+      "path": "eng\\Tools\\DiagPublisher\\Program.cs",
+      "sha256": "845732f31ab583d6796b43ffb62b126efb55ed50c80aba74942e19519abcba01"
+    },
+    {
+      "path": "eng\\Tools\\DiagPublisher\\README.md",
+      "sha256": "9585367a4a4f28123e1900618fcd7354e0bc52996cb265c07b517841b87802c1"
+    },
+    {
+      "path": "src\\Directory.Build.props",
+      "sha256": "b066d8036e9fdb2efe30649c136dac6be39399b62e432c6695fc40f8dac8b892"
+    },
+    {
+      "path": "src\\Directory.Build.targets",
+      "sha256": "8bf89e34e8dffe8cf57e96d07311cd8e2a15733ab22bbd1673ce100011947f95"
+    },
+    {
+      "path": "src\\Analyzers\\.editorconfig",
+      "sha256": "7361222d955669a1998355070fddca9a0d1740d27ea88442f057cb8e0fc366e3"
+    },
+    {
+      "path": "src\\Analyzers\\Directory.Build.props",
+      "sha256": "8c588a156f749696d795c3aea7c7c7e0fa267883c4589c8313baee9d180f925b"
+    },
+    {
+      "path": "src\\Analyzers\\Directory.Build.targets",
+      "sha256": "5743b9467cae127193e4c9dd377bd40c5032c95c9ec2574b7ef71bc6acf039b5"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\AsyncCallInsideUsingBlockAnalyzer.cs",
+      "sha256": "41d5fc3d9f0e6a897bb24cb7dad6b0a1f2d3eaca6503c5d467055353d05a249a"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\AsyncMethodWithoutCancellation.cs",
+      "sha256": "7b2f63787b3020fa0c29d594719bf972d2f070d44dfd8cca608e017b56b825f2"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\CoalesceAnalyzer.cs",
+      "sha256": "46d2d6ba96fc9a900d5e51966ab19c0b2068ee8bcb63bac8eac6191ed0f83159"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\ConditionalAccessAnalyzer.cs",
+      "sha256": "ef04a9995352fc6eee12f31c7fc26647b2cc508e4a2bd40bdde5e3ce820a1e85"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\DiagDescriptors.cs",
+      "sha256": "9c9f078c290f170f76ae72ad2a254baa05537550b4437d7a6b00e184934f064c"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\MakeExeTypesInternalAnalyzer.cs",
+      "sha256": "b8fbb07a5fddb9a6479802a851dc1392acab40847836477e1f581946aeed8f5d"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\MakeExeTypesInternalFixer.cs",
+      "sha256": "22d1ec7eca1265c651a77ddbd9417e8710556a4ab64834c36b3e711090d78a8a"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\Microsoft.Analyzers.Extra.csproj",
+      "sha256": "1df2ec4c8e00fcbc363fdb4edd7ea81f49c6450d95249c5ee74d0879c4d14034"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\Resources.Designer.cs",
+      "sha256": "86d4a7abdcbb40a6a227e6bc6fc8e41d3b7ac07047a11d0f42282ae8ea16ea7e"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\Resources.resx",
+      "sha256": "e6f420c19fdf394a1f5ae7a140d8634efaed17cc68b98fd53d0e3ec83df6b926"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\UsingToStringInLoggersAnalyzer.cs",
+      "sha256": "de714a61d14f3c9ae71adf01bd87fdcf3db33c75f4cf4d0955fc5c3bf4533112"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\CallAnalysis\\Arrays.cs",
+      "sha256": "738b66205e2656602b56499e5ca7478161b992c11b01d40f238215080001f909"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\CallAnalysis\\CallAnalyzer.cs",
+      "sha256": "ced41caf9a0449026f2f8a3bca3479de39f2c7a584e21ffd5d0ced1d5d504b52"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\CallAnalysis\\CallAnalyzer.Handlers.cs",
+      "sha256": "b6107ade19a24ddd2a577ddf694e238529aff69acabe165e0aea19c0bb31f026"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\CallAnalysis\\CallAnalyzer.Registrar.cs",
+      "sha256": "5bc243e1b66dbc2fe278a224b144962512a5899dc7bbf1244b6e4f54daac7197"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\CallAnalysis\\CallAnalyzer.State.cs",
+      "sha256": "f3fa31b638f6fd83ea83f03f1e57f56b55751e99b2d4eae4497491faa9d990d4"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\CallAnalysis\\LegacyCollection.cs",
+      "sha256": "91a0c7133ac4b89b43efdf27bbd2606b44d05551883927dc49117319e0678659"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\CallAnalysis\\LegacyLogging.cs",
+      "sha256": "a195ea49558852f200a6c02d43403258eaabfd84dcfb46c2578faee3ab35c1b7"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\CallAnalysis\\Split.cs",
+      "sha256": "fd5ecab971ff29f6d1962e4fdf91fd115f787fae01a27680442d4ee72e919d63"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\CallAnalysis\\StartsEndsWith.cs",
+      "sha256": "a5ff406e9801e76ca092b96b97e2c5b914ca3a9147488932670ace0332468bde"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\CallAnalysis\\StaticTime.cs",
+      "sha256": "7996a73e396a091d474c580e78a3f751888bc98eb14cb5c059b729dad9b7d022"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\CallAnalysis\\ValueTuple.cs",
+      "sha256": "e2fba3ff857f2c3a9d2c546636e301129f011e846b4c395db34af6958743653e"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\CallAnalysis\\Fixers\\LegacyLoggingFixer.cs",
+      "sha256": "9af799db0b357cfc17559d34d82a27c063ee507cdc6309d934a9decc7f839d59"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\CallAnalysis\\Fixers\\LegacyLoggingFixer.FixDetails.cs",
+      "sha256": "def932d9a1f47d0915471bc2778e70ffc892c2c312680e62b7865c45f506051f"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\Utilities\\CompilationExtensions.cs",
+      "sha256": "a8079ef5e76123327c199fe775d49e31b21a8859c95266264e6c91c410b480e8"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\Utilities\\OperationExtensions.cs",
+      "sha256": "babbf703758ab850e45f7e52c7d9c660ce70478a0f0fc42f11b59a76c2518498"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\Utilities\\SymbolExtensions.cs",
+      "sha256": "4134853957d27735045a9686569ad1f453f82a32de54b89e3fab627f072b724c"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Extra\\Utilities\\SyntaxNodeExtensions.cs",
+      "sha256": "94a4813b9a8120159e41c4cf9c765c22ffd0bad946e4e5c8fd78a930b285ac46"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\DiagDescriptors.cs",
+      "sha256": "d4cc8b15e25e08c48023bbf124c39fa1ed4d7571f77c826bb0619580affbea37"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\InternalReferencedInPublicDocAnalyzer.cs",
+      "sha256": "95c6f6074497c40395adf3c51026e45b36de458abfb8771283e958cf1a7c206c"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\Microsoft.Analyzers.Local.csproj",
+      "sha256": "09ee673baaba27d1412a1290408b2cb6279ed4243265bdc56598e20885ef2d7b"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\Resources.Designer.cs",
+      "sha256": "0868be32d4bc847c7ba1ad09171de25035ff6b5903b052a819f5db122b952f15"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\Resources.resx",
+      "sha256": "f9208bcb4fce5932fd8b0f019ec4a1d4680f1bc2c8bd11c3b2772aecc216e2b8"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\ApiLifecycleAnalyzer.cs",
+      "sha256": "f905877190449e5dd76b2eebec5b10c704838d9917acdd7af746daeeec50e2bd"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\AssemblyAnalysis.cs",
+      "sha256": "37af5fd6526087b32b0535035464d64fdec84c80bc03826df188da00bc6f0426"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\ModelLoader.cs",
+      "sha256": "401a7dc5c5dcada07c735dc0ad6a79b0b271564429ea221e0c020d24dd0e821c"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Utils.cs",
+      "sha256": "b5e24d1a4d874664a064b74fc320fcc279875b31d4012e00387778e2fccd07e0"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Json\\JsonArray.cs",
+      "sha256": "ea4615d2f14e515d84fe15b2fe98331eb47d59174b9bfee6e4f75472fd941240"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Json\\JsonObject.cs",
+      "sha256": "11ce3eb9724f3fda036daee9eb5e2c9000bfba15499b5cb1fa4b1a8e19f56479"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Json\\JsonObjectExtensions.cs",
+      "sha256": "62d92d2264cff25b923b4e9b068d45436ee2d35534579e16d19bd1b261416c2e"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Json\\JsonParseException.cs",
+      "sha256": "006bd5646b89c6fbce0de25d137dc049b87bf7a74fa7e4639603d9647cf4b1e2"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Json\\JsonReader.cs",
+      "sha256": "09075366a26bcdb0f56625660e9984194ec86ca86de9cc91de5b3a0612a3311d"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Json\\JsonValue.cs",
+      "sha256": "d587e69b6c338c3d2af591d90426928241d00c8e34b687f1518195f972100ed6"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Json\\JsonValueType.cs",
+      "sha256": "413cd8a59256ac552b792bb22f5c49496a37dc457028d8a9b2013214c88ea293"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Json\\ParsingError.cs",
+      "sha256": "4a36c3837f6be60a36e6803693178f618fb309815226ba8b5287ecc4f1612c6f"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Json\\TextPosition.cs",
+      "sha256": "bdd4db59b85ed1a3770789947be21167476e2c1e5bea5eab60a1714d9a0a8b22"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Json\\TextScanner.cs",
+      "sha256": "691b5394b62380f7c510e35b34b3738ef43a66a0ab0d4adbbf889452196ea6cc"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Model\\Assembly.cs",
+      "sha256": "2f56806a5293a32f0db6198c263764c97a4feb10cabf8a9132220d37c54d48ed"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Model\\Field.cs",
+      "sha256": "fcd9b4569f049fb13782ce0b2eae0220c3c647485a29b78a15c7c2c52493bfa3"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Model\\Method.cs",
+      "sha256": "a91c3a8d592e727d3d15184df900338d8701e294c29f293e33aa7d503f8f5ee0"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Model\\Prop.cs",
+      "sha256": "7d96dfdc217bdf93fd2f01fb9e380979295ecf502137836176ac64666970cfb7"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Model\\Stage.cs",
+      "sha256": "6534c6a684e14614263fc1aaa7cafa4f442dbc60974624c2a002bd68686eaadf"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\ApiLifecycle\\Model\\TypeDef.cs",
+      "sha256": "289d7e2a469e1007f81df5a1bb8ae2ce1639f9d363a215faeb0fee0522a0e8a6"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\CallAnalysis\\CallAnalyzer.cs",
+      "sha256": "0b84d485039e870dc73984cc8f8b332922ced43b22cc5fc04de833506695ec99"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\CallAnalysis\\CallAnalyzer.Handlers.cs",
+      "sha256": "563a421ba342eec7eac103882a5737bec39394a18871ce7eb519926d3d4de189"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\CallAnalysis\\CallAnalyzer.Registrar.cs",
+      "sha256": "9cccfce45635ba8355a8914739e40ba1b82c498524f60926cc2bfcd063cc3bf7"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\CallAnalysis\\CallAnalyzer.State.cs",
+      "sha256": "6c20e5410e80111d18e991a82ee7ed92db5ae3dfc185ff4d0f94e2ec2fbb50f1"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\CallAnalysis\\Throws.cs",
+      "sha256": "57fc51694872ea6c02c163e95094207ce0f20ece986791ed0e269d5153f97823"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\CallAnalysis\\ToInvariantString.cs",
+      "sha256": "fb55b155a63a571ac08e5abc6cee0546e27a3db88e14897018f7310fe6d099c4"
+    },
+    {
+      "path": "src\\Analyzers\\Microsoft.Analyzers.Local\\Utilities\\SymbolExtensions.cs",
+      "sha256": "052ceb35a9a58163015f95893b2dd0e66b69c5d92d0d62771d05fa1180ee5bc9"
+    },
+    {
+      "path": "src\\Generators\\.editorconfig",
+      "sha256": "7361222d955669a1998355070fddca9a0d1740d27ea88442f057cb8e0fc366e3"
+    },
+    {
+      "path": "src\\Generators\\Directory.Build.props",
+      "sha256": "846b3176a82be0887a0f730caef11d1877c802c76a927b519e9c2455324baf7e"
+    },
+    {
+      "path": "src\\Generators\\Directory.Build.targets",
+      "sha256": "b66de17c8d36a950a6fa06fe88b9ebf17d2f9b048e400bd66453cf19a102c4ec"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.BuildMetadata\\AnalyzerConfigOptionsExtensions.cs",
+      "sha256": "4cdd8914b68b78c1247d6f079f46b2e003c37a897529db5e26a390f3ef961eb8"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.BuildMetadata\\BuildMetadata.cs",
+      "sha256": "dbd04ab1514a0525a850fe1619bc1ec21b9ef36dc026f280c3ed2365b426dd1d"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.BuildMetadata\\BuildMetadataGenerator.cs",
+      "sha256": "5fb99393c179c7da6e23cb43199565c429604124a7986132be414f5810e9845e"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.BuildMetadata\\Emitter.cs",
+      "sha256": "c8d39dd6f6dd8c3b973bbf907dd9c381ffda3eb23ceaa37278bc10d0c79f5be7"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.BuildMetadata\\Microsoft.Gen.BuildMetadata.csproj",
+      "sha256": "949aa81cddc62e6800c47f216d952cccfd47dcbe58599bb25c86f4d86e089483"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ComplianceReports\\ComplianceReportsGenerator.cs",
+      "sha256": "82556c9a78368a806bb9e06a65749fc0beff55bf02196bdc5581b62b7dde4233"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ComplianceReports\\Emitter.cs",
+      "sha256": "02c8e9078aa86be9111e38139d94a3ce7a386bb198bf28e1d613d3475c8ff200"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ComplianceReports\\Microsoft.Gen.ComplianceReports.csproj",
+      "sha256": "5261e3011ef41c4943c1eb22a3fa9ee34ab66e19b8f925d474512fb579209bb5"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ComplianceReports\\Parser.cs",
+      "sha256": "db6fc67d07122b44dad3e4b3c866a10c4ee824eefbbb2d9a3e8fbca4cbcfe83b"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ComplianceReports\\SymbolHolder.cs",
+      "sha256": "289ca928b22f6b9098040551317ffbcec7712d31689dff877f24e1779c5e10e2"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ComplianceReports\\SymbolLoader.cs",
+      "sha256": "34aed7ef6af4663623d5b8f7e65cd31949a43b09fc02fc00f7d885b741fe5c2c"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ComplianceReports\\Model\\Classification.cs",
+      "sha256": "2ec782cf72d495d06fd2d8bff15db42e66dfbf1f74c0ac268b5d0035fba593d8"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ComplianceReports\\Model\\ClassifiedItem.cs",
+      "sha256": "4e2e4cc6b7908ea4ee3ccebb8b06655288ea9838e76d9d290490acfc5c1a1d58"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ComplianceReports\\Model\\ClassifiedLogMethod.cs",
+      "sha256": "9210bebc4bb804a2ea3fb7253fa6411894b3949b4089ff498a0f9d9bcc4a73f3"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ComplianceReports\\Model\\ClassifiedType.cs",
+      "sha256": "2a7f61639b3187717f43fbef7e02efb65e12341b56daacf82c173de67fe46f2e"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ContextualOptions\\ContextReceiver.cs",
+      "sha256": "b7e0ad08f5e6863b64b976a81f993b868492e142475ab3b9dc4ba19a42b6d725"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ContextualOptions\\ContextualOptionsGenerator.cs",
+      "sha256": "3459003c3ed014fb2a4fdb6049f4aa3eb596718de68d5dfc613489882ee81c43"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ContextualOptions\\DiagDescriptors.cs",
+      "sha256": "007665fb3cac0c01bf54594eba085301fa99d8995a62b940d4ab3134d2afef01"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ContextualOptions\\Emitter.cs",
+      "sha256": "d82e5b944f994f96937bb939aa2891de1fa7b1795675cb6c05d4175888854440"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ContextualOptions\\Microsoft.Gen.ContextualOptions.csproj",
+      "sha256": "7613de07a92efc448e86f827cd28d6e1442d6d60ca299748bfd4de0a1ed48fef"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ContextualOptions\\Parser.cs",
+      "sha256": "3997929151b56a865c738cb0936a3b832a98416ecff4f8596dfb2c80eee0fcd3"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ContextualOptions\\Resources.Designer.cs",
+      "sha256": "3635d4e940be0baa52926ae5f4911566ec601907a91a7e4568258358e772aa92"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ContextualOptions\\Resources.resx",
+      "sha256": "87f5016380cdce34d3d5925ba85f3e6912e35b4d3b0e9ab56ed1097475ea00aa"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ContextualOptions\\SymbolHolder.cs",
+      "sha256": "226fb9d012eb82124fc31defc8eeed9eac409519ebdd14534fffd725ab3ed1bb"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ContextualOptions\\SymbolLoader.cs",
+      "sha256": "e16fc4ec5b6fa38a4c21aabef5f068c05fdd670bddb45c5a890305f50ca45538"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.ContextualOptions\\Model\\OptionsContextType.cs",
+      "sha256": "51b0fd1952db164446e4177b149c9d8eeca4dd456dac6b95d11b496064142aac"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\LoggingGenerator.cs",
+      "sha256": "612f853ce2b2f1da7d892dd4d79b6679661692432d8767b19eb17530839e3989"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Microsoft.Gen.Logging.csproj",
+      "sha256": "7ad7531814fa0a6f19aeda91fbb97ceb4de7bbf81e3931c8c5b74aca7e500a5c"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Emission\\Emitter.cs",
+      "sha256": "ee2fa82dfb82135f325be7c03899723b94be4fa762b4e0289bf73c069ed8a7e0"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Emission\\Emitter.Method.cs",
+      "sha256": "f43df1409dea167b20b45920f93ad2ba2afbf67bcb333731aa36b3d9efc3a785"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Emission\\Emitter.Utils.cs",
+      "sha256": "11a924ccb3bb7da5a5ea451369d4def4ed1d812ec3cb0177a3d47fd4dd3eab09"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Emission\\StringBuilderPool.cs",
+      "sha256": "f4d78af9ee04881eac1a312a80c9eb07e0804c70f3dcd7ffa6bce43d75ca3c15"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Model\\LoggingMethod.cs",
+      "sha256": "3e28a41cceb477a6782c0727d46a74bc05afcca2964ca9bf2e3fcbb329e498a0"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Model\\LoggingMethodParameter.cs",
+      "sha256": "b365a92769738952a7bfce751cd0e0efd3854b4bc0799c5bc2084d030d7b709e"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Model\\LoggingMethodParameterExtensions.cs",
+      "sha256": "6374d72469552b2931d5df54fcd081c166788e5bebb568a820ad24162e750b90"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Model\\LoggingMethodTypeParameter.cs",
+      "sha256": "fed2cc0956aeb5fa0ec1cb11fd3570180d79f2cc3988e39824d5ddfe00e8f193"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Model\\LoggingProperty.cs",
+      "sha256": "d8379579a2990255b4bc58cdb03d445e262701d63ad5d68659e6e6b1a37659c3"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Model\\LoggingType.cs",
+      "sha256": "2665691063f02281538db75327b007dad00a5e9ae6ddbfa38667a869b40a2300"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Model\\TagProvider.cs",
+      "sha256": "78e4204d161261dcc624ddccd72422faf28fa159184ed5fbbf93a9475b33b1a7"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Parsing\\AttributeProcessors.cs",
+      "sha256": "e8c91068cf910f87842396f606c89c65f67144f84ad3c55e3159ea3da0a311d5"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Parsing\\DiagDescriptors.cs",
+      "sha256": "3a6dbb13183d513435eaee9e0522c04aca7823494d5c85836a3d41a0bb24027e"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Parsing\\Parser.cs",
+      "sha256": "890ad145303e640d93569aa93e720a61767c3845e33a97f9d08e642fd888a029"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Parsing\\Parser.LogProperties.cs",
+      "sha256": "3a2ce9d556823a6fccde82c85ae1f1c1b779df41482de299331943ce88f74429"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Parsing\\Parser.Records.cs",
+      "sha256": "5edfb26fee1e96308a4ee0b74ce8bf3ff4930d6a3608a27c04521ee6499e90c2"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Parsing\\Parser.TagProvider.cs",
+      "sha256": "d2f0d500739d17f3e8d49915172d955e075fd91bd99605db0c785be81fc18826"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Parsing\\Resources.Designer.cs",
+      "sha256": "d6e11dc4c81a88acfc45e598fa897497934f9e4b644bca670c7b67d1a26cd7e8"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Parsing\\Resources.resx",
+      "sha256": "581a01a26b9717d9f6a1af8b30c6e7aa47509555772eda3fe3bbb756d62f3f0b"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Parsing\\SymbolHolder.cs",
+      "sha256": "4d1f2a8e2bcac0817bed0aee994834215cd0c8966fa1528567b957f6cb6ca5d7"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Parsing\\SymbolLoader.cs",
+      "sha256": "549bb7ec5dca3e981e866ac1350de4a8a93aafeb1586829668f94031f6afcbfa"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Parsing\\TemplateProcessor.cs",
+      "sha256": "ac34fd7aed32a53e71d57165bdf0171ba9123cc17466b36a7c0887a2c5f50385"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Logging\\Parsing\\TypeSymbolExtensions.cs",
+      "sha256": "8a375c07fc5800ae173056b6a909c21fb8f7f304324f35163d0b1bcb966fb550"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.MetadataExtractor\\MetadataReportsGenerator.cs",
+      "sha256": "5390fa37f42e999111e70dbe39c87ff5149efc860a34dfd333be7544ef5a3dc3"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.MetadataExtractor\\Microsoft.Gen.MetadataExtractor.csproj",
+      "sha256": "bdd2e859fb4379f24a9e8ea25a1c128843e14076ca2c3688d126718856b1efec"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\DiagDescriptors.cs",
+      "sha256": "c8dbbb393fb8d253e84a5c8ad0b12f57d965cf4dba4b6b320b72a1a14b781386"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\Emitter.cs",
+      "sha256": "849e1e0d8798dc446e12a3f73a91aa44fc63409f91c28c24776755d830bd2ff8"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\MetricFactoryEmitter.cs",
+      "sha256": "f2510b1891c0270e673f7818bf2423a2e380fb264e2f584462401ddaaa698fc7"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\MetricsGenerator.cs",
+      "sha256": "a7f7ee34a935a29fe515a0dd8d68368b75ff7fea3ea56b9f70d473e9edd874ad"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\Microsoft.Gen.Metrics.csproj",
+      "sha256": "3364f15662159ca49e962e4235d5eb3ba1af2da5266925225045252778b816e7"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\Parser.cs",
+      "sha256": "e32e14da3afe43c5d82c442411ea22fe82ceae450b20b19f29763efe852f4d7d"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\Resources.Designer.cs",
+      "sha256": "8fb9bf86ee0daa5da7e0f59211e588dc46ad67dfbd8aa3f874758e67694423c3"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\Resources.resx",
+      "sha256": "dc2fefc6e15171fafc4d673a0aa1fe9c9f76b975bf84af55804e4068c20a2f57"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\StrongTypeAttributeParameters.cs",
+      "sha256": "ef4c7339dbbf3a0e2630ef2bbefb2beb5afac287ad8570c6d9bf6abbc398883b"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\SymbolHolder.cs",
+      "sha256": "8332d4bcd76b8d9fe5159e7defa98a5d2dd5eb14071ed2e3aa4a7fd8906e89c0"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\SymbolLoader.cs",
+      "sha256": "23abb0601fda463a2430a569e3892837dc93fe0ec9e1e850d0c2e249808750d3"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\Exceptions\\TransitiveTypeCycleException.cs",
+      "sha256": "0f07f621871f60333275d8d6e4ef99050c043deecd2d1e35c2d974d0a42e905a"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\Model\\InstrumentKind.cs",
+      "sha256": "d0bdb4c858762f3b7492b41da05e2e8bf62b403b042ec85444718332e65a9ab6"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\Model\\MetricMethod.cs",
+      "sha256": "dd1695f61de717a335e60502ea57e296c77c6448f87efd8110e8d1dc7e8071d1"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\Model\\MetricParameter.cs",
+      "sha256": "bbc6ff8e2d9697716da6b1fa437a0c7a33beb9a722cc28bdd304e1bd1af727ce"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\Model\\MetricType.cs",
+      "sha256": "9437bc8ac17338ffd4fd3028557d8249db3025922a32f9b8375b59d2dd37cb4c"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\Model\\StrongTypeConfig.cs",
+      "sha256": "e9693a05e2da1671ccff0906c0fcef87db32c4adf32e301cfa8959b2eea58b5c"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.Metrics\\Model\\StrongTypeMetricObjectType.cs",
+      "sha256": "09cddf862b8ddd18d035ccc02720b9c1de1e88cf71a2705217bf9842a429ce31"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.MetricsReports\\MetricDefinitionEmitter.cs",
+      "sha256": "c88c910201355e47ca87f8cb169672911d95dcecd28f231d3060e3ba84c5a857"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.MetricsReports\\MetricsReportsGenerator.cs",
+      "sha256": "d1f8a83e098eacf04e8f781ec9815a2a721292f81573db855285e50bbd76174a"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.MetricsReports\\MetricsReportsHelpers.cs",
+      "sha256": "b6b2a474ef8b295649ddc5569ed6fd4b528a61584c93cb0f6fdadca26015a8b4"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.MetricsReports\\Microsoft.Gen.MetricsReports.csproj",
+      "sha256": "838448226c3016101c9a1915e92795fb55f86663c03e5277ef2be4b71c193480"
+    },
+    {
+      "path": "src\\Generators\\Microsoft.Gen.MetricsReports\\ReportedMetricClass.cs",
+      "sha256": "fc790899af5d4b7ddd3c4089eef1398b1c2ee5b644907d6887052b1a6c105022"
+    },
+    {
+      "path": "src\\Generators\\Shared\\ClassDeclarationSyntaxReceiver.cs",
+      "sha256": "0d9a788f4a7eb7a25120f3827c3bfa61b1651fcb6a4f3414e62c4420c8807a59"
+    },
+    {
+      "path": "src\\Generators\\Shared\\DiagDescriptorsBase.cs",
+      "sha256": "50a09dd1107b4187782072220e6c8f8b35736f36cd4ed67192a63f759a66c087"
+    },
+    {
+      "path": "src\\Generators\\Shared\\EmitterBase.cs",
+      "sha256": "83ff8190aa4c5309e742f69c95c77b54ae0ae243d9ab0b75e49d5baf5c5d0ee2"
+    },
+    {
+      "path": "src\\Generators\\Shared\\GeneratorUtilities.cs",
+      "sha256": "186a7158eb4be7f78475c4db3d87909c6305e14508113d78e61ee8990b186020"
+    },
+    {
+      "path": "src\\Generators\\Shared\\ParserUtilities.cs",
+      "sha256": "8822f45f0eb8464a52d8ccffa619e596358efb2f7b8580176ffb71f38a9a81f5"
+    },
+    {
+      "path": "src\\Generators\\Shared\\RoslynExtensions.cs",
+      "sha256": "9ea1c210cf0ccbd1ddf8ddc36abedbb72c678d98045f8ccd58f504e30825b533"
+    },
+    {
+      "path": "src\\Generators\\Shared\\StringBuilderPool.cs",
+      "sha256": "60241f948b1ab33f6ef5be699bc0824c760eb96de90accfd89a0744403d14e97"
+    },
+    {
+      "path": "src\\Generators\\Shared\\SymbolHelpers.cs",
+      "sha256": "da78d9fe8f631a971fb01c90f3496adff156613a08f07181f377a201b01d6885"
+    },
+    {
+      "path": "src\\Generators\\Shared\\TypeDeclarationSyntaxReceiver.cs",
+      "sha256": "8e5eceb324d0cda9a718032857e9efb4f59ad87cc07d968a96c9629028ac0b57"
+    },
+    {
+      "path": "src\\LegacySupport\\.editorconfig",
+      "sha256": "f501c45fe41e05ca661f234b696b3d1af9e344d90ff947327ad10c304fff57c3"
+    },
+    {
+      "path": "src\\LegacySupport\\README.md",
+      "sha256": "e1e980959c64751a1a1cb073c3459f9194f89bcb89e6b90fa5be3e2f75667cdd"
+    },
+    {
+      "path": "src\\LegacySupport\\BitOperations\\BitOperations.cs",
+      "sha256": "9fbdbd41f76ebe98695ace40cde864af1d4952be54647f4f1331519d8c3e3f4b"
+    },
+    {
+      "path": "src\\LegacySupport\\BitOperations\\README.md",
+      "sha256": "424593bdcc065a7f276bffe77cad67ae288867ecb1bc1672fba9f2e7c4fdba68"
+    },
+    {
+      "path": "src\\LegacySupport\\CallerAttributes\\CallerArgumentExpressionAttribute.cs",
+      "sha256": "5e57d2ddb6a72b98932c6b8d9a48a247955ef62f4a70a06deb42e58dd705c176"
+    },
+    {
+      "path": "src\\LegacySupport\\CallerAttributes\\README.md",
+      "sha256": "6b64b90efdd99296dbc691367caa008d71fd7c260c521bc1dfe7897ed4c6e9d4"
+    },
+    {
+      "path": "src\\LegacySupport\\CollectionBuilder\\CollectionBuilderAttribute.cs",
+      "sha256": "069623f6341aaee060e164e71898cc94bc234de4d95d4737c53de21de5fbe2db"
+    },
+    {
+      "path": "src\\LegacySupport\\CollectionBuilder\\README.md",
+      "sha256": "d8e651e672845af42bf0a533c0f1d4696844619bf8aeb5e4c2ea7380ba6caf1f"
+    },
+    {
+      "path": "src\\LegacySupport\\CompilerFeatureRequiredAttribute\\CompilerFeatureRequiredAttribute.cs",
+      "sha256": "75f4b7ca32e5af967aea09a5bd1e486b4529c5f4f089921be8dac5f55f1caf71"
+    },
+    {
+      "path": "src\\LegacySupport\\CompilerFeatureRequiredAttribute\\README.md",
+      "sha256": "252fdf6f94ecc6d17d1e608742712b9bb2e88d3572dfd774c5809b47b555449d"
+    },
+    {
+      "path": "src\\LegacySupport\\DiagnosticAttributes\\NullableAttributes.cs",
+      "sha256": "353a26e1a64ddf445071ccfd1979b4bd2bde72f36222e66c043aa24bf9db8379"
+    },
+    {
+      "path": "src\\LegacySupport\\DiagnosticAttributes\\README.md",
+      "sha256": "b9a94a0d670f54b5f77eedcd2e83509d18b1717b160b1644bcfa0c2cad4da2ce"
+    },
+    {
+      "path": "src\\LegacySupport\\DictionaryExtensions\\DictionaryExtensions.cs",
+      "sha256": "7ffd1280305e3fddffa74d1baf8d2aa63c9423422d25dac36d80c0e9d489defe"
+    },
+    {
+      "path": "src\\LegacySupport\\DictionaryExtensions\\README.md",
+      "sha256": "b7ca5b1b9616e13199801f3211b20a03d4d8f4cec185fb320996b7f00f0836a7"
+    },
+    {
+      "path": "src\\LegacySupport\\ExperimentalAttribute\\ExperimentalAttribute.cs",
+      "sha256": "164dd4d4930b2b02c3630b03ecba52e9e6db5b4257518446392aca0842c1df16"
+    },
+    {
+      "path": "src\\LegacySupport\\FilePolyfills\\FilePolyfills.cs",
+      "sha256": "d776736e8bd396b5083583cf00bfd26d8c74690545eb6759b8fa3baa30f075c3"
+    },
+    {
+      "path": "src\\LegacySupport\\FilePolyfills\\README.md",
+      "sha256": "b988aa3cb082447802babd123b789180a6d264974e25a5f023745d07fc791ee0"
+    },
+    {
+      "path": "src\\LegacySupport\\GetOrAdd\\GetOrAddExtensions.cs",
+      "sha256": "4562f5f2282acb0309abe808974d9360744706acbbf318f7c7a89dc47063a0e6"
+    },
+    {
+      "path": "src\\LegacySupport\\GetOrAdd\\README.md",
+      "sha256": "8314f6edd462616896f465902a4d0b0422146dc2b7276a1fce0f77dc4d49a983"
+    },
+    {
+      "path": "src\\LegacySupport\\IsExternalInit\\IsExternalInit.cs",
+      "sha256": "5f49b40cb92f7a73535326cbf5156654c916cb1c566d85e0e7ea70b7fb81a760"
+    },
+    {
+      "path": "src\\LegacySupport\\IsExternalInit\\README.md",
+      "sha256": "dece4cafaaab1636d6357184049566bdd7ffd64f45307f97557ad9c97ea170f0"
+    },
+    {
+      "path": "src\\LegacySupport\\MediaTypeMap\\MediaTypeMap.cs",
+      "sha256": "8197c499c47173b615da51e981f7e720ba74df9f649b4ab04b6ec9ca36239711"
+    },
+    {
+      "path": "src\\LegacySupport\\MediaTypeMap\\README.md",
+      "sha256": "bc6d56c1a801a6df8e2e951ca927be94d1017d919e32d8bbcda6c131ddd590c3"
+    },
+    {
+      "path": "src\\LegacySupport\\NullabilityInfoContext\\NullabilityInfo.cs",
+      "sha256": "ac23afb0324f20c4a65fc74f134f6f5754d338dbde565fea851e9cdbc9409007"
+    },
+    {
+      "path": "src\\LegacySupport\\NullabilityInfoContext\\NullabilityInfoContext.cs",
+      "sha256": "1a056bde3de42a3dab761b7b9aac3404db210f4bd77e31000cc56533f27d02e6"
+    },
+    {
+      "path": "src\\LegacySupport\\NullabilityInfoContext\\NullabilityInfoHelpers.cs",
+      "sha256": "b80a93c04d947ebbb675821f2b6d8a9cf43e35dd3197d7c67c194144b56136de"
+    },
+    {
+      "path": "src\\LegacySupport\\ObsoleteAttribute\\ObsoleteAttribute.cs",
+      "sha256": "4d39cc54b817aa12277deef90f05373de1a82205abd4ec9a56ebcd696d460ce5"
+    },
+    {
+      "path": "src\\LegacySupport\\ObsoleteAttribute\\README.md",
+      "sha256": "756b74b3adb57b227f6567565add169f632cdb002a3080623d2d3c4493c32367"
+    },
+    {
+      "path": "src\\LegacySupport\\PlatformAttributes\\PlatformAttributes.cs",
+      "sha256": "f87f268c407b00e2892b27627681dc6c9a59ca375e92027a31c445ba645b6623"
+    },
+    {
+      "path": "src\\LegacySupport\\PlatformAttributes\\README.md",
+      "sha256": "66f99c01cfc0b516da809a76935aa1da1580e194dff93a56545e4378b70ab062"
+    },
+    {
+      "path": "src\\LegacySupport\\RequiredMemberAttribute\\README.md",
+      "sha256": "7cde37733088bee5ade6e0afbf6393c1976fadd20bb042ba852002e5c689a7f1"
+    },
+    {
+      "path": "src\\LegacySupport\\RequiredMemberAttribute\\RequiredMemberAttribute.cs",
+      "sha256": "43caff395f946e8a80c3fc330901473892d863912582221205265bfebe4369ec"
+    },
+    {
+      "path": "src\\LegacySupport\\SkipLocalsInitAttribute\\README.md",
+      "sha256": "878af783f83ab2c591b31e2bd1ac91126765e7ef1a7c27e8bb22187477a1ae33"
+    },
+    {
+      "path": "src\\LegacySupport\\SkipLocalsInitAttribute\\SkipLocalsInitAttribute.cs",
+      "sha256": "2451a484f3f87fc59e9077aab968ddf645e0c2c13a4e42ae24f0a92b89383ac9"
+    },
+    {
+      "path": "src\\LegacySupport\\StringBuilderExtensions\\README.md",
+      "sha256": "10b9eda47e29e0f3e9f8ba0779763ab24a473e1e35fc8011ce4f191a2cd5541a"
+    },
+    {
+      "path": "src\\LegacySupport\\StringBuilderExtensions\\StringBuilderExtensions.cs",
+      "sha256": "ff98a9bd0251d19b76162a2048ece4429dd04a503c925886d284edd55269aec2"
+    },
+    {
+      "path": "src\\LegacySupport\\StringHash\\README.md",
+      "sha256": "ffc895f7ae23c5cbd7dcb35c05f33daef20c664125304c1164ea55ae004b1cf3"
+    },
+    {
+      "path": "src\\LegacySupport\\StringHash\\StringHash.cs",
+      "sha256": "cb9954f7c39b5f6761858f2f7cad129ca346ae5cecca45d1dad59e6121a6789c"
+    },
+    {
+      "path": "src\\LegacySupport\\StringSyntaxAttribute\\README.md",
+      "sha256": "93c426265ef82569b90c8caffb5b0b5a0bdebc3effb1dcf22c296bc7d733f0ec"
+    },
+    {
+      "path": "src\\LegacySupport\\StringSyntaxAttribute\\StringSyntaxAttribute.cs",
+      "sha256": "7ed9581d66f8dddb38bd90a112e539e2691cfbfa82c7d2e7514cee8f78e51df6"
+    },
+    {
+      "path": "src\\LegacySupport\\SystemIndex\\Index.cs",
+      "sha256": "5e88f471a96849dadab898cc9772cae2376ef8c4581a5441ee6632411974ee68"
+    },
+    {
+      "path": "src\\LegacySupport\\TaskWaitAsync\\README.md",
+      "sha256": "a0525f8247182c07d8bdf04ebe0690fb7f3b902c08ea714a85484fbd43a41c8d"
+    },
+    {
+      "path": "src\\LegacySupport\\TaskWaitAsync\\TaskExtensions.cs",
+      "sha256": "402e949e6686bd05f84cea327f1eebd96ee0b28d487462e784a41aa6df5bef08"
+    },
+    {
+      "path": "src\\LegacySupport\\TrimAttributes\\DynamicallyAccessedMembersAttribute.cs",
+      "sha256": "22eb16b84e2fd208989e11d5b15354aec9d8b4946bac4eea4d2fc8ee0fdaf2ac"
+    },
+    {
+      "path": "src\\LegacySupport\\TrimAttributes\\DynamicallyAccessedMemberTypes.cs",
+      "sha256": "38107f7b6f9118ec6e81f845c2a82e039058bc9c0716ec0e65feaea94f67a7a7"
+    },
+    {
+      "path": "src\\LegacySupport\\TrimAttributes\\DynamicDependencyAttribute.cs",
+      "sha256": "8571f3edbb1f60a6d37d0e85ba1da09168b48ed3170dc6621c2e2a5d3e8ee5d8"
+    },
+    {
+      "path": "src\\LegacySupport\\TrimAttributes\\README.md",
+      "sha256": "22d4132329a73a0101a4ae553989c8ee73c7d15e063d412c835c2faf124499f3"
+    },
+    {
+      "path": "src\\LegacySupport\\TrimAttributes\\RequiresAssemblyFilesAttribute.cs",
+      "sha256": "9c40b0e55bc1fce915bbc2c445f971a3eceb39bfd016959f548560486478771a"
+    },
+    {
+      "path": "src\\LegacySupport\\TrimAttributes\\RequiresDynamicCodeAttribute.cs",
+      "sha256": "d1eab925da7480831946030282d4146d7ac83e5aa45b5ab1588d079a19e587ac"
+    },
+    {
+      "path": "src\\LegacySupport\\TrimAttributes\\RequiresUnreferencedCodeAttribute.cs",
+      "sha256": "4805cf19eeea7e535ddc2db90eb5441971742b5f6499de63974f905fb560039e"
+    },
+    {
+      "path": "src\\LegacySupport\\TrimAttributes\\UnconditionalSuppressMessageAttribute.cs",
+      "sha256": "4a2b2c0cdf2b12157b245540abd015c2ddbb80357d967c8b3e06ebf9e4141b7d"
+    },
+    {
+      "path": "src\\LegacySupport\\UnreachableException\\UnreachableException.cs",
+      "sha256": "a1cfcd10467a66bf404b8b7a220b1e74e668c351d58e558d8db67064d8f51dcd"
+    },
+    {
+      "path": "src\\Libraries\\.editorconfig",
+      "sha256": "617e0e06436648f76bfb40f422a3a8126833d182c5721fdaf1afaa1960bf52d7"
+    },
+    {
+      "path": "src\\Libraries\\Directory.Build.props",
+      "sha256": "642173f3c4c9e27f7805854832cd3d2dd97fb055a49a5ebe5b06348acf061ebb"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\EmptyServiceProvider.cs",
+      "sha256": "749c8d21ab47f14938eafce70bbd451819cd2820d62e76d2ef64e8505176bd3a"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Microsoft.Extensions.AI.csproj",
+      "sha256": "a2ece079b6be84ddbdaae533961f71db56852b32b3e42a5769e4a2c4fe764b58"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Microsoft.Extensions.AI.json",
+      "sha256": "b8f8b5066d182cd56acf94ff52d85890e61f6ab68be59273a99e0505b85f2265"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\OpenTelemetryConsts.cs",
+      "sha256": "ca3d7f58c0b3be0dbdcc421b128f175a14a4a3334d56f782dbaaa8c90741a8e9"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\README.md",
+      "sha256": "4c45c71d17e3a762003031a520da7280f48d286ee512934bc14a31c507b7b90c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\TelemetryHelpers.cs",
+      "sha256": "53f711f93beb7da9d9bafe11ee875ee151ddaa374be5d969af54d3d23f3d92df"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Throw.cs",
+      "sha256": "0f1e75873a272b4071bd8a8c16179fe6e6de4cbffd525543a9db4b02d490a4a7"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\AnonymousDelegatingChatClient.cs",
+      "sha256": "7aef21626d99262bee6cd56a8c1227bbd50527c43e1f0202ccaa358794b8c703"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\CachingChatClient.cs",
+      "sha256": "ee3df0669cd2cd2a980d07bb8858d8fa3329a4b7c2faa6f546a3c3393d93e932"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\ChatClientBuilder.cs",
+      "sha256": "6b21836c08d792f201d52ca80350459d2738caaad5b03bafa331b88704bde301"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\ChatClientBuilderChatClientExtensions.cs",
+      "sha256": "f70ba31213b1a482e05da9d77aee5be319ff6150c3448dce00d70049daec35f2"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\ChatClientBuilderServiceCollectionExtensions.cs",
+      "sha256": "447d269117d37d1f3738c88379a7bb86783032f0c0159efb478d6bed78ed225e"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\ChatClientStructuredOutputExtensions.cs",
+      "sha256": "970e5d0e77be652bcea8d197bf3f565a98c6eefb0ded3c9aaec60c105d0ec798"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\ChatResponse{T}.cs",
+      "sha256": "01d13d47becdf4ede66ca9447e81782cec7fc2cb00aefa5b469394f20512edbc"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\ConfigureOptionsChatClient.cs",
+      "sha256": "003be48834338a753438018d9e0e6da6042602063dc41b65391837328d5778e1"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\ConfigureOptionsChatClientBuilderExtensions.cs",
+      "sha256": "5889c0e285310259c359b301639b7e7ee11951c3d82d12738f263e3d38bcebf3"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\DistributedCachingChatClient.cs",
+      "sha256": "c97889e349875fe8a468afe8c0dede6bec3a41328c5054d77611dc495b7fee79"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\DistributedCachingChatClientBuilderExtensions.cs",
+      "sha256": "1ed88e5e78bcd0114f47d37022531c3e0bd2708b50bdb32bcce1f2366c6268ff"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\FunctionInvocationContext.cs",
+      "sha256": "4be80c7795cfdfc4408070e4a0b442d21d4b9443dad168312d6b172e4416afdf"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\FunctionInvokingChatClient.cs",
+      "sha256": "a02f785eba1d60a8f94f3fd94a89a4f6e5deddac56692b4bfde56d85583d85ed"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\FunctionInvokingChatClientBuilderExtensions.cs",
+      "sha256": "4d5fca03687e5309aa33f1c63366855f2c996fb01f565bfdf4824159ebbbb1c3"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\ImageGeneratingChatClient.cs",
+      "sha256": "ba86dc4adcfea2b55a0db1845144ef1ad986e2084560dfc3526d7190297fca83"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\ImageGeneratingChatClientBuilderExtensions.cs",
+      "sha256": "22b7456e8df1a7b4c3478cddf170ed4703916d87b5b9e976d32e96931aabc9cf"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\LoggingChatClient.cs",
+      "sha256": "df1cb423c491ce626e4af3eab2a2727feda318868ff78de3097a5ad3249da292"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\LoggingChatClientBuilderExtensions.cs",
+      "sha256": "9f19c14919f88ec559ea53c212f25b4004e969bd0dd3cda93e2ef8e945416cb4"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\OpenTelemetryChatClient.cs",
+      "sha256": "60e2fd5e91c2bc42f3a518a46b0ebde34f09246676bf3249173c176d123291b3"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\OpenTelemetryChatClientBuilderExtensions.cs",
+      "sha256": "6cde34434311c8c3f9885a322e15a1a7129a3dda9ff80c91aa761509b11f0f64"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\OpenTelemetryImageGenerator.cs",
+      "sha256": "a80a7145a6bc141f054b4a93c6e4bc498ce0a0921ec3ba66f0d4784866ad8120"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\OpenTelemetryImageGeneratorBuilderExtensions.cs",
+      "sha256": "ff9d8db22564abc3d2687a601f0c51797f3f606e1654009f29aa853ae5f7a7d8"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\ReducingChatClient.cs",
+      "sha256": "cce3e8b784b5d465cca5e6c37d4eb1bf626d4d8668380427c5dfd1653247d751"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatCompletion\\ReducingChatClientBuilderExtensions.cs",
+      "sha256": "c1fcaafd6e08cf9aaee72ec2f17621aeaca7f9a328b023541f2b242fad86856b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatReduction\\IChatReducer_Forwarder.cs",
+      "sha256": "7255b95d3a1ce06f3493fa30c874c3bbe9355f2df1b85ede7ee81ed23067dc84"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatReduction\\MessageCountingChatReducer.cs",
+      "sha256": "1e47780610ed23a78b8cd8cc56d0f2d143426df34ec0d7678e3c4744761264b6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatReduction\\SummarizingChatReducer.cs",
+      "sha256": "aa302c09fc992c5afa6f1652765ae6f6d8b5e0ee54df201bb43d3d2b6ee9f1e0"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatRouting\\FailoverChatClient.cs",
+      "sha256": "f44d13312debeee2dcbef5d84f778b80a6aebe2ff4ac039d90ff3ac044553639"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatRouting\\FailoverChatClientAttempt.cs",
+      "sha256": "a7da8b080d9d51037eea76d6dc4ab571d6d07f6fcbd8ee04a1be495ed11510f5"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatRouting\\OrderedFailoverChatClient.cs",
+      "sha256": "145c8eb6623e8e8705882f3a2f965a4576f947bb0819b807c49415ebdeb5d6e2"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\ChatRouting\\SemanticRoutingChatClient.cs",
+      "sha256": "dd32405ade4e307cc8f673d1fa35b25f227101ce8551519a2af4ce10b4818e26"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Common\\FunctionInvocationHelpers.cs",
+      "sha256": "7405f7d7bc91c65dfc5cedc602657e60c1ce8266af3686d25731de21ad5ce751"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Common\\FunctionInvocationLogger.cs",
+      "sha256": "b9c0a14a174351c668d1663b608379a8d1b5b24b54d20259b50d0382f6fe4483"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Common\\FunctionInvocationProcessor.cs",
+      "sha256": "a948ec07d9493c35d3dab867354fa2cd2c15da1484f24e633348e654a90a9a18"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Common\\OpenTelemetryLog.cs",
+      "sha256": "c54de553287511262b230757e22f34ecf97ec03ea4201fcd57cffb37834ddce1"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Common\\OtelContext.cs",
+      "sha256": "f8340af296f2991ad7c792eec1ad6de8975bf89586ede6d33117b4d9cf29ed39"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Common\\OtelMessageParts.cs",
+      "sha256": "aa2d2d8a348024e34245c5885b02eb6ccd5b013a44e72ed2e0f51d7008fe0ecb"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Common\\OtelMessageSerializer.cs",
+      "sha256": "446da923419ace42eabbd9c39c01dd40967de2c8afadb09c786e3cfad1c388fd"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Common\\OtelMetricHelpers.cs",
+      "sha256": "849cd70267b67a832c1cb6ef1a5a58a5d0b1015627eb88eb56c0d106ab62a424"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Embeddings\\AnonymousDelegatingEmbeddingGenerator.cs",
+      "sha256": "ac40e7bb1d131f82af5256cb530880d2d6e71ebf7c2ada7b1c692037fe25b911"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Embeddings\\CachingEmbeddingGenerator.cs",
+      "sha256": "f836941ee51207d6aaf2c7b78bce84aa53912bdcff3a0d1f8cf6a21b6fcbfa28"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Embeddings\\ConfigureOptionsEmbeddingGenerator.cs",
+      "sha256": "338bd445c05877dae81c63d5a7662cd457792945038c259953a4ffe32d24f5c6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Embeddings\\ConfigureOptionsEmbeddingGeneratorBuilderExtensions.cs",
+      "sha256": "ad1c8fc828dce10bb2eedb2adaa0490b55d82fc1a72778d691b27c5c3c510c2d"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Embeddings\\DistributedCachingEmbeddingGenerator.cs",
+      "sha256": "7923bfc80e7873bd47ef0086df07282ee20b8257564c347cde1bb56860d28c4a"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Embeddings\\DistributedCachingEmbeddingGeneratorBuilderExtensions.cs",
+      "sha256": "3c4fb33d7fc7e89308662d64f6cc35ede98731acd45ede6beab083d473a57ee3"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Embeddings\\EmbeddingGeneratorBuilder.cs",
+      "sha256": "ea98281a31f3f734d64efa2ecd29dc1b9850c3cce4844caa966f34700b6391ba"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Embeddings\\EmbeddingGeneratorBuilderEmbeddingGeneratorExtensions.cs",
+      "sha256": "61d5dc0bf5c1032f4c3a0daf4898ecee6e8dc0e6a1d47c4637527cb86d64701a"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Embeddings\\EmbeddingGeneratorBuilderServiceCollectionExtensions.cs",
+      "sha256": "a0de31f299020a57968759af4afd8079ede8293df28eba13ccb03841e0b606b1"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Embeddings\\LoggingEmbeddingGenerator.cs",
+      "sha256": "90818bd67cd42339a53254563b03db529fcbcd4d8c3a923c833c8a1c8105e9d3"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Embeddings\\LoggingEmbeddingGeneratorBuilderExtensions.cs",
+      "sha256": "328d884ddccf7e5fbea1a38079a62309c5c2f3b23762229f1b42c87cc8cc2234"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Embeddings\\OpenTelemetryEmbeddingGenerator.cs",
+      "sha256": "cba72203b3c4ff4f6aacea8dc5e55f75809bc08f84095042e64d965d0909096d"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Embeddings\\OpenTelemetryEmbeddingGeneratorBuilderExtensions.cs",
+      "sha256": "15f25530ac9c112da592f8b06e453f07f17d9d541af80d5ca897ecf97f640796"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Files\\HostedFileClientBuilder.cs",
+      "sha256": "2e7ac3daa7e242375eba1b13960f2bfd7eb5dd2c188bb0378b0681d1932eaaea"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Files\\HostedFileClientBuilderHostedFileClientExtensions.cs",
+      "sha256": "b9fb110a99ee23e6297ed76f845ab24958d1fabefa643e4a0211d39bd201754a"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Files\\LoggingHostedFileClient.cs",
+      "sha256": "771776686f8bf8db7eac5147c4f0de7dbb78830fc47590c289f4d2d534667f32"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Files\\LoggingHostedFileClientBuilderExtensions.cs",
+      "sha256": "291f8d792ac2ec15f6e40da6005be2804ce9c9d0286613b7fb7840b1ff6f0eb8"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Files\\OpenTelemetryHostedFileClient.cs",
+      "sha256": "123757d6c385230818b7017d4e5e1d10f5fb8872f8470c21166720d973e31054"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Files\\OpenTelemetryHostedFileClientBuilderExtensions.cs",
+      "sha256": "5058e2581329abfee19d1975da21402bfacb25a66a62dbfee1b59d83655afa05"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Image\\ConfigureOptionsImageGenerator.cs",
+      "sha256": "bd909ed298a8289dc380250a3502852c90dea48c323ea17a2e0069245f5d02e8"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Image\\ConfigureOptionsImageGeneratorBuilderExtensions.cs",
+      "sha256": "0e65b437022c3572ef461099195a6db8c048f491c7436654663e166771962601"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Image\\ImageGeneratorBuilder.cs",
+      "sha256": "65644bde36ba420a1bd366eee4f2fc0ba56181ac940a2cc3f4f233483bc98c15"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Image\\ImageGeneratorBuilderImageGeneratorExtensions.cs",
+      "sha256": "e751e408e64f587d02426c26d12b19cb4620e38204e7b482afb6adaa2b3f1670"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Image\\ImageGeneratorBuilderServiceCollectionExtensions.cs",
+      "sha256": "33229932d5cf910a6f60a5051637ea627b7718046e553ac6912f1f7e1fa69222"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Image\\LoggingImageGenerator.cs",
+      "sha256": "260016acda590feac7f4bb76b323f5402ebc592bbe2364aa4092452b5bf29cf5"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Image\\LoggingImageGeneratorBuilderExtensions.cs",
+      "sha256": "4e73faf46dc95d8f1418627ee81e9bc427404abe0d65efa68721f0dbd8df7ddc"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Realtime\\FunctionInvokingRealtimeClient.cs",
+      "sha256": "94b14535774dca1aa2e76d8bf3297bebc108749205a0a0b37ff3f73b8b563fbd"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Realtime\\FunctionInvokingRealtimeClientBuilderExtensions.cs",
+      "sha256": "5a931a212da11ee4520221e7525ea14d4d729e6d0e20bf468c0deba0bd1b5ead"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Realtime\\FunctionInvokingRealtimeClientSession.cs",
+      "sha256": "072b669beef551ae9709f46322c3046dd5c31aebf553990655fe148562d76d4f"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Realtime\\LoggingRealtimeClient.cs",
+      "sha256": "fcef13670ab70e8153be61cb24d53598f80078a28e36520f39106d1671ddd3cd"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Realtime\\LoggingRealtimeClientBuilderExtensions.cs",
+      "sha256": "c816c19342a559d378e19401d0840fea5778f246056010a0e83a0c9bd3d6b6f5"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Realtime\\LoggingRealtimeClientSession.cs",
+      "sha256": "aabf5a38093291cd4da855d4cc06c891cef6b17e2827a23590c1e20e23d82082"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Realtime\\OpenTelemetryRealtimeClient.cs",
+      "sha256": "ab7128fc7b65cd6e6be699aaa61f2cff699af035c59931cb541296febefc5408"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Realtime\\OpenTelemetryRealtimeClientBuilderExtensions.cs",
+      "sha256": "75e5904034e038d0ee876934e2bad9953b12e5f16d5873446da7f1b42841f3f7"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Realtime\\OpenTelemetryRealtimeClientSession.cs",
+      "sha256": "4432a5b6fe5829caea89bd99792d8c23e06798b84667dc9824a62254cc9aabd6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Realtime\\RealtimeClientBuilder.cs",
+      "sha256": "6a9b7e2b52893d474d15d58d7ff36060d4dc52529ee7323f9baac695bd41e057"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Realtime\\RealtimeClientBuilderRealtimeClientExtensions.cs",
+      "sha256": "87b4d6662f656e32db7f0d9284ca95fc6f043e2a683f855dd209eb3983a0eb99"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Realtime\\RealtimeClientExtensions.cs",
+      "sha256": "c337d212644d1f0f4788ab977d4fc2ddb3580871cb3960fe52e3ecd69b270ce1"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\Realtime\\RealtimeClientSessionExtensions.cs",
+      "sha256": "904685f3b1b6631eec3f2050096250c4bdff1b5ccb56533cd71c2edf9769d943"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\SpeechToText\\ConfigureOptionsSpeechToTextClient.cs",
+      "sha256": "76444df567e7b8fbfff2ecfea36473d8192756976d0c9a8feae1886b01274d7c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\SpeechToText\\ConfigureOptionsSpeechToTextClientBuilderExtensions.cs",
+      "sha256": "254aa0b09b70b58af6ae6c0aa32e8674fe4faefda2ba4fbd2f0c62fcf34b7189"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\SpeechToText\\LoggingSpeechToTextClient.cs",
+      "sha256": "8a4e6f8eb82945a07f6309e81040adea72e4eeb8751a47e5a4d83f40e1d5ccd6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\SpeechToText\\LoggingSpeechToTextClientBuilderExtensions.cs",
+      "sha256": "485ecaf01a4e7e056fcc2cd956e89c5c6687bbc799bc70b6dc0fbcef7c09e66b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\SpeechToText\\OpenTelemetrySpeechToTextClient.cs",
+      "sha256": "2e025c15803e13ec61561f5195c912ec3acbc240fb3ecac2f85e8b6e873f8ba4"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\SpeechToText\\OpenTelemetrySpeechToTextClientBuilderExtensions.cs",
+      "sha256": "893c4bde44a9e57fc0d6b106906234ad6a20415ee111bbb1e4df15fc758a5428"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\SpeechToText\\SpeechToTextClientBuilder.cs",
+      "sha256": "e531fbf6a626700eace99c7a7d5a2b49b63bc0f679e6038b3bc2f759561044e1"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\SpeechToText\\SpeechToTextClientBuilderServiceCollectionExtensions.cs",
+      "sha256": "0feb4b1279bab083d605118de35582512b68ddf0aa9d5d86c400af60c9dfeb12"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\SpeechToText\\SpeechToTextClientBuilderSpeechToTextClientExtensions.cs",
+      "sha256": "bc07134656ab6d82a55763a83370bc5ec7cab5564a2d264fd8a1df048e9920cb"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\TextToSpeech\\ConfigureOptionsTextToSpeechClient.cs",
+      "sha256": "7cdd9ea329b7c9d76d147e378cfd1dae3346b7690dd0395d2e97fa409fd66827"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\TextToSpeech\\ConfigureOptionsTextToSpeechClientBuilderExtensions.cs",
+      "sha256": "60765cf379e5854a58dd63677816bf55e58d912521ce842a5bfaab335b61754a"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\TextToSpeech\\LoggingTextToSpeechClient.cs",
+      "sha256": "55b9133a143b7c53ded2faf34fdc736dbf0d46764b824216dffbb8bb69bb9da4"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\TextToSpeech\\LoggingTextToSpeechClientBuilderExtensions.cs",
+      "sha256": "117540e1c344716fa53a1f08e3c8a8498e406140492de54bbacf7575280172c0"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\TextToSpeech\\OpenTelemetryTextToSpeechClient.cs",
+      "sha256": "b97ae272cf46b6f8b3b1e2acb8edebc1823660136054af201b40272fac92392e"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\TextToSpeech\\OpenTelemetryTextToSpeechClientBuilderExtensions.cs",
+      "sha256": "3f4a41007ab53a47740aea35ad6b324a99c9a3531d2ad32284b6c4f4367d65c6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\TextToSpeech\\TextToSpeechClientBuilder.cs",
+      "sha256": "f119756ab4fec58905c645191e398a46a955e3b9a859460193b1931f5f73bef6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\TextToSpeech\\TextToSpeechClientBuilderServiceCollectionExtensions.cs",
+      "sha256": "9855e4d828b028509812ecdb8c0043df1aed9a91c44759d94acc2e51b4cb949f"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI\\TextToSpeech\\TextToSpeechClientBuilderTextToSpeechClientExtensions.cs",
+      "sha256": "a3cf7afd82646e08dcac3f41ead15ef45bdb92df6b12742fb6bff00955068494"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\AdditionalPropertiesDictionary.cs",
+      "sha256": "fc5e1e8f101a5c4481d5d7dc91f05519288e2cc712879215293a0d297d2a8d0a"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\AdditionalPropertiesDictionary{TValue}.cs",
+      "sha256": "bf024bc41c8d0ef5eef7bc51e153cfde204db0890df0056ea5bc9723d34e0293"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\CompatibilitySuppressions.xml",
+      "sha256": "8ac9788633e6e122e568aab16a78fb9576d1586667246ce976c7b8ddccec95a1"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\HostedMcpServerToolAlwaysRequireApprovalMode.cs",
+      "sha256": "a191c71faab6c0721b1cd9cfc548adfc31448b1d941f339b0ea06c7165fd1709"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\HostedMcpServerToolApprovalMode.cs",
+      "sha256": "feb4bb8e82b71b84705ecadc74be09406028d4a4bfe1f537f40154434a158e73"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\HostedMcpServerToolNeverRequireApprovalMode.cs",
+      "sha256": "78d18e7126c0ca2543f75f9601868e9fcf720695d9b9aab3b586a7264ecebe9b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\HostedMcpServerToolRequireSpecificApprovalMode.cs",
+      "sha256": "c5d4ba2c0dff2c7cf70cc182e70aa32bdc981c4bf1f6fee3f7552e7b3655615b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Microsoft.Extensions.AI.Abstractions.csproj",
+      "sha256": "cc865304fe42503f9385946897ab4ba19235b833d2ccad0a1735c1a8e7ee79da"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Microsoft.Extensions.AI.Abstractions.json",
+      "sha256": "85ee9c41e83032e29ae5453259c652648759d7acab7a02b04e604480d5b05429"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\README.md",
+      "sha256": "1cbdb1688e060e347c0f29c9630efc124f65a74d8196c1cc93e7f69f42fb3760"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ResponseContinuationToken.cs",
+      "sha256": "2057f29aa702093234f83419306d605b7a8925a6ebe7b594404efa90383c6a65"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Throw.cs",
+      "sha256": "49f0277e25b15916f4ef466ec0ab0a9f38d5b8dfabbb5891672e4eccbb5fa8c9"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\UsageDetails.cs",
+      "sha256": "5d816997e6d27d51e9b6712fd0152b833f8c1c69b4e19395d435f4d1b890bac7"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\AutoChatToolMode.cs",
+      "sha256": "610302faeacc2f2e9f65a18d33684fe93ac08e40125ce7b2e837210d23763407"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ChatClientExtensions.cs",
+      "sha256": "3d9a2bb45e346098f8bd6b0fa9aebe69abf9184e55d471ef849893b7bfdc49d5"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ChatClientMetadata.cs",
+      "sha256": "0da33fc3ca2ce90f563e80e0dab3940ea10599146d269576f8572aa4f15ef6a8"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ChatFinishReason.cs",
+      "sha256": "0508ab646c713ed9aa940a6235c094b8859921290c966b97027cc7a05885d598"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ChatMessage.cs",
+      "sha256": "db67c7aa0eb10870c3d38478ea48c297131e41c2bb376a0a0d8869550bc4b2dc"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ChatOptions.cs",
+      "sha256": "47aa2fad7c653df52ee7d01012d3dc3978c543d77d167160a9fa4c6a25f68072"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ChatResponse.cs",
+      "sha256": "64dccff100a00a25d7887b68d688818d5fa61bfc7cbc42d9b9a49eaa9486fdc2"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ChatResponseExtensions.cs",
+      "sha256": "8f71b04c5d6d9616a47f17e494a8c40c5eb2eb7622455c172c8b7478372f1f24"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ChatResponseFormat.cs",
+      "sha256": "97cd67398489d61b288b1e32f89b934644b549e429533e742de80e14d7f7dd8f"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ChatResponseFormatJson.cs",
+      "sha256": "7297f8fd0f7d25943737beee8d99d092730d4dd0091333b85a9d77e5c960b88b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ChatResponseFormatText.cs",
+      "sha256": "fc1666a3e7ba93b873ba6a131f50c36399aff0219333e60b15f0a34a00a5a8d2"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ChatResponseUpdate.cs",
+      "sha256": "0733256b670e040e08ff3d855f9d1268aeae30fe437f8b22b259c356ce7c9168"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ChatRole.cs",
+      "sha256": "dda7b8ef227bef5b52c48844fc2da2cedfcc8fcf014357f1d5d1c162f3bd0f15"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ChatToolMode.cs",
+      "sha256": "7c46e7bda03ada0d0b76f3a151d3f7f53ba3d9b9017452f24de9490087021d98"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\DelegatingChatClient.cs",
+      "sha256": "2262f2bd799fba96bb439984d2b64afcd2bffb560191ca916f370551da97ad1d"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\IChatClient.cs",
+      "sha256": "20932da65511a4bfda607c805474818aa6d54828a0e0eae8c9698fb9934af1d9"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\NoneChatToolMode.cs",
+      "sha256": "e20ad1a7d024b78ac5b7f03f62cd30ccdeee2d0d38c8b719cad518713fc1d509"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ReasoningEffort.cs",
+      "sha256": "e87b9010dc0c99e8a88b633e3637c99690af137652bbc29526be6727a0df43a3"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ReasoningOptions.cs",
+      "sha256": "241123b496f89c688846c1fd74babc4b20d4639376af0481d6c238dd127861d2"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\ReasoningOutput.cs",
+      "sha256": "31708553ad64d4b9764f75079affa039b58e80893d43d5fe9c18ca8b40549349"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatCompletion\\RequiredChatToolMode.cs",
+      "sha256": "d7efd2a879f0fa1f2b4e2a0921db5e31fda23e5d97a55b7db5a01f02dfb8852d"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatReduction\\IChatReducer.cs",
+      "sha256": "188429eb24547e492c66fb533669e9768a412b3e83bef8d55adf332fdb8bbe1c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatRouting\\RoutingChatClient.cs",
+      "sha256": "8ae5967e58aee3161f0429881bc836330cb72e787e50094ec3634a1a8091c8a9"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\ChatRouting\\RoutingContext.cs",
+      "sha256": "9d98e28133b44cd251024f8c681963e9755b83bfc533b4ca90c0a9f44308b14f"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\AIAnnotation.cs",
+      "sha256": "657bb53b1dd2114edcbdf12633da7df4ca3150c04bb4718f889b9b082ad319fb"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\AIContent.cs",
+      "sha256": "9b3de1f49e9b49e625b43ffc7c75fc7e70976ee28e82a5cf4cf0926c5980c3f6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\AIContentExtensions.cs",
+      "sha256": "da91a554bffd2d0eefcdc40be2fe566db1d461a50dd5e153da2c30f4c4165182"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\AnnotatedRegion.cs",
+      "sha256": "4cfbcdcce29b6716bdf9f7e86b97a46505b49508925b6d8c849797f29cf396b6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\CitationAnnotation.cs",
+      "sha256": "2614b22a9a577ea1e0a65befadb3efbcfef2f643bb994f4b441ba21262a4e400"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\CodeInterpreterToolCallContent.cs",
+      "sha256": "b6c8f0a517d473227c8a0e7340ec88ddd7d21bc777d38d86cc64d04f5e5c1b45"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\CodeInterpreterToolResultContent.cs",
+      "sha256": "59d88522153370724aeec40f25ed920b5c72c7fde98603ccf78d00e297e31569"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\DataContent.cs",
+      "sha256": "476ba2ee9758d713393a8accfbf2516443c7f1f4fe05004dd0f1d06f174ab020"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\DataUriParser.cs",
+      "sha256": "9fce55a965c16a34f10bb8b30a3ef25957f22387a3412dcee60f251b5e8305b4"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\ErrorContent.cs",
+      "sha256": "25685eeecd9f6a3d468cafdd14c5d3bfaf6ef75102af65c21bca9d04e14f19bf"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\FunctionCallContent.cs",
+      "sha256": "5d10f7eeb93658611b5ccaa37e714a47578c8e5b607578c95b69e1a54dcd1745"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\FunctionResultContent.cs",
+      "sha256": "c97f5bf97fdc9681475b45dee7be51d204eadae600c33cc9406b07e82afb7e80"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\HostedFileContent.cs",
+      "sha256": "f81a7bdcccc89e7829f2b6be6937ed8efe5f87b8c4536191267f056d32b3735b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\HostedVectorStoreContent.cs",
+      "sha256": "11119151961698728e6ba61ddfa41cb4edaaa331801fc39df6f3958ba363d0ee"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\ImageGenerationToolCallContent.cs",
+      "sha256": "35ff263669a7bc456b6a0fa384295a7e655c2067695ba8ce8fc8c8b6e6ba4462"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\ImageGenerationToolResultContent.cs",
+      "sha256": "d974aea84e19218a9b868325b5747ecbd133854e59b56d69f9fd0be0b14ff829"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\InputRequestContent.cs",
+      "sha256": "df81d6f7e6ee447705b03e8ac8628967db00ea3262ea70e4f44b04e21ed1a0d6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\InputResponseContent.cs",
+      "sha256": "0e3d885a2f481c410cbaf69d7c697f46672372d3ac8eda2866146d71857488ec"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\McpServerToolCallContent.cs",
+      "sha256": "3ef081d96efdd62c3a47edb88644d37473cdf224db5b559a388e5fbac1444b09"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\McpServerToolResultContent.cs",
+      "sha256": "fdfbbda757bb9f7a87aa4faa4aa4f4f23b0bc6f0cdf318c533732c7e7fd1a01d"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\TextContent.cs",
+      "sha256": "e652a81fdbdb9fb2c7e5d114f162bb3448d1c9d144af96abc27bdb9234f48b80"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\TextReasoningContent.cs",
+      "sha256": "65b227c460fe96cc8027d078682dede273890fc14dc2c7a2639ebd596351db71"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\TextSpanAnnotatedRegion.cs",
+      "sha256": "b58c2e7e3f72c570192be550be19672268b54691f2b1818952e08bd13e9d5c92"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\ToolApprovalRequestContent.cs",
+      "sha256": "89c9057fbe1b44773df6fde0c7711654e8a9bad1a7fc62de820b472ec7b7d344"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\ToolApprovalResponseContent.cs",
+      "sha256": "d24c8e12e8d113c8d03fc3d5801160ab10ad3103a8e3a1368f2809c89ef0f04a"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\ToolCallContent.cs",
+      "sha256": "1efa667b88d39578853b4013d7f10b05d6bba9a64df05043cdf3f3d5497f6dbf"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\ToolResultContent.cs",
+      "sha256": "0ebc351a3d42b29470b62794931d6e28e9e31ade1b364b2c21c331437a570e01"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\UriContent.cs",
+      "sha256": "59f94684397fcd76b1074665fc7eff461403e76ea39e87d8b89a9e52159e0a98"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\UsageContent.cs",
+      "sha256": "2b9e722a2274538682aba31d66fd0a325dd10c38671f18173eb89e3f763cbe80"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\WebSearchToolCallContent.cs",
+      "sha256": "1dc22b7d1109371db9313d7bb95fd1e496f5a89569cc11490e05281ee831680b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Contents\\WebSearchToolResultContent.cs",
+      "sha256": "767c772fcb5aa965f7f47463c1453e4e2ce479405aef1e465940cced1db4b60e"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Embeddings\\BinaryEmbedding.cs",
+      "sha256": "98eafcdbf4532ddbfbbf5931752a1a98039f1b8a85ea960dda2051073df462ff"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Embeddings\\DelegatingEmbeddingGenerator.cs",
+      "sha256": "254794c33540d9c7e8e97cdf03494f8b1a2546e96aeaf781d569ba00ce851a24"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Embeddings\\Embedding.cs",
+      "sha256": "45caead5eb2dfeffefd30b94c36443a0d4b69f19b5b00c441fb80a606cb3dc0b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Embeddings\\Embedding{T}.cs",
+      "sha256": "58ce2b2935b135189bedeb13205bcf9811dae139730f16ac8253aeb42ae573cd"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Embeddings\\EmbeddingGenerationOptions.cs",
+      "sha256": "1b14aa1ffebab10e2204eec302ee3358b39007906108da22d777ebd6b0d1ab07"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Embeddings\\EmbeddingGeneratorExtensions.cs",
+      "sha256": "fb088417931704b9b615dfff673debb00da208e073bb2001bb3fe170c43fd79a"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Embeddings\\EmbeddingGeneratorMetadata.cs",
+      "sha256": "5dd34f8d80307ddc548e3eff8c01a00316e4360cd8cf2a74d1854d4886729577"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Embeddings\\GeneratedEmbeddings.cs",
+      "sha256": "7f967f62140a5c95ca59ac5b746ddb02259d0d46a5355c508d4d566c61a2c27a"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Embeddings\\IEmbeddingGenerator.cs",
+      "sha256": "fa0b57fe0d6c6156f20980cc4af99167eaae6d09051712b1e741654c4f35083e"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Embeddings\\IEmbeddingGenerator{TInput,TEmbedding}.cs",
+      "sha256": "56e2e07bdd3913c8204a7146894fbd43a8f402e3b2937db00a8cbd0e6612720c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Files\\DelegatingHostedFileClient.cs",
+      "sha256": "f3972a7ff573ea5494cd410ff36f175b77d546ddfc8187fd79c86a80c763a1ce"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Files\\HostedFileClientExtensions.cs",
+      "sha256": "7956e463757dbf78e147cc133c66f1ade022e0a698635e368024a45c2a7207f0"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Files\\HostedFileClientMetadata.cs",
+      "sha256": "9d53b4607a43bd4131f26404b98a83a32815cb63f3e6d24f45530d9214d1a74c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Files\\HostedFileClientOptions.cs",
+      "sha256": "44d27ad9fe306d836ecc63ad9181c398abf874373deeccd1637fb8bab94d2497"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Files\\HostedFileDownloadStream.cs",
+      "sha256": "96fca34b196caf602289fce0180e59bdee7f1019b53491782c0bdfcc53636ca1"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Files\\IHostedFileClient.cs",
+      "sha256": "97ad7f1fa2480459ce20601e08ec71ac5ab6d7371604b7756c67775e5017bb7c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Functions\\AIFunction.cs",
+      "sha256": "4a2c60b1644986c5d4630495c41eea480d95b9759d6476441623453ca85c7cee"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Functions\\AIFunctionArguments.cs",
+      "sha256": "6a5a68e2ede857a6dce63745433f1a6c84047f270969fa2f5a290c341db820b6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Functions\\AIFunctionDeclaration.cs",
+      "sha256": "d27f52688059f7545aac7e5714ac76454de49b32948070cabb8ab6903585f1a3"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Functions\\AIFunctionFactory.cs",
+      "sha256": "c727d54d3f08524d9466b2ad8d323f3d16c4bd09164c724875bd6712445091be"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Functions\\AIFunctionFactoryOptions.cs",
+      "sha256": "a2c4011998c24bd32f9cedf2c976b19548713e215be31777d1b4ad049251e747"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Functions\\AIFunctionNameAttribute.cs",
+      "sha256": "f9082f8c70343114c1e3d207f2865bb7d384d5d6c41bd74fc8532be617fa5e3c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Functions\\AIParameterNameAttribute.cs",
+      "sha256": "ab2e5b626d635878195c2e991f9690643cc399a807e15c7aece8be8696dba618"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Functions\\ApprovalRequiredAIFunction.cs",
+      "sha256": "a34b2813406cef5bbf8c96e5f5a3c1614da16308d997cc6090f6a1eaffb00722"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Functions\\DelegatingAIFunction.cs",
+      "sha256": "c544418b8e4f592caa506491c674afdca4795bf1802ecbed7c9aa7a2ceab47ad"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Functions\\DelegatingAIFunctionDeclaration.cs",
+      "sha256": "3b3b2bd0de45b139398dc4d2c644e625e39b5ccd90b84d7ae6f3e7b2cdeb932b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Image\\DelegatingImageGenerator.cs",
+      "sha256": "fcd0e4486b463308ecbe3da3f8e03a12f2d6dc413192089f47e5e585c00edae1"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Image\\IImageGenerator.cs",
+      "sha256": "dc9bf6f124101e668918e603649290ac7399ffa659453f5ca3bbced9b5afa816"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Image\\ImageGenerationOptions.cs",
+      "sha256": "5e8fc23d54eaa486cf8730d04b4691ed7fa294576f158b61fe3b7755907ce0e5"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Image\\ImageGenerationRequest.cs",
+      "sha256": "f9e869e3935e8183bc482defbd7d8edba76a9d4ce4a325ebf8f7452cf3742bc7"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Image\\ImageGenerationResponse.cs",
+      "sha256": "97afd1bcb87c1e1ec077a2a1f885fb221124f4a1341bb7d143333fd3c2a8dc7b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Image\\ImageGeneratorExtensions.cs",
+      "sha256": "ae967e857df1de66c0ea2431ad9cb536ff72f7fa31882b09d87a205ea5282d34"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Image\\ImageGeneratorMetadata.cs",
+      "sha256": "e4c71a130b45b9173495e867159e19fe0db20bbfb5d2b5f6e4e244452f46feaf"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\CreateConversationItemRealtimeClientMessage.cs",
+      "sha256": "98e4f6d22256289db8f4a0709281499542f6f436d100bcc29635c17028f3d49b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\CreateResponseRealtimeClientMessage.cs",
+      "sha256": "267404459c62bedf58757e3c6188b6d7181fe7c2b98f9011c03f357ec0b4a445"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\DelegatingRealtimeClient.cs",
+      "sha256": "381ac1569205bff1c3a7cd20b3024257baa6dc42fadfde468f5e5c99a13222ce"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\ErrorRealtimeServerMessage.cs",
+      "sha256": "77b6eeaf6cf9b6bc8e8245fe448c6c013ac7cbe8d6fa29565758c5e3022215d6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\InputAudioBufferAppendRealtimeClientMessage.cs",
+      "sha256": "0ab54967c916531357cda2d631d9b4d0b5abc535edf55eb312e404ff51c222ed"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\InputAudioBufferCommitRealtimeClientMessage.cs",
+      "sha256": "6cc3341ab5dc35989198d4d8eac2a09b4352d329992ec2947b851448bd2d06e8"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\InputAudioTranscriptionRealtimeServerMessage.cs",
+      "sha256": "edd85739caf61c494e4d1c9b5e25c7d33b31d6135cdee015818a6f0abce06683"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\IRealtimeClient.cs",
+      "sha256": "0253016b791d393c3659c9902df1ed433227eb508f214daad3565b816a176607"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\IRealtimeClientSession.cs",
+      "sha256": "fb5ce2d24a26dbf88f1c1c4d9e80677fffa60992eb5c82fa4e2fef5400cd7d15"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\OutputTextAudioRealtimeServerMessage.cs",
+      "sha256": "cd90cade970e20fafc390253c37d48292836f8b800e66e9b823f65bf96e45a76"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\RealtimeAudioFormat.cs",
+      "sha256": "2305e497fcaf65fef2ea7d2f1e6c59175bf912ab1e5bf84b8e381dae6f53f172"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\RealtimeClientMessage.cs",
+      "sha256": "180e562a44d50fe73c756759d0dd74a87567edfe2456588575b8e8b1ee925d91"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\RealtimeConversationItem.cs",
+      "sha256": "d2e093bb68ed95a09ce2b4a124f28e8ec7eee7723ed6117aeb04b8084986b891"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\RealtimeResponseStatus.cs",
+      "sha256": "22cbd98c1d021812466c8572549f7d87f805081c2d0fbead84a554a007c2eb38"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\RealtimeServerMessage.cs",
+      "sha256": "95ac0c55c0b7d407f6a5511bf216466e4ebb74d2aa26e469b718870bbd12d57d"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\RealtimeServerMessageType.cs",
+      "sha256": "4027a8067570d895ff705642c9569bbbc75f5d215805d42cb38a7dda0cd4aa86"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\RealtimeSessionKind.cs",
+      "sha256": "b979e243a421c14a53b5c4bbce91949c2469697ccf374fdd5dc5b63a22712432"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\RealtimeSessionOptions.cs",
+      "sha256": "d8838be521153448dc5c57033b37e8893b7d0644f92074684a11bb4c1c8a1f3c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\ResponseCreatedRealtimeServerMessage.cs",
+      "sha256": "b2d5f8b62ae88ba4b16ef8da51624b2f3e9df9bbda9463585e823589116470ce"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\ResponseOutputItemRealtimeServerMessage.cs",
+      "sha256": "ee7d037d0faabdbb71f431d8133646badc421d66df7a9e9aace6b75e9ce434a5"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\SessionUpdateRealtimeClientMessage.cs",
+      "sha256": "45246a3111a55a1fbfe537675433a2a39a7896d7527625526feaea2cfee2f956"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Realtime\\VoiceActivityDetectionOptions.cs",
+      "sha256": "effed38442fd4e0062478306dca5b485abae94798925e1d35197e6a421c0ee8d"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\SpeechToText\\DelegatingSpeechToTextClient.cs",
+      "sha256": "efa6bbfa6620315c4a390018edc10807e959aaa8fdee9575dc0cef4f6df0255b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\SpeechToText\\ISpeechToTextClient.cs",
+      "sha256": "b059ab7a6897dc2b5c20b75a88dd5e58eb6e8cfdd886628f0179cf35d367a0c4"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\SpeechToText\\SpeechToTextClientExtensions.cs",
+      "sha256": "26256e5942b3ac6ed6f17cc1886db32b51643f5b255838ba69b13dd7b6c8042e"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\SpeechToText\\SpeechToTextClientMetadata.cs",
+      "sha256": "9add309f622f73929623397ff5b763124b21c2c3a2a15cc8c6bebd133889769e"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\SpeechToText\\SpeechToTextOptions.cs",
+      "sha256": "f96811a457c1f1d0f93b9dfdb7a53038f17184afd91763f9496518a56d48d7a3"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\SpeechToText\\SpeechToTextResponse.cs",
+      "sha256": "e5f1d627220ebff3814cee2026523787c5e5e9c3fac02ad1f0de55749ced898c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\SpeechToText\\SpeechToTextResponseUpdate.cs",
+      "sha256": "56e66348c1bc679a709d550449c4c905bf659bb049808ae3f76196ec931a6983"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\SpeechToText\\SpeechToTextResponseUpdateExtensions.cs",
+      "sha256": "ad73fa066c2a9c8050891fc7e7af16ce1a096cd3c702a03397351c790e83484d"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\SpeechToText\\SpeechToTextResponseUpdateKind.cs",
+      "sha256": "b24bf2d8e15fd41e73cc08b25d54dfb736745746588fdbf2d3270bbb0a378ab2"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\SpeechToText\\TranscriptionOptions.cs",
+      "sha256": "e9e3c2d9590b689cd6f7c6705bf4e36f6c11a71889c6509db0493dd8c1584813"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\TextToSpeech\\DelegatingTextToSpeechClient.cs",
+      "sha256": "07e7a67f0799abb99b5676086738c90de55d5ec928785e0564f3a24f1582b775"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\TextToSpeech\\ITextToSpeechClient.cs",
+      "sha256": "ccad362cb08c018adb655a60dd447272aac251839882468183ef758f5eba7c7f"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\TextToSpeech\\TextToSpeechClientExtensions.cs",
+      "sha256": "4125ebb5f2c46945f00c1e41e09c95799aef031e08331b3549ea4d284e48e6a6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\TextToSpeech\\TextToSpeechClientMetadata.cs",
+      "sha256": "49b1d0d34990978aeb8d09b3ec1872cc2bd64aff8c9ee383d1656d4085abacf7"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\TextToSpeech\\TextToSpeechOptions.cs",
+      "sha256": "358a59040917ce33ad13f1687f323360f3253328abf3297d3ee6be7457cbfd1c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\TextToSpeech\\TextToSpeechResponse.cs",
+      "sha256": "a0d6f189e7e0e84afd70ccae48fd5e55c840da89fde1638ff06fabf11d394fea"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\TextToSpeech\\TextToSpeechResponseUpdate.cs",
+      "sha256": "7710d8121947f8f254c834d690b475b49202df88d0d7a589deef6b76c8746f4a"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\TextToSpeech\\TextToSpeechResponseUpdateExtensions.cs",
+      "sha256": "4008bbc1aa4372c3d5d26a7650dc17ea1c1fe951531a943f4f07b9b02758a179"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\TextToSpeech\\TextToSpeechResponseUpdateKind.cs",
+      "sha256": "dda03de7e2de9e34c5c0053d05935f90e91f441d405901902950843b2f859509"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Tools\\AITool.cs",
+      "sha256": "d35e8ffa74bf0fee59a567e0cb4d03e157b7663ec3f5057cf93b849d3d5332c6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Tools\\HostedCodeInterpreterTool.cs",
+      "sha256": "422bf40628333ab6ab32c6b2aae8064fac61764e5d6fd78f9df5489e153f8a9f"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Tools\\HostedFileSearchTool.cs",
+      "sha256": "58ee8b86bcf5956b7a4442cee912779b37c0e285ca93092de66b1a09e0eca5aa"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Tools\\HostedImageGenerationTool.cs",
+      "sha256": "f16bd52935adb5a890ac41d617c3718a0b99ec406ab2820ef8a9f72255f5ba9a"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Tools\\HostedMcpServerTool.cs",
+      "sha256": "9702bc33317731118968d921ec954f80fed9ae2d9c3d1eeead650d4cae6542b7"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Tools\\HostedToolSearchTool.cs",
+      "sha256": "4af651a7a7051cbdf3a103ef92385273a81db0404c27c7f7b9d5c8381518c7e5"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Tools\\HostedWebSearchTool.cs",
+      "sha256": "f2f5f47123650dd3af27bb1b6d8638aac90a66870585047adc867bb11910406e"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Utilities\\AIJsonSchemaCreateContext.cs",
+      "sha256": "0a72a4455b11105f46c308ec12aeba0e53f38dd6d7b5185731358dbc47540e03"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Utilities\\AIJsonSchemaCreateOptions.cs",
+      "sha256": "99e3c0e2847c2bf12c4a0987b9ff33c2ef60e813a60f0c6c27d7522fdcddcb6a"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Utilities\\AIJsonSchemaTransformCache.cs",
+      "sha256": "5e6245083c2feb0af24bea5817db1a658bade5b273e4887c241fc91def604233"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Utilities\\AIJsonSchemaTransformContext.cs",
+      "sha256": "c75e7d6613657aec0e7deb74adf59e067c01d9dfef512042e5fb11034b0023b6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Utilities\\AIJsonSchemaTransformOptions.cs",
+      "sha256": "9c2bcd893ea313a66ec3ea3728d07d22b133395e4af1365b8649d774925d0901"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Utilities\\AIJsonUtilities.cs",
+      "sha256": "b0e1be8e8b8fbffb07e8fdcd8a7d0257d4f8cad5d96eeac025a8508b829c27de"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Utilities\\AIJsonUtilities.Defaults.cs",
+      "sha256": "8319917fab14af37e976c61cf97771085865d2dfb86209d180355f3b04653124"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Utilities\\AIJsonUtilities.Schema.Create.cs",
+      "sha256": "5e7a8da9db8afb1b9642d29423aa5628a579d5a81db281f38982141cf0b7bca8"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.Abstractions\\Utilities\\AIJsonUtilities.Schema.Transform.cs",
+      "sha256": "9d1e01ab69960cb20da06715aabb555b3766abafb6d88865a31121afeb350df9"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\Microsoft.Extensions.AI.OpenAI.csproj",
+      "sha256": "725eb0b82d18ba1c9f8c1d854874f26788c134661aecdeeeecc92649ccdc394b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\Microsoft.Extensions.AI.OpenAI.json",
+      "sha256": "d0d187056c23f3a2d08da5c5a39d690854fc08d5122ff3a463a14776e8bb503f"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\MicrosoftExtensionsAIChatExtensions.cs",
+      "sha256": "2f1814a7c51347070c646fad20342e9aa2188fb2d6786d37af7693f4a832ae11"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\MicrosoftExtensionsAIRealtimeExtensions.cs",
+      "sha256": "817b1086bfd704e040bddf9342d5de4f36761fd5c075465b17f017b230953142"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\MicrosoftExtensionsAIResponsesExtensions.cs",
+      "sha256": "37b24342d63220668d5ab95ac52dd1a42838d3b72285ca38073591615415f0af"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\OpenAIChatClient.cs",
+      "sha256": "ed7993f27bbce3edde15e1b053701b44e4d8cfb52c56fec634e72efbd6a358a4"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\OpenAIClientExtensions.cs",
+      "sha256": "e7cf516180839f4f2fdd50d21acb83ae8abf99a9061c9ee2d61fc7f7cdfb41f9"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\OpenAIEmbeddingGenerator.cs",
+      "sha256": "1d4df68621d17c12c3560d87c770e3312e65d8dd072c63ce048ec0486a367a65"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\OpenAIFileDownloadStream.cs",
+      "sha256": "cdb09e62b3b6ecbd7345b35d5a02fd27c98ccaa97bd9d4e2de87032f67264e36"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\OpenAIHostedFileClient.cs",
+      "sha256": "fe6c738da090dc5835fffe748a6c0983b95caa94a134ab92a9e3074ce524d1ac"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\OpenAIImageGenerator.cs",
+      "sha256": "81c8f2fa1f74e3774409f9f19024b238f309e529c87d3bbd2c29e8510259f8c0"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\OpenAIJsonContext.cs",
+      "sha256": "cc62c5f8188040864c32dbbc8d1cf37089b1cfa114ba65353f6b2fdee0cfc624"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\OpenAIRealtimeClient.cs",
+      "sha256": "d9d71a87131a4b54963c1dcb2a9f456a52af13caa96779a317a10664f908b232"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\OpenAIRealtimeClientSession.cs",
+      "sha256": "645e42faae6e85b889fb7539bbfd59b75943667b2228f3025aa3a6effc9d338b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\OpenAIRealtimeConversationClient.cs",
+      "sha256": "b4054c753ac3ec11a39134c85840f4d93aca98364dc1dd98faf6e78117b9302d"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\OpenAIRequestPolicies.cs",
+      "sha256": "d53668fa046958d6f86ff268bc2a13b09eab764da4d2ca982a639f9c68320d08"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\OpenAIResponsesChatClient.cs",
+      "sha256": "97e8737d7c0b059e734991addeeafd849fee5337bb26d35c181c77768c184c8d"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\OpenAISpeechToTextClient.cs",
+      "sha256": "1788509910d6990c15d5712d4064cca193b161b99a96eba1de28f8ebb890e586"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\OpenAITextToSpeechClient.cs",
+      "sha256": "520edfa5f342d9a4f795e00cccada2778a52f2f1c81dbd8c067d580243deab21"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\README.md",
+      "sha256": "e0047f916410d51bd9eb4a57fa515976186f5ca5c0390c7275abfbdd57bee83e"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\RequestOptionsExtensions.cs",
+      "sha256": "fb328a97a6645860bc4dbbedc866d7472e6bb14f9b42ae7f46e67a064e1c173f"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.AI.OpenAI\\ResponsesClientContinuationToken.cs",
+      "sha256": "2df738a93659d226b37603738f34b66a7907fcdd23663f8f3d5474d6a62992f9"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\DiagnosticsConstants.cs",
+      "sha256": "c954744a177a208e95d94eb13935f844418dd2436d2f91a39d664137a2d5cff3"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\IngestionDocumentElementExtensions.cs",
+      "sha256": "51328d026789a7ce5638e1e4f347956cd5866f1fa6aaea93e786933e37aaaec6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\IngestionPipeline.cs",
+      "sha256": "6d7bcc2d5f345ece577c80a1737d4d72a6abb0945bea3268b7569bc6c9670a4c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\IngestionPipelineOptions.cs",
+      "sha256": "2203c354cf97a8b78bced8c88dde6fb081730f3ff3853d8c3ccaa9f04b236b53"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\IngestionResult.cs",
+      "sha256": "b3a5b3e71f0f131295a2ae96e879cbb3b0c60897ac0079ecf0ee7ba1c89d6862"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Log.cs",
+      "sha256": "e47cc6ab7d12a74526a9645784dd9d4c5eb848654a35a1b3bd8af8ceded8ecc5"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Microsoft.Extensions.DataIngestion.csproj",
+      "sha256": "2128b2cf35f81a546f6b1d4248eba9eafed190e4b58a14c31bd5b4bca00de902"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\README.md",
+      "sha256": "b3577d7a2c89435db25c62ca5ad5c72d1edcaa5ad8b22bdb688feece34d01bb9"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Chunkers\\DocumentTokenChunker.cs",
+      "sha256": "d92c7f9ac0364916809388cca6d61991e44b7358992346299677bde87d664971"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Chunkers\\ElementsChunker.cs",
+      "sha256": "d37f4192f7fdfe504fab3fbd061a68639c63bf1ea4af532fa61da8b1b9430c5b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Chunkers\\HeaderChunker.cs",
+      "sha256": "c2d4e7d247dc3d14aac33f066cb1e9e42342509f81a5526e5320de8342d3b7a2"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Chunkers\\IngestionChunkerOptions.cs",
+      "sha256": "a3347e334a8ae6759ac1b500634019239362a2a265ba92050002dc0df4bb415c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Chunkers\\SectionChunker.cs",
+      "sha256": "e299948692c9c6c5f4765204c8ea0a207d2f305b87262462f91ab53523bdceba"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Chunkers\\SemanticSimilarityChunker.cs",
+      "sha256": "375920ef591f2dbb256ca2afe29d6251c3f94f72feb5789e01334ad3980944bd"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Chunkers\\ValueStringBuilder.cs",
+      "sha256": "4b418b151388b12c2c8fe4fb6719ea39e6727f553a68e6991d95a17d45f099ad"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Processors\\ClassificationEnricher.cs",
+      "sha256": "4f0f456a0383b6eeec19dc0b6b8eeddadc2541b2e996a77dc8cb75d34b6ce3ad"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Processors\\EnricherOptions.cs",
+      "sha256": "db84a661846d1a3cc744e98dd5e05a01ddf245f744bfccf7aa5903d24396cc37"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Processors\\ImageAlternativeTextEnricher.cs",
+      "sha256": "1c8687dd440a5185e83b9d8799914ab65c5a050a0c4a9ba9241074c389f1e7cd"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Processors\\KeywordEnricher.cs",
+      "sha256": "a72ad6aead79b6ac4ad93fd86015533f5419b693eeede4e8d087c8a00a69444c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Processors\\SentimentEnricher.cs",
+      "sha256": "4a649f996257273d503f6de0c34f0b27c7f2fa402011ff190f2f4d5919423cfc"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Processors\\SummaryEnricher.cs",
+      "sha256": "27c117bc3bcec9c832e23643299b7dcaadd64c76e731a2a98e232966028f1244"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Utils\\Batching.cs",
+      "sha256": "465dc5b3129ec2e00c065f808a33ac09f67386fad0baa3aa67b7feb1ea153d52"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Writers\\VectorStoreWriter.cs",
+      "sha256": "bf90af1126cab2f034c97edc45501c74425c4ad062846954666e95eaeeeae904"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion\\Writers\\VectorStoreWriterOptions.cs",
+      "sha256": "86732858195e285fa94ff50eff23508b327c6c793f59bb2b037bf2e10b2ac528"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion.Abstractions\\IngestionChunk.cs",
+      "sha256": "c3612fb31b9d5f608e7885c6d981ea2ac6bfb5e6f495025430fcd9ecfe4f0f15"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion.Abstractions\\IngestionChunker.cs",
+      "sha256": "895c0c91f3b86117df8312e3d1a2b0138ebd05ccc899f94514dbd5978d38933b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion.Abstractions\\IngestionChunkProcessor.cs",
+      "sha256": "dbba5ceae3f43e6d4d50160b24f55531b78977cbf38da75ba41f9c039d15788d"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion.Abstractions\\IngestionChunkWriter.cs",
+      "sha256": "9c14d3e853dfe4a7f41db7e4f3ab79ee971378a0c942ec4e6f5a0ffbd70df503"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion.Abstractions\\IngestionDocument.cs",
+      "sha256": "05bc30cbaac588ad2f35ee7efb8e929955f3d22e567b9c13fe77d08b11fdf94b"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion.Abstractions\\IngestionDocumentElement.cs",
+      "sha256": "a828dc95d3414397afd318e2ccfae264fe5d131cccd46b4664b2666e07cbf986"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion.Abstractions\\IngestionDocumentProcessor.cs",
+      "sha256": "11c604ed8f6d54bd14ef499116f4af42495b91c8969cfc601bfd5339fea54cec"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion.Abstractions\\IngestionDocumentReader.cs",
+      "sha256": "458db2f225b307bec22e539315cfb57814489922ce57bd11f64c6dab9be330cc"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion.Abstractions\\Microsoft.Extensions.DataIngestion.Abstractions.csproj",
+      "sha256": "618fd42d0baac36f2a190826bc7a6990b96f42c191bff452a0b7934beec3ed64"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DataIngestion.Abstractions\\README.md",
+      "sha256": "3fd46a164bb0b2593d695c6c8b49a641fb3895b6464e2da46a6811b94b5b5b93"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DocumentExtraction\\DocumentExtractionClientBuilder.cs",
+      "sha256": "c4c231ec0f3ee96545d7b517af046e35c3e713b8907946c97722190ecd138c3e"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DocumentExtraction\\DocumentExtractionClientBuilderServiceCollectionExtensions.cs",
+      "sha256": "3c3faaa73e04f708e039b3240655b98cbc37b9ce4ef7d2b5b64d85c95d8059a5"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DocumentExtraction\\EmptyServiceProvider.cs",
+      "sha256": "fe40501b1dcd666802f30270d76d3ef14e33700c61f1f54c18c03f63bfb41662"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DocumentExtraction\\LoggingDocumentExtractionClient.cs",
+      "sha256": "03333eca54498346d39f62bfcccf9c625056143cc5a90522bf8d149cd4017397"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DocumentExtraction\\LoggingDocumentExtractionClientBuilderExtensions.cs",
+      "sha256": "84601848d9618b25efe35dc612816e3500ef7f70941a8cb06ee82959ff2b8c82"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DocumentExtraction\\Microsoft.Extensions.DocumentExtraction.csproj",
+      "sha256": "020ccba72c4826d04cf2b6840df2f74594b1cbec5614d8281db422be63a467d0"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DocumentExtraction\\Microsoft.Extensions.DocumentExtraction.json",
+      "sha256": "98850ec3d99d1ae3634293a1be1b43fa90c73b09fcf694ae193a01917ae58906"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DocumentExtraction\\README.md",
+      "sha256": "ca485b16bf71dd9eb64d36820b2033580232e009d6efe7088333c4907088778c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DocumentExtraction.Abstractions\\DelegatingDocumentExtractionClient.cs",
+      "sha256": "a3bbb79eaa16328437bf153119ea760544ab1ec1a909837772bc3b2432b128cc"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DocumentExtraction.Abstractions\\DocumentExtractionOptions.cs",
+      "sha256": "cfb2e81a3728213962df6dc680a6016cdd748ce4ac3631297d15f621152190c2"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DocumentExtraction.Abstractions\\IDocumentExtractionClient.cs",
+      "sha256": "1846971f3559ff2edb4b07e7dbdc5c1d9cbdebc7938a6be0bb967de9079751a2"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DocumentExtraction.Abstractions\\Microsoft.Extensions.DocumentExtraction.Abstractions.csproj",
+      "sha256": "d59d581f79918d263e697d0872530013e263711c61e435c279e1bdd931c8380c"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DocumentExtraction.Abstractions\\Microsoft.Extensions.DocumentExtraction.Abstractions.json",
+      "sha256": "26133ddd583e96873876b97d9723fb54d458166f66d853e512b9f4c2499077df"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.DocumentExtraction.Abstractions\\README.md",
+      "sha256": "6919828b8a7946406dd06346a67e7d79427d3198d8106d5cd1d8f245466c1152"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\Document.cs",
+      "sha256": "6bd7846da9a910357d1a97ed1d212b294f85141db6c0cd90181424f1a21588f4"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\DocumentArtifact.cs",
+      "sha256": "b05d6ad59bc1f058dfa4260b612765b615935f34fe013abdd194a2f89e2edb2f"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\DocumentElement.cs",
+      "sha256": "85fab9906d6667b88534757a59a5e95f3be932d14256a75a8709ab31fc03b1ed"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\DocumentMarkdownFormatter.cs",
+      "sha256": "7b74efe7eef0843c593f28a5e3d12bdde624c13b16fb0d64493d259daddab9fb"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\DocumentSources.cs",
+      "sha256": "49e91cccbbecc28bfa41323a43426dc5a8264fed3b20f0eabe3cb4a7c0225fe6"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\DocumentTable.cs",
+      "sha256": "5faf2f13b98ad96150581cafe5c375dfe3650b85fa04e88c7ac7fd6d524c80dc"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\Microsoft.Extensions.Documents.Abstractions.csproj",
+      "sha256": "9a4bee1c95626df43680e7aaaed54455fcb5953d6fa5914dc5b78943a46ac070"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\Microsoft.Extensions.Documents.Abstractions.json",
+      "sha256": "97e235cd5cedf9d4e5143a3d3f5b743f9a2b6165208fbe9e6146acae865c6892"
+    },
+    {
+      "path": "src\\Libraries\\Microsoft.Extensions.Documents.Abstractions\\README.md",
+      "sha256": "b53b2bb44a5fbc9e7124b3b3a702d01feeedeb504e694b90ec73b57c505ff137"
+    },
+    {
+      "path": "src\\Shared\\.editorconfig",
+      "sha256": "e2b58ad820fad0fecc9ec66a0bd103e2fb431305d20b34ee9adb0fd14de394ca"
+    },
+    {
+      "path": "src\\Shared\\Shared.csproj",
+      "sha256": "c8bdccf3b36b98a26d7960b800bb4e4875bcfc1f40ebe7d2467edeb2b3d76bcb"
+    },
+    {
+      "path": "src\\Shared\\AzureSync\\CopyToAzure.cmd",
+      "sha256": "fddec1b574fa08ed95c8b8c73b920feae3278c3865b7392575f1c55d45bc96a2"
+    },
+    {
+      "path": "src\\Shared\\AzureSync\\CopyToAzure.sh",
+      "sha256": "094463b513c54e71189f9bbeacc46f2f0cedf80af14d121eea4dac724ecf4c0d"
+    },
+    {
+      "path": "src\\Shared\\AzureSync\\CopyToDotnet.cmd",
+      "sha256": "844ec42e2d83edffd9823c54660ef5e6a03bde50f136656a892f4b10a565c034"
+    },
+    {
+      "path": "src\\Shared\\AzureSync\\CopyToDotNet.sh",
+      "sha256": "4463562b6e6d7a752d8ea09670f014e4e832362f732f98261c2d63d507c003e3"
+    },
+    {
+      "path": "src\\Shared\\AzureSync\\ReadMe.SharedCode.md",
+      "sha256": "97b8a7d1be4199cc8204584bd8cb7612d61a730157df073fbaff662a20d600b9"
+    },
+    {
+      "path": "src\\Shared\\BufferWriterPool\\BufferWriter.cs",
+      "sha256": "74517103ab523b9877899b5b5ba3a8ba1da0af08a3b2f8db7804fb650c4bdbd8"
+    },
+    {
+      "path": "src\\Shared\\BufferWriterPool\\BufferWriterPool.cs",
+      "sha256": "e6d65dbf1dd7221129ec003068beae77a954156a5d36ef8b9e4da1283f5dd5b5"
+    },
+    {
+      "path": "src\\Shared\\BufferWriterPool\\BufferWriterPooledObjectPolicy.cs",
+      "sha256": "c22bb9502513402d3a467131391da971d5c042a97bb1bfe73eb05d2357ca8f9d"
+    },
+    {
+      "path": "src\\Shared\\BufferWriterPool\\README.md",
+      "sha256": "55d4f2e8844f5d9aa927692836999f9082102bdb77b6d3611762ab45b82eb704"
+    },
+    {
+      "path": "src\\Shared\\BufferWriterPool\\ReturnableBufferWriter.cs",
+      "sha256": "a4b661329c493a14a18aa3b2ef319e72c6241a1f4cc8ef279107bdb1136629c7"
+    },
+    {
+      "path": "src\\Shared\\Data.Validation\\LengthAttribute.cs",
+      "sha256": "3063f8f438ece56502944ca1580500fe0d20338611c6e4cfc9ba38144c30d110"
+    },
+    {
+      "path": "src\\Shared\\Data.Validation\\README.md",
+      "sha256": "e96f3175d7554107b7c3d05f9cdd613f4d3ae4184b145915d356164cc498d90f"
+    },
+    {
+      "path": "src\\Shared\\Data.Validation\\TimeSpanAttribute.cs",
+      "sha256": "50b24eb7943e631010e6eb35fd057305a4404f310a27c79834dc36e568e2079f"
+    },
+    {
+      "path": "src\\Shared\\Data.Validation\\ValidationContextExtensions.cs",
+      "sha256": "3fd5b1db3d293f90296d855efc90606c854dcffdc0f1b11ba981b70943ab3473"
+    },
+    {
+      "path": "src\\Shared\\Debugger\\AttachedDebugger.cs",
+      "sha256": "101ee0abfbded4c68fcb8021195a14258707e37997145a255d95fed0bfd97c06"
+    },
+    {
+      "path": "src\\Shared\\Debugger\\DebuggerExtensions.cs",
+      "sha256": "35cda6cc2c44c0c8e08e48c870150dce911856537ce550b3644c960d6657ea6d"
+    },
+    {
+      "path": "src\\Shared\\Debugger\\DebuggerState.cs",
+      "sha256": "c29c260f8fa9ddb77bce260caf0237565713192557a20fba3854f4ad74369d7f"
+    },
+    {
+      "path": "src\\Shared\\Debugger\\DetachedDebugger.cs",
+      "sha256": "8a5f3feea8601cb5c6cd2a75842564c9e3d0e71e77c54b683a8bbffe8488005b"
+    },
+    {
+      "path": "src\\Shared\\Debugger\\IDebuggerState.cs",
+      "sha256": "0291e0c66e9f2317dadc41aa25d27bab6a5da01ec48333a1f176d94f0348b607"
+    },
+    {
+      "path": "src\\Shared\\Debugger\\README.md",
+      "sha256": "6ae45ad06e51055426d07f198d95e8a7dac9413cab1a937b27945ef0f7e22d98"
+    },
+    {
+      "path": "src\\Shared\\Debugger\\SystemDebugger.cs",
+      "sha256": "6204d25f5ac128c2e07536184fda76148de967e8d29657f664ef595994bfd8e0"
+    },
+    {
+      "path": "src\\Shared\\DiagnosticIds\\DiagnosticIds.cs",
+      "sha256": "877b8eaf109ff8153691e6ff479352f38095c27bf463696e0f69a8270b9df006"
+    },
+    {
+      "path": "src\\Shared\\DiagnosticIds\\README.md",
+      "sha256": "48d1bb837cba1df75d12cea3b97cbd5d856628b139ddf1dcffb3c53fce1fe1fc"
+    },
+    {
+      "path": "src\\Shared\\EmptyCollections\\Empty.cs",
+      "sha256": "47525ca7ec8381c303ea4ccb757ba414c6b52e6eea1f1f46c5aa33e044aba3a5"
+    },
+    {
+      "path": "src\\Shared\\EmptyCollections\\EmptyCollectionExtensions.cs",
+      "sha256": "f66e2ac9e1d6572cd72694c98bac6b1f0cca9c9df1a869179efb37e631c87ce6"
+    },
+    {
+      "path": "src\\Shared\\EmptyCollections\\EmptyReadonlyDictionary.cs",
+      "sha256": "ffa08c6b118262af6a8b85565e07d91f3e6d0a6d79657f5f9cda3a380f5860fb"
+    },
+    {
+      "path": "src\\Shared\\EmptyCollections\\EmptyReadOnlyList.cs",
+      "sha256": "c8c228b04ecbef65ac93ed20a165d81e45cedaecba9c3c4994c8d60122f35dec"
+    },
+    {
+      "path": "src\\Shared\\EmptyCollections\\README.md",
+      "sha256": "a564ac91148a76689838346b259c27aadb0320086ac70da39c8c759c9b465b59"
+    },
+    {
+      "path": "src\\Shared\\FxPolyfills\\ArgumentException.cs",
+      "sha256": "9f2f4c8ba886ddc13c1d4e47bcad73d768682a4403512d1be48e0148c707a712"
+    },
+    {
+      "path": "src\\Shared\\FxPolyfills\\ArgumentNullException.cs",
+      "sha256": "9006e227f1b3939254ea94344a77e23b30342d0f02b5c1a676ec7c15a390e072"
+    },
+    {
+      "path": "src\\Shared\\FxPolyfills\\ConcurrentDictionary.cs",
+      "sha256": "555520cb4cb798dbd223c572b3bb03be9a7916e5f6e7223fb74ce2305a8fda6e"
+    },
+    {
+      "path": "src\\Shared\\FxPolyfills\\ExceptionDispatchInfo.cs",
+      "sha256": "08626cd6220eba35a4f4dcec4228903d7a572dded5af9cc1ee076eb3644cc3b1"
+    },
+    {
+      "path": "src\\Shared\\FxPolyfills\\FxPolyfills.targets",
+      "sha256": "a3328b3ff5157f98012fa79b9b72baae97d9416dc5d246083e5adaaf94732108"
+    },
+    {
+      "path": "src\\Shared\\FxPolyfills\\Interlocked.cs",
+      "sha256": "9de0e017c99e8313bf5e721a7a2ad4df5782e15b51336636c9bbbda238117d53"
+    },
+    {
+      "path": "src\\Shared\\FxPolyfills\\IPEndPoint.cs",
+      "sha256": "34335b9c90b02d61f549ced29af0b7cb188ad90d2a7245db967b19279dd2a6c6"
+    },
+    {
+      "path": "src\\Shared\\FxPolyfills\\KeyValuePair.cs",
+      "sha256": "8529d0ede0b4d2871114b611689c5796ffbf5cb6269de41368cf7e7e87108b47"
+    },
+    {
+      "path": "src\\Shared\\FxPolyfills\\ObjectDisposedException.cs",
+      "sha256": "52b35ad678fe5c63489e376b37920e65d8dfd847811fe4227e011e14d69324ad"
+    },
+    {
+      "path": "src\\Shared\\FxPolyfills\\OperatingSystem.cs",
+      "sha256": "fd59aa4b747e6e97b678d8b6b21563178255efb66ca214ee4038cba4532dfeda"
+    },
+    {
+      "path": "src\\Shared\\FxPolyfills\\String.cs",
+      "sha256": "f88b77f20e32ae638ca7546df07bb1be2acd2db2599574961c45cb0effdfc78a"
+    },
+    {
+      "path": "src\\Shared\\FxPolyfills\\Task.cs",
+      "sha256": "1a18cc675c53d769b0ac36b709b4a13b5d6d1aa45a9d1c85aa07b57359d9441a"
+    },
+    {
+      "path": "src\\Shared\\FxPolyfills\\Task.TimeProvider.cs",
+      "sha256": "659d9d6ef9f0126d0fc16896ba285cce5e7006f88440d98b2fd9b4ef604d4a74"
+    },
+    {
+      "path": "src\\Shared\\Instruments\\README.md",
+      "sha256": "ae02e572de04c61dc7ea0b7b99841c348b82bcd4da6e77bebc8cf15120b5dcc4"
+    },
+    {
+      "path": "src\\Shared\\Instruments\\ResourceUtilizationInstruments.cs",
+      "sha256": "c58bc12edd680c13fdebaca63bd40bffb34d5d5a0c61132b500842ec02166461"
+    },
+    {
+      "path": "src\\Shared\\LogBuffering\\DeserializedLogRecord.cs",
+      "sha256": "6d19487719f9b7a6f7d72b0f05d0240923ad5f77d5ff0a9a9619df727649a557"
+    },
+    {
+      "path": "src\\Shared\\LogBuffering\\SerializedLogRecord.cs",
+      "sha256": "fc4d37313b53c7af647358e2b00ed227e70be3782a2554a0239fb19cd3536a01"
+    },
+    {
+      "path": "src\\Shared\\LogBuffering\\SerializedLogRecordFactory.cs",
+      "sha256": "6408c3d942da2599db22d5c33ee5bf707e8b91ea5fcac7d2c9d8f24eb2b416ae"
+    },
+    {
+      "path": "src\\Shared\\Memoization\\Memoize.cs",
+      "sha256": "8a001ddeba0c59df45e22aa45e86166d0823d05931e11d5d568ef654bab25df4"
+    },
+    {
+      "path": "src\\Shared\\Memoization\\MemoizedFunction.cs",
+      "sha256": "ca75ec45655a9669f8b30e8c1af1a5083a74c97ac14cb5adce66c10ac005fd3a"
+    },
+    {
+      "path": "src\\Shared\\Memoization\\README.md",
+      "sha256": "f77a9377a8567c0984dac07ba68ee305e1d36c7a17d030b94fc3589b2130ad55"
+    },
+    {
+      "path": "src\\Shared\\NumericExtensions\\NumericExtensions.cs",
+      "sha256": "be1b07b85450963dd487c39caea24e3383a91dc08c6607b251613339ca270ca6"
+    },
+    {
+      "path": "src\\Shared\\NumericExtensions\\README.md",
+      "sha256": "d2fa57dbf189d32205939fcaeb11a7dcbed3e246745393c6e83dbca6d7b29d15"
+    },
+    {
+      "path": "src\\Shared\\Pools\\NoopPooledObjectPolicy.cs",
+      "sha256": "353554c77a0c052c574a5745ed7e783b121b3e5b15ea0ae1f4507a9b4872887a"
+    },
+    {
+      "path": "src\\Shared\\Pools\\PooledCancellationTokenSourcePolicy.cs",
+      "sha256": "7380de5f845e5860962a1aa255a0cef954f4b71cc2ad444d322da8e3263ad30f"
+    },
+    {
+      "path": "src\\Shared\\Pools\\PooledDictionaryPolicy.cs",
+      "sha256": "338c491f4d6b901ce52373df7ce6adef0f56002e117477aa1e9300f267f9cf5f"
+    },
+    {
+      "path": "src\\Shared\\Pools\\PooledListPolicy.cs",
+      "sha256": "e6b1b5e4f1034b497999cd0a8ecc42cad0ddfe46d07215652ff66f6a55855161"
+    },
+    {
+      "path": "src\\Shared\\Pools\\PooledListWithCapacityPolicy.cs",
+      "sha256": "d13d4ea347afd24e43b0b7fe0a1f8787e848d8dab1531fd18d51699c5527e1c0"
+    },
+    {
+      "path": "src\\Shared\\Pools\\PooledSetPolicy.cs",
+      "sha256": "841f5f8d992273841c1b6fa3eba4526cf51ca9b234dcd086d6e1adbf46cde60c"
+    },
+    {
+      "path": "src\\Shared\\Pools\\PoolFactory.cs",
+      "sha256": "0ab6487f74220168f2ccb68cee1feba0381e6fe2abba291ff732ffcf08380d34"
+    },
+    {
+      "path": "src\\Shared\\Pools\\README.md",
+      "sha256": "a8f7d8abd59a536f5f5fb76de504e5b50f90654a5312c12838175e4a5a828829"
+    },
+    {
+      "path": "src\\Shared\\RentedSpan\\README.md",
+      "sha256": "0689f6292b738add114b448c8b8953e289b3dbd805874b628b58a976758c4665"
+    },
+    {
+      "path": "src\\Shared\\RentedSpan\\RentedSpan.cs",
+      "sha256": "c10fa4dd61aee55862c9ed0db77dbd4a133fa6d5f42dc767d92fe231221a090f"
+    },
+    {
+      "path": "src\\Shared\\ServerSentEvents\\ArrayBuffer.cs",
+      "sha256": "9d413f8c4422886c040801f0c6bf77a207264115ca6fd041cc71a875f303a6db"
+    },
+    {
+      "path": "src\\Shared\\ServerSentEvents\\Helpers.cs",
+      "sha256": "c606bd2d91c65cc367652689182cec49abc541a54beab91f060e1f42b500a108"
+    },
+    {
+      "path": "src\\Shared\\ServerSentEvents\\PooledByteBufferWriter.cs",
+      "sha256": "c9de07c463254bdb7380488207b23d6a0e24fa01091a91c204a835935d276a15"
+    },
+    {
+      "path": "src\\Shared\\ServerSentEvents\\README.md",
+      "sha256": "f00ff0305b4981426fbe98f3d74f089b1328f72b0c20ee575f46148b2a35e802"
+    },
+    {
+      "path": "src\\Shared\\ServerSentEvents\\SseFormatter.cs",
+      "sha256": "e76200595312920c148e577b0de235da4afcbbd0930d40f96cfe0b18d0bdf554"
+    },
+    {
+      "path": "src\\Shared\\ServerSentEvents\\SseItem.cs",
+      "sha256": "fcfcfbdbb9904a21f5a5ab34906b1bec51d89120cbedeb5dbe5fc2928ca7845c"
+    },
+    {
+      "path": "src\\Shared\\ServerSentEvents\\SseItemParser.cs",
+      "sha256": "9dd8c27e7f08fd65daba50a7c447835159bea41d686360a3fdb32019e92f2046"
+    },
+    {
+      "path": "src\\Shared\\ServerSentEvents\\SseParser_1.cs",
+      "sha256": "c441822f1331750763759e4a0e6cc9a8229b46e6e64173f7496f8bb79a90267e"
+    },
+    {
+      "path": "src\\Shared\\ServerSentEvents\\SseParser.cs",
+      "sha256": "1878e2e48fa253d8fd78d505bb57e7cec8bfa78df28772e1307484ae9ce560bb"
+    },
+    {
+      "path": "src\\Shared\\ServerSentEvents\\ThrowHelper.cs",
+      "sha256": "7959daa39575f28b9ad2c99b109484683f890f40f7f613d0c8fa6327cd1a399b"
+    },
+    {
+      "path": "src\\Shared\\StringSplit\\README.md",
+      "sha256": "efdc8b0756bf5ca1a641e89c1cbe27e396e408efc7c2c14317613ab6ef326d0b"
+    },
+    {
+      "path": "src\\Shared\\StringSplit\\StringRange.cs",
+      "sha256": "84cbe8fc42e81f0352a8598587c77cdf52edcdd719a6e12779c36ffe650334b0"
+    },
+    {
+      "path": "src\\Shared\\StringSplit\\StringSplitExtensions.cs",
+      "sha256": "8e13abb8ee23ce9fc22688aa39346c066124cd81e5a1979a2440516ff29e9cd4"
+    },
+    {
+      "path": "src\\Shared\\Throw\\README.md",
+      "sha256": "3156f6698aa5744a1bd7fa97bb05a8dcc192993051b9403aa11e2ae888f83bba"
+    },
+    {
+      "path": "src\\Shared\\Throw\\Throw.cs",
+      "sha256": "391d789cb4d3fc62dce196ae956600e75c979d831bb7f5ed7cf18fb85566a745"
+    }
+  ],
+  "approvedPlanSha256": "0ff84e798571b7de2943c163988b2995bbcc19ed59b7b17569fd39fc6f5f0abc",
+  "archiveSha256": "2c72cc9c206c5cfbda6e91f23bf15386d2d0e6212be9d42569a202560a45d90c",
+  "extractionCommit": "9112251596986014c3a4baccddf099bd43eb918b",
+  "snapshot": "S0"
+}

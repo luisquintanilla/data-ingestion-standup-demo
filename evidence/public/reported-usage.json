@@ -1,0 +1,64 @@
+{
+  "successfulEmbeddingInputTokens": 19030,
+  "chatInputTokens": 2949,
+  "chatOutputTokens": 68,
+  "records": [
+    {
+      "source": "native-03.log",
+      "kind": "chunk embedding",
+      "input": 4119,
+      "output": null,
+      "total": 4119
+    },
+    {
+      "source": "native-03.log",
+      "kind": "query embedding",
+      "input": 26,
+      "output": null,
+      "total": 26
+    },
+    {
+      "source": "pdfpig-hero.log",
+      "kind": "query embedding",
+      "input": 26,
+      "output": null,
+      "total": 26
+    },
+    {
+      "source": "pdfpig-hero.log",
+      "kind": "grounded chat",
+      "input": 1636,
+      "output": 33,
+      "total": 1669
+    },
+    {
+      "source": "cu-03.log",
+      "kind": "chunk embedding",
+      "input": 14807,
+      "output": null,
+      "total": 14807
+    },
+    {
+      "source": "cu-03.log",
+      "kind": "query embedding",
+      "input": 26,
+      "output": null,
+      "total": 26
+    },
+    {
+      "source": "cu-hero.log",
+      "kind": "query embedding",
+      "input": 26,
+      "output": null,
+      "total": 26
+    },
+    {
+      "source": "cu-hero.log",
+      "kind": "grounded chat",
+      "input": 1313,
+      "output": 35,
+      "total": 1348
+    }
+  ],
+  "interpretation": "Actual successful provider usage, not a bill or authorization. Private conservative reservation ledger excluded."
+}
