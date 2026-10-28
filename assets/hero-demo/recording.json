@@ -11,6 +11,19 @@
     "frames": 435,
     "audio": false
   },
+  "animatedPreview": {
+    "file": "hero-demo.gif",
+    "sha256": "541d623d5705dec6db5229015516c9d6635fb9cc29b33c6e8b71002fe74f242b",
+    "sourceVideoSha256": "9c78981497cbdcda04c41cba4a3027c936696a56837bffe59d371b0cc94ede2e",
+    "durationSeconds": 14.5,
+    "width": 1200,
+    "height": 675,
+    "frames": 145,
+    "framesPerSecond": 10,
+    "bytes": 1839585,
+    "loops": true,
+    "conversion": "Palette-optimized downscale of the same edited MP4 for inline README animation; no new capture or inference."
+  },
   "transcript": {
     "question": "According to Table 2, what is the mean gas resource for the Ural Foredeep Continuous Gas AU, in BCFG?",
     "actualAssistantAnswer": "According to Table 2, the mean gas resource for the Ural Foredeep Continuous Gas AU is 35,511 billion cubic feet (BCFG)."

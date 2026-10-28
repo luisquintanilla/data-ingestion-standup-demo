@@ -35,9 +35,9 @@ enough and where an OCR-capable provider makes a difference.
 
 ## Watch the app
 
-[![The real hero app answering the question with 35,511 BCFG. Watch or download the 14.5-second MP4.](assets/hero-demo/hero-demo-poster.png)](assets/hero-demo/hero-demo.mp4)
+[![Animated app demo: select the suggested question, read the actual 35,511 BCFG answer, and check Table 2 in the source PDF.](assets/hero-demo/hero-demo.gif)](assets/hero-demo/hero-demo.mp4)
 
-**[Watch or download the 14.5-second recording](assets/hero-demo/hero-demo.mp4).**
+**[Watch or download the full-quality 14.5-second MP4](assets/hero-demo/hero-demo.mp4).**
 It shows the template's suggested question, the actual answer, and Table 2
 in the PDF viewer opened from the returned source citation.
 Loading pauses are shortened. The model also received page-1 prose,
